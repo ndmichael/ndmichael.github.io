@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Cardo|Oswald&display=swap');
+
+.collapsing{
+	
+	overflow: hidden;
+	-webkit-transition: height 0.6s ease-in-out;
+	/*-moz-transition: all 15000s ease-in-out;
+	-ms-transition: all 15000s ease-in-out;
+	-o-transition: all 15000s ease-i; */
+	transition: height 0.8s ease-in-out;
+}
+
+#colBtn{
+	
+	margin: 50px 0 50px 0;
+	height: 50px;
+	font-weight: 900;
+	font-size: 18px;
+	
+}
+
+#coding > h1{
+	text-align: center;
+	text-transform: capitalize;
+	padding: 10px 0;
+	background: rgba(122,117,117,0.3);
+	border-bottom: 3px groove #2E8B57;
+	border-top: 3px groove #2E8B57;
+	border-radius: 50px 0;
+;}
+.code_principles{
+	border: 2px thin grey;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding:0px 30px;
+	padding-bottom: 10px;
+	/*background-color: snow; */
+	background-color: rgba(244,240,240,0.2);
+	-webkit-box-shadow: 0 2px 7px 1px rgba(128,128,120,1);
+	-moz-box-shadow: 0 2px 7px 1px rgba(128,128,120,1);
+	box-shadow: 0 2px 7px 1px rgba(128,128,120,1);
+	line-height: 1.7em;
+	text-align: center;
+}
+
+.code_principles > h1, h2{
+	text-transform: capitalize;
+	display: block;
+	
+}
+
+.code_principles > img{
+	max-height: 170px;
+	min-height: 170px;
+	min-width: 80%;
+	max-width: 80%;
+}
+
+
+
+
+
+body{
+	font-weight: 400;
+          max-width: 100% !important;
+          max-height: 100%;
+          overflow-x: hidden; 
+}
+
+h1, h2{
+	text-transform: capitalize;
+	color: seagreen;
+	font-weight: 500;
+	font-size: 2.0em;
+	font-family: 'berlin sans fb', 'berlin sans fb demi';
+}
+h3, h4{
+	font-weight: 400;
+	font-size: 1.5em;
+	text-transform: capitalize;
+	color: seagreen;
+	/*font-family: 'Kanit', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;  */
+	font-family: 'berlin sans fb', 'berlin sans fb demi';
+	word-spacing: .5em;
+}
+
+p{
+	font-weight: 300;
+	font-size: 1em;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	/*color: #2b2b2b;
+	font-family: 'Cardo', serif; */
+	color: #5f6368;
+	font-family: "apercu",sans-serif;
+}
+
+hr{
+	border: 2px solid grey;
+}
+
+#name{
+	font-weight: 900;
+	font-size: 1.2em;
+	color: ghostwhite;
+	background: -webkit-linear-gradient(right, gold 30%, goldenrod, darkgoldenrod);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: 'broadway';
+	
+}
+#name:hover{
+	background: -webkit-linear-gradient(right, gold 10%, goldenrod 10%, seagreen 80%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/* navbar button group */
+nav .btn-group {
+	margin: 0.8rem 2rem 0 0;
+}
+
+@media(max-width: 48em){
+	nav .btn-group {
+		position: absolute;
+		top: 0;
+		right: 3em; 
+}
+
+
+section#intro-header #headline{
+	margin-top: 7em !important;
+	
+	} 
+        
+}
+
+section#intro-header{
+	background: url("../images/bg2_img.jpg");
+	background-size: cover;
+        margin-top: -20px !important;
+}
+section#intro-header #headline{
+	margin-top: 18%;
+	margin-bottom: 18%;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(14,96,31,0.6);
+}
+
+section#intro-header h1{
+	color: seagreen;
+	font-weight: 700;
+} 
+section#intro-header h2 {
+    color: gold;
+    font-size: 1.5em;
+    margin-top: -0.45em;
+	font-weight: 500;
+	
+}
+section#intro-header h2 {
+	font-size: 1.rem;
+} 
+
+section#intro-header img{
+	padding: 0.4em;
+	height: 220px;
+	width: 220px;
+}
+section#intro-header p{
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+#col1{
+  /*  background-color: rgba(200,200,200,.7);
+    background-image: linear-gradient(rgba(230,230,230,.8), rgba(230,230,230,.45) 80%); */
+    border-radius:10px;
+    padding:10px;
+    box-shadow: 0 0 10px 1px green;
+    margin:20% auto 20% auto;
+}
+
+section#about{
+	margin: 10px;
+	box-shadow: 0 0 5px 1px green;
+}
+
+
+/* the mainpage about section */
+section#about img{
+	margin-top: 6rem;
+	margin-bottom: 5rem;
+	
+}
+
+section#about h3{
+	margin-top: 9rem;
+}
+
+
+
+/* Features css */
+
+#skills{
+	text-align: center;
+	margin: 50px 0 20px 0;
+}
+
+.img-responsive{
+	margin: 0 auto;
+}
+
+section#skills .skill {
+	padding-top: 2rem;
+	padding-bottom: 4rem;
+	text-align: center;
+	margin-bottom: 10px;
+
+} 
+section#skills .skill img {
+	font-size: 10rem;
+	display: block;
+	text-align: left;
+	padding: 0.1em;
+	max-height: 170px; 
+	margin-bottom: 0.2em;
+	box-shadow: 0 5px 3px 1px green;
+	transition: all 0.5s ease-out;
+	
+} 
+
+section#skills .skill p {
+	display: block; 
+	text-align: center;
+	font-size: 1.6rem;
+}
+
+
+section#skills .skill img:hover {
+	box-shadow: 0 -5px 3px 1px grey;
+	transform: rotate(-360deg);
+
+	
+}
+
+
+/*CSS for contact form ON THE BODY*/
+
+
+section#contactMe{
+        margin-top: 3.5em;
+	padding-bottom: 3rem;
+	font-weight:500;
+}
+
+section#contactMe h1{
+	font-weight:600;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
+section#contactMe label.control-label{
+	color: seagreen;
+	font-weight: 900;
+}
+
+.control-override {
+
+    display: block;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 20px;
+    line-height: 1.42857143;
+    color: #5E5B5B;
+	background-color: transparent;
+	background-image: none;
+	border-bottom: 1px thick #686767;
+	box-shadow: 0 5px 2px 10px green;
+	-webkit-box-shadow: 0 2px 7px rgba(128,128,120,1); 
+	border-radius: 10px;	
+
+
+}
+
+.textarea-override{
+	border: 2px solid #686767;
+}
+
+.btn-override{
+	padding: 10px;
+}
+.btn-override input{
+	margin: 0 10px 5px 10px;
+	box-shadow: -3px 4px 4px grey;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+} 
+
+
+
+
+
+

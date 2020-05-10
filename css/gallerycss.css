@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+section#gallery{
+	margin-top: 6em;
+	margin-bottom: 5em;
+	z-index: 1;
+}
+
+section#gallery img{
+	margin-bottom: 3em;
+	height: 150px;
+	width: 150px;
+	transition: width height 5s;
+	
+	
+}
+
+section#gallery img:hover,
+section#gallery img:active{
+	position: absolute;
+	margin-right: 3em;
+	transform: scale(1.5, 1.5); 
+	-webkit-transform: scale(1.5, 1.5);
+	-moz-transform: scale(1.5, 1.5);
+	-ms-transform: scale(1.5, 1.5);
+	-o-transform: scale(1.5, 1.5);
+	z-index: 100;
+}
+
+@media(max-width: 48em){
+	.col-xs-4{
+		padding: 5px;
+		height: 110px;
+	}
+section#gallery img:hover,
+section#gallery img:active{
+	transform: scale(1.5, 1.5);
+	z-index: 1000;
+}	
+	
+	section#gallery img{
+		height: 100px;
+	}
+	
+	.margin_setting{
+		margin: 0px;
+	}
+
+}

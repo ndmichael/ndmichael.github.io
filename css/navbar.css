@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*
+**** webapp css
+****
+****
+****
+*/
+
+.navbar-brand img{
+	min-height: 40px;
+	height: 100% !important;
+	margin: 0px;
+}
+
+nav form#search {
+	float: right;
+	padding: 0.5em;
+	padding-left: 10.5em;
+}
+
+/* this insert the icon inside the search button */
+nav form#search .glyphicon-search {
+	z-index: 99;
+	position: absolute;
+	right: 0.7em;
+	top: 50%;
+	margin-top: -0.44em;
+}
+
+
+nav form#search .input-group .form-control {
+	border-radius: 5.25em;
+}
+
+/** Adding the required styling by overriding**/
+.navbar-default{
+	/*background-color: #2F92CA; */
+	background-color: #312e8b;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: lucida sans, 'Arial';
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #F9EBEC;
+}
+
+
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover{
+	-webkit-transition: all 150ms ease-in-out;
+	-moz-transition: all 150ms ease-in-out;
+	-ms-transition: all 150ms ease-in-out;
+	-o-transition: all 150ms ease-i;
+	transition: all 150ms ease-in-out;
+	
+}
+
+.navbar-default .navbar-nav > .active > a{
+	background-color: transparent;
+	color: #fff;
+	padding-bottom: 0.65em;
+	border-bottom: 0.54em solid #F9EBEC;
+}
+
+
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:hover{
+	background-color: transparent;
+	color: darkgrey;
+	padding-bottom: 0.65em;
+	border-bottom: 0.54em solid seagreen;
+	-webkit-transition: all 150ms ease-in-out;
+	-moz-transition: all 150ms ease-in-out;
+	-ms-transition: all 150ms ease-in-out;
+	-o-transition: all 150ms ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+
+/** setting up the badge css **/
+.navbar-nav .badge {
+	/* color: #2F92CA; */
+	color: goldenrod;
+	background-color: #FFF;
+	font-size: 0.7em;
+	padding: 0.27rem 0.55rem 0.2rem 0.4rem;
+	position: absolute;
+	left: 0.37rem;
+	top: 0.7rem;
+	z-index: 99;
+	border: 0.2rem solid #2F92CA;
+}
+
+
+/** for the collapsing button **/
+.navbar-header .navbar-toggle,
+.navbar-default .navbar-toggle:focus {
+	background-color: #57A5D2;
+        max-width: 100% !important;
+} 
+
+navbar-default .navbar-toggle:hover {
+	background-color: #3986B3;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #FFF;
+}
+
+/*Removing borders for extra small devices */
+@media(max-width:34em){
+	.navbar-default .navbar-nav > .active > a {
+	border-bottom: none;
+	border-left: 0.45em solid #FFF;
+	padding-left: 0.5em;
+	}
+	
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > li > a:hover{
+	background-color: transparent;
+	color:#f3f3f3;
+	border-bottom: none;
+	padding-left: 0.65em;
+	border-left: 0.54em solid #fff;
+}
+}
+
+nav.navbar span.fa{
+	display: inline-block;
+	color: seagreen;
+	
+}
