@@ -2,9 +2,10 @@
 	<nav class="navbar navbar-expand-lg navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="http://www.codeja-vu.dx.am/index.php">
+				<a  id="name" class="navbar-brand" href="http://www.codeja-vu.dx.am/index.php">
 					<!-- <img src="images/zendlogo.jpg" class="img-responsive" alt="header" /> -->
-					<span id="name">Ukeje</span>
+					<span>Ukeje</span>
+					<span> .NM</span>
 					
 				</a>
 				

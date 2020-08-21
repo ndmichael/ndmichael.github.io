@@ -8,13 +8,11 @@
 ****
 */
 
-/*
 .navbar-brand img{
 	min-height: 40px;
 	height: 100% !important;
 	margin: 0px;
 }
-*/
 
 
 
@@ -30,7 +28,7 @@
 .navbar-expand-lg .navbar-nav .nav-link{
 	color: #F9EBEC;
 	font-size: 0.75em;
-	padding:15px auto !important;
+	padding-top:15px !important;
 }
 
 
@@ -51,7 +49,7 @@
 	-moz-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+	transition: border-radius .2s ease-in-out,;
 }
 
 
@@ -125,6 +123,6 @@
 .navbar span.icofont{
 	display: inline-block;
 	color: darkgray;
-	font-size:16px;
+	font-size:17px;
 	
 }

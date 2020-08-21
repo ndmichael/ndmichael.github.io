@@ -75,13 +75,13 @@ section#intro-header #headline{
 }
 
 section#intro-header{
-	background: linear-gradient(90deg, rgba(08, 08, 08,  0.6), rgba(08, 08, 08,  0.6)), url("../images/ball-63527_1920.jpg");
+	background: linear-gradient(90deg, rgba(08, 08, 08,  0.8), rgba(08, 08, 08,  0.8)), url("../images/ball-63527_1920.jpg");
 	background-size: cover;
     margin-top: -20px !important;
 }
 section#intro-header #headline{
 	margin-top: 22%;
-	margin-bottom: 18%;
+	margin-bottom: 22%;
 	padding: 10px;
 	color: #fff;
 	font-weight: 700;
@@ -103,11 +103,50 @@ section#intro-header p{
 	color: #fff;
 }
 
-section#intro-header .mouse{
+.scroll-down{
+	position: absolute;
+	bottom: 5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+
+}
+
+
+.mouse{
 	width: 2.5rem;
 	height: 5rem;
-	background-color: gold;
+	border: 2px solid white;
+	border-radius: 2rem;
+	margin-bottom: .5rem;
+	display: flex;
 }
+
+.mouse span{
+	width: 1rem;
+	height: 1rem;
+	background: #fff;
+	display: block;
+	border-radius: 50%;
+	margin: auto;
+	animation: move-wheel 1s linear infinite;
+}
+
+.arrow span{
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	border: 2px solid transparent;
+	border-right-color: #fff;
+	border-bottom-color: #fff;
+	transform: rotate(45deg);
+	animation: arrow-down 0.5s alternate infinite;
+	
+}
+
 
 
 /* the mainpage about section */
@@ -185,6 +224,33 @@ section#contactMe label.control-label{
 
 
 
+@keyframes move-wheel{
+	0%{
+		opacity: 0;
+		transform: translateY(-1rem);
+	}
+	50%{
+		background: yellow;
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(1rem);	
+	}
+}
 
 
+@keyframes arrow-down{
+	0%{
+		opacity: 0;
+	}
+	25%{
+		opacity: .5;
+	}
+	50%{
+		opacity: .75;
+	}
+	100%{
+		opacity: 1;
+	}
+}
 

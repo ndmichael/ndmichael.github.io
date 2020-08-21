@@ -30,7 +30,7 @@
 			<div class="row">
 				<div id="headline" class="col-12 col-md-6" data-aos="zoom-out">
 					<h1 class="h4">Hello, I am</h1>
-					<h2 class="h1">Ukeje Ndubuisi</h2>	
+					<h2 class="h1">Ukeje Michael</h2>	
 					<p>A Software Engineer</p>
 					
 						<button class="btn btn-primary btn-lg">See Projects</button>
@@ -40,7 +40,7 @@
 			
 								
 				<div class="col-12 col-sm-12">
-					<a href="#">
+					<a href="#" class="scroll-down">
 						<div class="mouse">
 							<span></span>
 						</div>
