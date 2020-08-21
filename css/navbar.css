@@ -3,45 +3,28 @@
 
 
 /*
-**** webapp css
-****
-****
+**** 
+****  ukeje portfolio navbar css
 ****
 */
 
+/*
 .navbar-brand img{
 	min-height: 40px;
 	height: 100% !important;
 	margin: 0px;
 }
-
-nav form#search {
-	float: right;
-	padding: 0.5em;
-	padding-left: 10.5em;
-}
-
-/* this insert the icon inside the search button */
-nav form#search .glyphicon-search {
-	z-index: 99;
-	position: absolute;
-	right: 0.7em;
-	top: 50%;
-	margin-top: -0.44em;
-}
+*/
 
 
-nav form#search .input-group .form-control {
-	border-radius: 5.25em;
-}
 
 /** Adding the required styling by overriding**/
 .navbar-default{
-	/*background-color: #2F92CA; */
-	background-color: #312e8b;
+	background: #1B1B1B;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-family: lucida sans, 'Arial';
+	border: none;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -50,20 +33,9 @@ nav form#search .input-group .form-control {
 
 
 
-.navbar-default .navbar-nav > li > a,
-.navbar-default .navbar-nav > li > a:hover{
-	-webkit-transition: all 150ms ease-in-out;
-	-moz-transition: all 150ms ease-in-out;
-	-ms-transition: all 150ms ease-in-out;
-	-o-transition: all 150ms ease-i;
-	transition: all 150ms ease-in-out;
-	
-}
-
 .navbar-default .navbar-nav > .active > a{
 	background-color: transparent;
 	color: #fff;
-	padding-bottom: 0.65em;
 	border-bottom: 0.54em solid #F9EBEC;
 }
 
@@ -72,8 +44,7 @@ nav form#search .input-group .form-control {
 .navbar-default .navbar-nav > li > a:hover{
 	background-color: transparent;
 	color: darkgrey;
-	padding-bottom: 0.65em;
-	border-bottom: 0.54em solid seagreen;
+	border-bottom: 0.54em solid gold;
 	-webkit-transition: all 150ms ease-in-out;
 	-moz-transition: all 150ms ease-in-out;
 	-ms-transition: all 150ms ease-in-out;
@@ -84,7 +55,6 @@ nav form#search .input-group .form-control {
 
 /** setting up the badge css **/
 .navbar-nav .badge {
-	/* color: #2F92CA; */
 	color: goldenrod;
 	background-color: #FFF;
 	font-size: 0.7em;
@@ -130,8 +100,9 @@ navbar-default .navbar-toggle:hover {
 }
 }
 
-nav.navbar span.fa{
+nav.navbar span.icofont{
 	display: inline-block;
-	color: seagreen;
+	color: grey;
+	font-size:16px;
 	
 }

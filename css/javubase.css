@@ -64,24 +64,23 @@
 
 body{
 	font-weight: 400;
-          max-width: 100% !important;
-          max-height: 100%;
-          overflow-x: hidden; 
+    max-width: 100% !important;
+    max-height: 100%;
+    overflow-x: hidden; 
+	color: #ffffff;
 }
 
 h1, h2{
 	text-transform: capitalize;
-	color: seagreen;
+	color: gold;
 	font-weight: 500;
 	font-size: 2.0em;
 	font-family: 'berlin sans fb', 'berlin sans fb demi';
 }
 h3, h4{
-	font-weight: 400;
-	font-size: 1.5em;
+	font-weight: 500;
+	font-size: 1.7em;
 	text-transform: capitalize;
-	color: seagreen;
-	/*font-family: 'Kanit', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;  */
 	font-family: 'berlin sans fb', 'berlin sans fb demi';
 	word-spacing: .5em;
 }
@@ -91,9 +90,7 @@ p{
 	font-size: 1em;
 	line-height: 1.5;
 	letter-spacing: 1px;
-	/*color: #2b2b2b;
-	font-family: 'Cardo', serif; */
-	color: #5f6368;
+	color: #ffffff;
 	font-family: "apercu",sans-serif;
 }
 
@@ -134,68 +131,47 @@ section#intro-header #headline{
 	margin-top: 7em !important;
 	
 	} 
-        
+       
 }
 
 section#intro-header{
-	background: url("../images/bg2_img.jpg");
+	background: linear-gradient(90deg, rgba(08, 08, 08,  0.6), rgba(08, 08, 08,  0.6)), url("../images/ball-63527_1920.jpg");
 	background-size: cover;
-        margin-top: -20px !important;
+    margin-top: -20px !important;
 }
 section#intro-header #headline{
-	margin-top: 18%;
-	margin-bottom: 18%;
+	margin-top: 25%;
+	margin-bottom: 25%;
 	padding: 10px;
-	text-align: center;
-	background-color: rgba(14,96,31,0.6);
+	color: #fff;
+	font-size: 1.7em;
 }
 
 section#intro-header h1{
-	color: seagreen;
 	font-weight: 700;
 } 
 section#intro-header h2 {
     color: gold;
-    font-size: 1.5em;
-    margin-top: -0.45em;
-	font-weight: 500;
+    font-size: 5rem;
+	font-weight: 900;
 	
 }
-section#intro-header h2 {
-	font-size: 1.rem;
-} 
 
-section#intro-header img{
-	padding: 0.4em;
-	height: 220px;
-	width: 220px;
-}
 section#intro-header p{
 	color: #fff;
-	text-align: center;
 }
 
 
-
-
-#col1{
-  /*  background-color: rgba(200,200,200,.7);
-    background-image: linear-gradient(rgba(230,230,230,.8), rgba(230,230,230,.45) 80%); */
-    border-radius:10px;
-    padding:10px;
-    box-shadow: 0 0 10px 1px green;
-    margin:20% auto 20% auto;
-}
 
 section#about{
-	margin: 10px;
-	box-shadow: 0 0 5px 1px green;
+	background: #191818;
+	padding-top: 4rem;
 }
 
 
 /* the mainpage about section */
 section#about img{
-	margin-top: 6rem;
+	margin-top: 4rem;
 	margin-bottom: 5rem;
 	
 }

@@ -19,11 +19,14 @@
 	<!-- section 1 , row 1 -->
 	<section id="intro-header">
 		<div class="container">
-				<div id="headline" class="pull-right col-sm-4" data-aos="zoom-out">
-					<p><img src="images/Optimized-codebg3.jpg" class="img-circle img-responsive img-thumbnail" alt="thisisme" /></p>
-					<h1>Michael's Portfolio</h1>
-					<h2>Software Engineer and Instructor</h2>
-					<p>A passionate and Enthusiastic software developer, who enjoys  reading codes, building applications and solving problems.<br /><q>Declare Variables not War</q><br /></p>	
+				<div id="headline" class="col-sm-6" data-aos="zoom-out">
+					<h1 class="h4">Hello, I am</h1>
+					<h2 class="h1">Ukeje Ndubuisi</h2>	
+					<p>A Software Engineer</p>
+					
+						<span><button class="btn btn-warning btn-lg">Projects</button></span>
+						<span><button class="btn btn-success btn-lg">Hire Me</button></span>
+					</p>
 				</div>
 		</div> <!-- end of the container -->
 	</section>
@@ -33,43 +36,26 @@
 		<div class="container">
 			<div class="row">
 				
+				<div class="col-12 col-sm-12">
+					<h1>ABOUT ME</h1>
+				</div>
+				
 				<div class="col-sm-6" data-aos="fade-right">
 					<img src="images/imgaboutme3.jpg" alt="about image placeholder" class="img-responsive" />
 				</div>
+				
 				<div class="col-sm-6" data-aos="zoom-in">
-					<h3>Brief details about me</h3>
-					<p class="text-justify">
-						Hi welcome to my website, codeja-vu. My name is Michael, a Software Engineer who is not shy of UI/UX frontend development. I am a computer science graduate with first class honors from the prestigious University Haute Ecoles de Gestion et de Technologie (HEGT). 
-								I also hold a Diploma in Information Technology with a Distinction from Informatics Academics Singapore.  <br />
-						My previous experience includes writing data-driven responsive Web and Desktop Applications. 
-                                                I consider myself to be a <q>Student forever</q> due to my passion for learning new technologies by continuous practice, research and interpretation of technical codes. <br />
-		
-                        During and after my school days, I have vastly contributed to numerous projects and I am currently  working as a software development instructor at APTECH Institute and as a freelance developer. I am looking for new challenges so You can reach me on my 
-						<a href="contact.php"><button type="button" class="btn btn-lg btn-success">CONTACT PAGE</button></a>
-						 or directly via <a href="mailto: ndumicheall@gmail.com"><b>E-MAIL</b></a>.
+					<h3>My name is Michael Ukeje</h3>
+					<p>
+						I am a Software Engineer, Full-Stack Developer, and Coding instructor, 
+						who is interested with anything that breath, and live on the cyber space.
+						I am a computer science graduate with first class honors from the prestigious University Haute Ecoles de Gestion et de Technologie (HEGT). <br /> <br />
+						I also hold a Diploma in Information Technology with a Distinction from Informatics Academics Singapore.  
+						My previous experience includes writing dynamic, responsive Websites and Desktop Applications. 
 						
 					</p>
 				</div>
-			</div> <!-- end of row 3 -->
-			
-			<hr />
-			
-			<!-- row4 starts -->
-			<div class="row" data-aos="fade-left">
-				<div class="col-sm-6" data-aos="zoom-out">
-					<h3>Why work with me</h3>
-					<p class="text-justify">
-						I am analytical, smart and a goal getter. I enjoy writing codes, applying coding principles and is willing to learn and take up challenges. <br />
-						I am self-disciplined, persistent, a hard worker and loyal. I enjoy building web Apps, mobile Apps and desktop apps. My favorite languages are Python, JavaScript and PHP.. I am self-disciplined.  <br />
-						I enjoy writing codes as a passion which goes beyond getting paid. I have experience writing technical and complex codes. <br />
-					    I strongly believe in the Africa saying "Those who travel in togetherness shorten the journey".
-						<a type="button" href="#dem" class="btn btn-success btn-lg" data-toggle="collapse">MY RESUME</a>
-					</p>
-				</div>
-				<div class="col-sm-6" >
-					<img src="images/Optimized-coding.jpg" alt="about image placeholder" class="img-responsive pull-right" />
-				</div>
-			</div> <!-- end of row 4 -->
+			</div> <!-- end of row 3 -->			
 		</div>
 	</section>
 	
