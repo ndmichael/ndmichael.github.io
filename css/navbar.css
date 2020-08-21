@@ -18,38 +18,40 @@
 
 
 
-/** Adding the required styling by overriding**/
-.navbar-default{
+/** Adding the required styling by overriding  bootstrap default **/
+.navbar-expand-lg{
 	background: #1B1B1B;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-family: lucida sans, 'Arial';
-	border: none;
+	padding: 0px  !important;
 }
 
-.navbar-default .navbar-nav > li > a{
+.navbar-expand-lg .navbar-nav .nav-link{
 	color: #F9EBEC;
+	font-size: 0.75em;
+	padding:15px auto !important;
 }
 
 
 
-.navbar-default .navbar-nav > .active > a{
+.navbar-expand-lg .navbar-nav > .active > a{
 	background-color: transparent;
 	color: #fff;
-	border-bottom: 0.54em solid #F9EBEC;
+	border-bottom: 0.8em solid #F9EBEC;
 }
 
 
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-expand-lg .navbar-nav > .active > a:hover,
+.navbar-expand-lg .navbar-nav > li > a:hover{
 	background-color: transparent;
 	color: darkgrey;
-	border-bottom: 0.54em solid gold;
-	-webkit-transition: all 150ms ease-in-out;
-	-moz-transition: all 150ms ease-in-out;
-	-ms-transition: all 150ms ease-in-out;
-	-o-transition: all 150ms ease-in-out;
-	transition: all 0.4s ease-in-out;
+	border-bottom: 0.8em solid gold;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 
@@ -68,41 +70,61 @@
 
 
 /** for the collapsing button **/
-.navbar-header .navbar-toggle,
-.navbar-default .navbar-toggle:focus {
-	background-color: #57A5D2;
-        max-width: 100% !important;
-} 
-
-navbar-default .navbar-toggle:hover {
-	background-color: #3986B3;
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: #7eb444;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
 }
 
-.navbar-default .navbar-toggle .icon-bar {
+
+.navbar-expand-lg .navbar-toggler:hover {
+	background-color: gold;
+}
+
+
+.custom-toggler.navbar-toggler {
 	background-color: #FFF;
 }
 
-/*Removing borders for extra small devices */
-@media(max-width:34em){
-	.navbar-default .navbar-nav > .active > a {
-	border-bottom: none;
-	border-left: 0.45em solid #FFF;
-	padding-left: 0.5em;
-	}
-	
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > li > a:hover{
-	background-color: transparent;
-	color:#f3f3f3;
-	border-bottom: none;
-	padding-left: 0.65em;
-	border-left: 0.54em solid #fff;
-}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
 }
 
-nav.navbar span.icofont{
+
+/*Removing borders for extra small devices */
+@media(max-width:34em){
+	.navbar-expand-lg .navbar-nav > .active > a {
+		border-bottom: none;
+		border-left: 0.5em solid #FFF;
+		padding-left: 0.5em;
+		}
+
+	.navbar-expand-lg .navbar-nav > .active > a:hover,
+	.navbar-expand-lg .navbar-nav > li > a:hover{
+		background-color: transparent;
+		color:#f3f3f3;
+		border-bottom: none;
+		border-left: 0.5em solid gold;
+	}
+}
+
+.navbar span.icofont{
 	display: inline-block;
-	color: grey;
+	color: darkgray;
 	font-size:16px;
 	
 }

@@ -2,66 +2,6 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Cardo|Oswald&display=swap');
 
-.collapsing{
-	
-	overflow: hidden;
-	-webkit-transition: height 0.6s ease-in-out;
-	/*-moz-transition: all 15000s ease-in-out;
-	-ms-transition: all 15000s ease-in-out;
-	-o-transition: all 15000s ease-i; */
-	transition: height 0.8s ease-in-out;
-}
-
-#colBtn{
-	
-	margin: 50px 0 50px 0;
-	height: 50px;
-	font-weight: 900;
-	font-size: 18px;
-	
-}
-
-#coding > h1{
-	text-align: center;
-	text-transform: capitalize;
-	padding: 10px 0;
-	background: rgba(122,117,117,0.3);
-	border-bottom: 3px groove #2E8B57;
-	border-top: 3px groove #2E8B57;
-	border-radius: 50px 0;
-;}
-.code_principles{
-	border: 2px thin grey;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	padding:0px 30px;
-	padding-bottom: 10px;
-	/*background-color: snow; */
-	background-color: rgba(244,240,240,0.2);
-	-webkit-box-shadow: 0 2px 7px 1px rgba(128,128,120,1);
-	-moz-box-shadow: 0 2px 7px 1px rgba(128,128,120,1);
-	box-shadow: 0 2px 7px 1px rgba(128,128,120,1);
-	line-height: 1.7em;
-	text-align: center;
-}
-
-.code_principles > h1, h2{
-	text-transform: capitalize;
-	display: block;
-	
-}
-
-.code_principles > img{
-	max-height: 170px;
-	min-height: 170px;
-	min-width: 80%;
-	max-width: 80%;
-}
-
-
-
-
-
 body{
 	font-weight: 400;
     max-width: 100% !important;
@@ -82,7 +22,7 @@ h3, h4{
 	font-size: 1.7em;
 	text-transform: capitalize;
 	font-family: 'berlin sans fb', 'berlin sans fb demi';
-	word-spacing: .5em;
+	word-spacing: .2em;
 }
 
 p{
@@ -140,19 +80,21 @@ section#intro-header{
     margin-top: -20px !important;
 }
 section#intro-header #headline{
-	margin-top: 25%;
-	margin-bottom: 25%;
+	margin-top: 22%;
+	margin-bottom: 18%;
 	padding: 10px;
 	color: #fff;
+	font-weight: 700;
 	font-size: 1.7em;
 }
 
 section#intro-header h1{
 	font-weight: 700;
+	color: #fff;
 } 
 section#intro-header h2 {
     color: gold;
-    font-size: 5rem;
+    font-size: 4rem;
 	font-weight: 900;
 	
 }
@@ -161,69 +103,27 @@ section#intro-header p{
 	color: #fff;
 }
 
-
-
-section#about{
-	background: #191818;
-	padding-top: 4rem;
+section#intro-header .mouse{
+	width: 2.5rem;
+	height: 5rem;
+	background-color: gold;
 }
 
 
 /* the mainpage about section */
+section#about{
+	background: #191818;
+	padding-top: 3rem;
+}
+
 section#about img{
-	margin-top: 4rem;
+	margin-top: 3rem;
 	margin-bottom: 5rem;
 	
 }
 
 section#about h3{
-	margin-top: 9rem;
-}
-
-
-
-/* Features css */
-
-#skills{
-	text-align: center;
-	margin: 50px 0 20px 0;
-}
-
-.img-responsive{
-	margin: 0 auto;
-}
-
-section#skills .skill {
-	padding-top: 2rem;
-	padding-bottom: 4rem;
-	text-align: center;
-	margin-bottom: 10px;
-
-} 
-section#skills .skill img {
-	font-size: 10rem;
-	display: block;
-	text-align: left;
-	padding: 0.1em;
-	max-height: 170px; 
-	margin-bottom: 0.2em;
-	box-shadow: 0 5px 3px 1px green;
-	transition: all 0.5s ease-out;
-	
-} 
-
-section#skills .skill p {
-	display: block; 
-	text-align: center;
-	font-size: 1.6rem;
-}
-
-
-section#skills .skill img:hover {
-	box-shadow: 0 -5px 3px 1px grey;
-	transform: rotate(-360deg);
-
-	
+	margin-top: 5rem;
 }
 
 
