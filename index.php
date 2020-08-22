@@ -69,11 +69,11 @@
 				</div>
 				
 				<div class="col-12 col-sm-6" data-aos="zoom-in">
-					<h3>My name is Michael Ukeje</h3>
+					<h3>My name is Michael</h3>
 					<p>
 						I am a Software Engineer, Full-Stack Developer, and Coding instructor, 
-						who is interested with anything that breath, and live on the cyber space.
-						I am a computer science graduate with first class honors from the prestigious University Haute Ecoles de Gestion et de Technologie (HEGT). <br /> <br />
+						who is interested in anything that breath, and live on the cyber space.
+						A computer science graduate with first class honors. <br /> <br />
 						I also hold a Diploma in Information Technology with a Distinction from Informatics Academics Singapore.  
 						My previous experience includes writing dynamic, responsive Websites and Desktop Applications. 
 						
@@ -86,6 +86,7 @@
 	
 	<section id="skill">
 		<div class="container">
+			<h1>Skills</h1>
 			<nav>
 			  <div class="nav nav-tabs" id="nav-tab" role="tablist">
 				<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Professional </a>
@@ -95,10 +96,10 @@
 			<div class="tab-content" id="nav-tabContent">
 			  <div class="ntab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 				  <div class="row">
-					<div class="col-12 col-sm-4">
+					<div class="col col-12 col-sm-4">
 					  <div class="skills">
 						<i class="icofont icofont-4x icofont-data"></i>
-						<h1>BackEnd</h1>
+						<h2>BackEnd</h2>
 						<ul>
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
@@ -109,13 +110,13 @@
 								<span>JavaScript - NodeJS, TypeScript</span></li> 
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>PHP, Laravel</span></li> 
+								<span>PHP, Laravel</span>
+							</li> 
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>C Language</span></li> 
-							<li>
-								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Java SE</span></li> 
+								<span>C Language</span>
+						 	</li> 
+
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
 								<span>Google Cloud Platform - (Firebase, Firestore)</span>
@@ -137,10 +138,10 @@
 					  </div>
 					  
 				  	</div>
-				  <div class="col-12 col-sm-4" >
+				  <div class="col col-12 col-sm-4" >
 					 <div class="skills">
 					 	<i class="icofont icofont-4x icofont-code"></i>
-					    <h1>FrontEnd</h1>
+					    <h2>FrontEnd</h2>
 						 <ul>
 						 	<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
@@ -166,10 +167,10 @@
 					 </div>	
 					  
 				  </div>
-				  <div class="col-12 col-sm-4">
-					  <div class="skills">
+				  <div class=" col col-12 col-sm-4">
+					  <div class="skills w-100">
 					  	<i class="icofont icofont-4x icofont-tools-alt-2"></i>
-					    <h1>Others</h1>
+					    <h2>Others</h2>
 						  <ul>
 						  	<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
