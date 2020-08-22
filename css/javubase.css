@@ -80,6 +80,7 @@ section#intro-header{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+	height: 95vh;
 }
 section#intro-header #headline{
 	margin-top: 18%;
@@ -255,7 +256,7 @@ section#contactMe label.control-label{
 #skill h2{
 	text-align: center;
 	margin-top: -30px;
-	color: white;
+	color: #dee2e6;
 }
 
 #skill ul{
@@ -283,10 +284,35 @@ section#contactMe label.control-label{
 #skill ul li span{
 	display: block;
 	overflow: hidden;
+	color: #dee2e6;
 }
 
 #skill nav{
 	padding: .2em 0 2em 0;
+}
+
+.nav-tabs .nav-link.active, 
+.nav-tabs .nav-item.show .nav-link {
+    color: #4d4b46;
+    background-color: #dee2e6;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.nav-tabs .nav-link{
+	color: gold;
+	width: 50%;
+	padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	border: 2px solid #535353;
+	
 }
 
 
