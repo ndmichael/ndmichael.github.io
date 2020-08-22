@@ -84,9 +84,121 @@
 		</div>
 	</section>
 	
-
+	<section id="skill">
+		<div class="container">
+			<nav>
+			  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+				<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Professional </a>
+				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personnal</a>
+			  </div>
+			</nav>
+			<div class="tab-content" id="nav-tabContent">
+			  <div class="ntab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+				  <div class="row">
+					<div class="col-12 col-sm-4">
+					  <div class="skills">
+						<i class="icofont icofont-4x icofont-data"></i>
+						<h1>BackEnd</h1>
+						<ul>
+							<li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Python - Django, Flask, Pandas</span>
+							</li>  
+							<li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>JavaScript - NodeJS, TypeScript</span></li> 
+							<li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>PHP, Laravel</span></li> 
+							<li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>C Language</span></li> 
+							<li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Java SE</span></li> 
+							<li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Google Cloud Platform - (Firebase, Firestore)</span>
+							</li> 
+							<li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>AWS - (S3, Lambda)</span>
+							</li> 
+							<li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Heroku</span>
+							</li>
+							<li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Databases - MySql, PostgreSql, MongoDB</span>
+							</li>
+							
+						</ul>
+					  </div>
+					  
+				  	</div>
+				  <div class="col-12 col-sm-4" >
+					 <div class="skills">
+					 	<i class="icofont icofont-4x icofont-code"></i>
+					    <h1>FrontEnd</h1>
+						 <ul>
+						 	<li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Javascript / ReactJS / jQuery</span>
+							 </li>
+							 <li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>HTML5, CSS3</span>
+							 </li>
+							 <li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Bootstrap</span>
+							 </li>
+							 <li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Materialize CSS</span>
+							</li>
+							 <li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Wordpress</span>
+							</li>
+						 </ul>
+					 </div>	
+					  
+				  </div>
+				  <div class="col-12 col-sm-4">
+					  <div class="skills">
+					  	<i class="icofont icofont-4x icofont-tools-alt-2"></i>
+					    <h1>Others</h1>
+						  <ul>
+						  	<li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Git and Github</span>
+							</li>
+							<li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Rest API</span>
+							</li>
+							 <li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Google Classroom, Google Doc </span>
+							 </li>
+							  <li>
+								<i class="icofont icofont-tick-mark pr-2"></i>
+								<span>Microsoft Office</span>
+							 </li>
+						  </ul>
+					  </div>
+					  
+				  </div>
+			  	  
+			  </div>
+			</div>
+			  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">bullshit 2</div>
+			
+		</div>
+	</section>
 		
-	
 	
 	
 <!-- referencing the codeja-vu footer -->
