@@ -75,8 +75,8 @@ section#intro-header #headline{
 }
 
 section#intro-header{
-	background: linear-gradient(90deg, rgba(08, 08, 08,  0.8), rgba(08, 08, 08,  0.8)), url("../images/ball-63527_1920.jpg");
-    background-position: left;
+	background: linear-gradient(90deg, rgba(08, 08, 08,  0.8), rgba(08, 08, 08,  0.8)), url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
