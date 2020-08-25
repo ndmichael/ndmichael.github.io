@@ -67,42 +67,6 @@
 }
 
 
-/** for the collapsing button **/
-.navbar-toggler{
-    width: 47px;
-    height: 34px;
-    background-color: #7eb444;
-    border:none;
-}
-.navbar-toggler .line{
-    width: 100%;
-    float: left;
-    height: 2px;
-    background-color: #fff;
-    margin-bottom: 5px;
-}
-
-
-.navbar-expand-lg .navbar-toggler:hover {
-	background-color: gold;
-}
-
-
-.custom-toggler.navbar-toggler {
-	background-color: #FFF;
-}
-
-.navbar-toggler-icon {
-    display: inline-block;
-    width: 1.5em;
-    height: 1.5em;
-    vertical-align: middle;
-    content: "";
-    background: no-repeat center center;
-    background-size: 100% 100%;
-}
-
-
 /*Removing borders for extra small devices */
 @media(max-width:34em){
 	.navbar-expand-lg .navbar-nav > .active > a {

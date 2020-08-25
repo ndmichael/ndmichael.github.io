@@ -60,22 +60,31 @@
 		<div class="container">
 			<div class="row">
 				
-				<div class="col-12 col-sm-12">
+				<div class="col-12 col-sm-12 col-md-12">
 					<h1>ABOUT ME</h1>
 				</div>
 				
-				<div class="col-12 col-sm-6" data-aos="fade-right">
+				<div class="col-12 col-sm-12 col-md-6" data-aos="fade-right">
 					<img src="images/imgaboutme3.jpg" alt="about image placeholder" class="img-fluid" />
 				</div>
 				
-				<div class="col-12 col-sm-6" data-aos="zoom-in">
+				<div class="col-12 col-sm-12 col-md-6" data-aos="zoom-in">
 					<h3>My name is Michael</h3>
 					<p>
+						
+						I am interested in anything that breath, and live on the cyber space.
+						I am a Software Engineer, Full-Stack Developer, and Coding instructor. A computer science graduate with first class honors. <br /> <br />
+						
+						I also hold a Diploma in Information Technology with a Distinction from Informatics Academics Singapore.  
+						My previous experience includes writing dynamic, responsive Websites and Desktop Applications. 
+						
+<!--
 						I am a Software Engineer, Full-Stack Developer, and Coding instructor, 
 						who is interested in anything that breath, and live on the cyber space.
 						A computer science graduate with first class honors. <br /> <br />
 						I also hold a Diploma in Information Technology with a Distinction from Informatics Academics Singapore.  
 						My previous experience includes writing dynamic, responsive Websites and Desktop Applications. 
+-->
 						
 					</p>
 				</div>
@@ -96,7 +105,7 @@
 			<div class="tab-content" id="nav-tabContent">
 			  <div class="ntab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 				  <div class="row">
-					<div class="col col-12 col-sm-4">
+					<div class="col col-12 col-sm-6 col-md-4">
 					  <div class="skills">
 						<i class="icofont icofont-4x icofont-data"></i>
 						<h2>BackEnd</h2>
@@ -138,7 +147,7 @@
 					  </div>
 					  
 				  	</div>
-				  <div class="col col-12 col-sm-4" >
+				  <div class="col col-12 col-sm-6 col-md-4" >
 					 <div class="skills">
 					 	<i class="icofont icofont-4x icofont-code"></i>
 					    <h2>FrontEnd</h2>
@@ -167,7 +176,7 @@
 					 </div>	
 					  
 				  </div>
-				  <div class=" col col-12 col-sm-4">
+				  <div class="col col-12 col-sm-6 col-md-4">
 					  <div class="skills w-100">
 					  	<i class="icofont icofont-4x icofont-tools-alt-2"></i>
 					    <h2>Others</h2>

@@ -1,22 +1,21 @@
 	<!-- -->
-	<nav class="navbar navbar-expand-lg navbar-fixed-top">
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+		
 		<div class="container">
-			<div class="navbar-header">
-				<a  id="name" class="navbar-brand" href="http://www.codeja-vu.dx.am/index.php">
-					<!-- <img src="images/zendlogo.jpg" class="img-responsive" alt="header" /> -->
-					<span>Ukeje</span>
-					<span> .NM</span>
-					
-				</a>
-				
-					<button type="button" class="navbar-toggler mr-auto" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false">
-						<span class="line"></span>
-						<span class="line"></span>
-						<span class="line"></span>
-					</button>
-				
-				
-			</div> <!-- end of navbar header -->
+			<a  id="name" class="navbar-brand" href="http://www.codeja-vu.dx.am/index.php">
+				<!-- <img src="images/zendlogo.jpg" class="img-responsive" alt="header" /> -->
+				<span>Ukeje</span>
+				<span> .NM</span>
+
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+<!--				<span class="sr-only">Toggle navigation</span>-->
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+						
 			<div id="nav-menu" class="collapse navbar-collapse navbar-right">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
