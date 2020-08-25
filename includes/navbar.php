@@ -9,11 +9,7 @@
 
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-<!--				<span class="sr-only">Toggle navigation</span>-->
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
+    				<span class="navbar-toggler-icon"></span>
   </button>
 						
 			<div id="nav-menu" class="collapse navbar-collapse navbar-right">
