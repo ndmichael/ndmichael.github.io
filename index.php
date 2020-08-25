@@ -71,11 +71,20 @@
 				<div class="col-12 col-sm-6" data-aos="zoom-in">
 					<h3>My name is Michael</h3>
 					<p>
+						
+						I am interested in anything that breath, and live on the cyber space.
+						I am a Software Engineer, Full-Stack Developer, and Coding instructor. A computer science graduate with first class honors. <br /> <br />
+						
+						I also hold a Diploma in Information Technology with a Distinction from Informatics Academics Singapore.  
+						My previous experience includes writing dynamic, responsive Websites and Desktop Applications. 
+						
+<!--
 						I am a Software Engineer, Full-Stack Developer, and Coding instructor, 
 						who is interested in anything that breath, and live on the cyber space.
 						A computer science graduate with first class honors. <br /> <br />
 						I also hold a Diploma in Information Technology with a Distinction from Informatics Academics Singapore.  
 						My previous experience includes writing dynamic, responsive Websites and Desktop Applications. 
+-->
 						
 					</p>
 				</div>
