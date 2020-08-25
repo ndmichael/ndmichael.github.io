@@ -9,7 +9,7 @@
 					
 				</a>
 				
-					<button type="button" class="navbar-toggler mr-auto" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false">
+					<button type="button" class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#nav-menu" aria-expanded="false">
 						<span class="line"></span>
 						<span class="line"></span>
 						<span class="line"></span>
