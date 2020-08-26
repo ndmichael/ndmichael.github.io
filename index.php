@@ -105,8 +105,8 @@
 			<div class="tab-content" id="nav-tabContent">
 			  <div class="ntab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 				  <div class="row">
-					<div class="col col-12 col-sm-6 col-md-4 skills">
-					  <div class="col ">
+					<div class="col col-12 col-sm-6 col-md-4 my-5">
+					  <div class="skills h-100">
 						  <div class="icon-align">
 							  <i class="icofont icofont-4x icofont-data"></i>
 						  </div>  
@@ -150,8 +150,8 @@
 					  </div>
 					  
 				  	</div>
-				  <div class="col col-12 col-sm-6 col-md-4">
-					 <div class="skills">
+				  <div class="col col-12 col-sm-6 col-md-4 my-5">
+					 <div class="skills h-100">
 						 <div class="icon-align">
 						 	<i class="icofont icofont-4x icofont-code"></i>
 						 </div>
@@ -182,8 +182,8 @@
 					 </div>	
 					  
 				  </div>
-				  <div class="col col-12 col-sm-6 col-md-4 mx-auto ">
-					  <div class="skills">
+				  <div class="col col-12 col-sm-6 col-md-4 my-5 mx-auto">
+					  <div class="skills h-100">
 					  	<div class="icon-align">
 							<i class="icofont icofont-4x icofont-tools-alt-2"></i>
 						</div>
