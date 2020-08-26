@@ -34,7 +34,7 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="portfolio.php">
-							<span class="badge">8</span>
+							<span class="badge">20</span>
 							<span class="icofont icofont-bell"  aria-hidden="true"></span>
 							Portfolio
 						</a>

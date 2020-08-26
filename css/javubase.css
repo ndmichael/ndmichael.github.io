@@ -99,24 +99,27 @@ section#intro-header h1{
 	color: #fff;
 } 
 section#intro-header h2 {
-    color: gold;
+    color: #dee2e6;
     font-size: 4rem;
 	font-weight: 900;
 	
 }
 
 section#intro-header p{
-	color: #fff;
+	color: gold;
+	font-weight: 700;
 }
 
 .scroll-down{
-	position: absolute;
-	bottom: 5rem;
-	left: 50%;
-	transform: translateX(-50%);
+	position: relative;
+	bottom: 8em;
+/*	left: 50%;*/
+/*	transform: translateX(-50%);*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	widows: auto;
+	height: auto;
 	
 
 }
@@ -228,6 +231,9 @@ section#contactMe label.control-label{
 	transition: all 0.4s ease-in-out;
 } 
 
+
+/* **Csss style rules for the skills section ** */
+
 #skill{
 	background: #434343;
 }
@@ -237,20 +243,10 @@ section#contactMe label.control-label{
 	background: #434343;
 	border-radius: 20px 10px;
 	box-shadow:  -6px -6px 20px rgba(08, 08, 08, 0.5), inset  6px 6px 20px rgba(67, 67, 67, 0.5);
-	position: relative;
 	
 }
 
-#skill  .icofont-data, .icofont-code, .icofont-tools-alt-2 {
-	display: inline-block;
-	justify-content: center;
-	padding: 15px;
-	color: gold;
-	background: #080808;
-	border: 5px solid #535353;
-	border-radius: 50%;
-	transform: translate(110%, -55%);
-}
+
 
 #skill h1{
 	padding: 0.7em 0;
@@ -258,24 +254,44 @@ section#contactMe label.control-label{
 
 #skill h2{
 	text-align: center;
-	margin-top: -30px;
+	margin-top: 0.4em;
 	color: #dee2e6;
 }
+
 
 #skill ul{
 	margin-left: -20px;
 	font-weight: 300;
-	overflow: hidden;
 	list-style: none;
 	list-style-position: inside;
 }
 
 #skill ul li{
 	text-align: left;
-	width: 100%;
-	height: auto;
 	overflow: hidden;
 	padding-bottom: 2px 0;
+}
+
+
+
+#skill ul li span{
+	display: block;
+	color: #dee2e6;
+}
+
+#skill  .icofont-data, .icofont-code, .icofont-tools-alt-2 {
+	padding: 15px;
+	color: gold;
+	background: #080808;
+	border: 5px solid #535353;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+}
+
+.icon-align{
+	text-align: center;
+	margin-top: -50px;
 }
 
 #skill ul .icofont{
@@ -284,15 +300,10 @@ section#contactMe label.control-label{
 	padding:0.44em 0;
 }
 
-#skill ul li span{
-	display: block;
-	overflow: hidden;
-	color: #dee2e6;
-}
-
 #skill nav{
 	padding: .2em 0 2em 0;
 }
+
 
 .nav-tabs .nav-link.active, 
 .nav-tabs .nav-item.show .nav-link {
@@ -319,9 +330,7 @@ section#contactMe label.control-label{
 }
 
 @media (min-width: 34em){
-	#skill  .icofont-data, .icofont-code, .icofont-tools-alt-2 {
-	transform: translate(65%, -55%);
-}
+	
 }
 
 
