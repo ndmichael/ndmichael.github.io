@@ -105,7 +105,7 @@
 			<div class="tab-content" id="nav-tabContent">
 			  <div class="ntab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 				  <div class="row">
-					<div class="col col-12 col-sm-6 col-md-4 my-5">
+					<div class="col col-12 col-md-6 col-lg-4  my-5">
 					  <div class="skills h-100">
 						  <div class="icon-align">
 							  <i class="icofont icofont-4x icofont-data"></i>
@@ -150,8 +150,8 @@
 					  </div>
 					  
 				  	</div>
-				  <div class="col col-12 col-sm-6 col-md-4 my-5">
-					 <div class="skills h-100">
+				  <div class="col col-12 col-md-6 col-lg-4 my-5">
+					 <div class="skills h-100"> 
 						 <div class="icon-align">
 						 	<i class="icofont icofont-4x icofont-code"></i>
 						 </div>
@@ -182,7 +182,7 @@
 					 </div>	
 					  
 				  </div>
-				  <div class="col col-12 col-sm-6 col-md-4 my-5 mx-auto">
+				  <div class="col col-12 col-md-6 col-lg-4 my-5 mx-auto">
 					  <div class="skills h-100">
 					  	<div class="icon-align">
 							<i class="icofont icofont-4x icofont-tools-alt-2"></i>
@@ -208,12 +208,188 @@
 						  </ul>
 					  </div>
 					  
-				  </div>
+				  </div>		  
 			  	  
 			  </div>
 			</div>
 			  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">bullshit 2</div>
 			
+		</div>
+	</section>
+		
+	<section id="projects">
+		<div class="container">
+			<ul class="nav nav-pills" id="myTab" role="tablist">
+			  <li class="nav-item">
+				<a class="nav-link active" id="home-tab" data-toggle="tab" href="#all" role="tab" aria-controls="home" aria-selected="true">All</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+			  </li>
+			</ul>
+			
+			
+			<div class="tab-content" id="myTabContent">
+			  <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="home-tab">
+				<div class="row">
+					  <div class="col col-12 col-md-6 col-lg-4 ">
+						<div class="card">
+						  <img class="card-img-top img-fluid" src="images/kiki_port.jpg" alt="Card image cap">
+						  <div class="card-header">
+							<h5 >E-Commerce </h5>
+						  </div>
+						  <div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						  <div class="card-footer">
+							<div class="d-flex flex-row justify-content-between">
+								<span>
+									<button class="btn btn-warning">Live Preview</button>
+								</span>
+								<span>
+									<button class="btn btn-outline-light">Github Code</button>
+								</span>
+							</div>
+						  </div>
+						</div> <!-- E commerce card  -->	 
+					</div>
+					
+					<div class="col col-12 col-md-6 col-lg-4 ">
+						<div class="card h-100">
+						  <img class="card-img-top img-fluid" src="images/CMForm2.png" alt="Card image cap">
+						  <div class="card-header">
+							<h5 >Student Class Form </h5>
+						  </div>
+						  <div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						  <div class="card-footer">
+							<div class="d-flex flex-row justify-content-between">
+								<span>
+									<button class="btn btn-warning">Live Preview</button>
+								</span>
+								<span>
+									<button class="btn btn-outline-light">Github Code</button>
+								</span>
+							</div>
+						  </div>
+						</div> <!-- Class Management Form  -->
+					</div>
+					
+					<div class="col col-12 col-md-6 col-lg-4 ">
+						<div class="card h-100">
+							<img class="card-img-top img-fluid" src="images/number_pyramid.png" alt="Card image cap">
+						  
+						  <div class="card-header">
+							<h5>Numeric Pyramid Pattern</h5>
+						  </div>
+						  <div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						  <div class="card-footer">
+							<div class="d-flex flex-row justify-content-between">
+								<span>
+									<button class="btn btn-warning">Live Preview</button>
+								</span>
+								<span>
+									<button class="btn btn-outline-light">Github Code</button>
+								</span>
+							</div>
+						  </div>
+						</div> <!-- Class Management Form  -->
+					</div>
+					
+					<div class="col col-12 col-md-6 col-lg-4 ">
+						<div class="card h-100">
+							<img class="card-img-top img-fluid" src="images/number_pyramid.png" alt="Card image cap">
+						  
+						  <div class="card-header">
+							<h5>Numeric Pyramid Pattern</h5>
+						  </div>
+						  <div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						  <div class="card-footer">
+							<div class="d-flex flex-row justify-content-between">
+								<span>
+									<button class="btn btn-warning">Live Preview</button>
+								</span>
+								<span>
+									<button class="btn btn-outline-light">Github Code</button>
+								</span>
+							</div>
+						  </div>
+						</div> <!-- Class Management Form  -->
+					</div>
+					
+					<div class="col col-12 col-md-6 col-lg-4 ">
+						<div class="card h-100">
+							<img class="card-img-top img-fluid" src="images/number_pyramid.png" alt="Card image cap">
+						  
+						  <div class="card-header">
+							<h5>Numeric Pyramid Pattern</h5>
+						  </div>
+						  <div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						  <div class="card-footer">
+							<div class="d-flex flex-row justify-content-between">
+								<span>
+									<button class="btn btn-warning">Live Preview</button>
+								</span>
+								<span>
+									<button class="btn btn-outline-light">Github Code</button>
+								</span>
+							</div>
+						  </div>
+						</div> <!-- Class Management Form  -->
+					</div>
+					
+					<div class="col col-12 col-md-6 col-lg-4 ">
+						<div class="card h-100">
+							<img class="card-img-top img-fluid" src="images/number_pyramid.png" alt="Card image cap">
+						  
+						  <div class="card-header">
+							<h5>Numeric Pyramid Pattern</h5>
+						  </div>
+						  <div class="card-body">
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						  <div class="card-footer">
+							<div class="d-flex flex-row justify-content-between">
+								<span>
+									<button class="btn btn-warning">Live Preview</button>
+								</span>
+								<span>
+									<button class="btn btn-outline-light">Github Code</button>
+								</span>
+							</div>
+						  </div>
+						</div> <!-- Class Management Form  -->
+					</div>
+					
+					
+					
+					
+						  
+					
+				</div>
+			  	
+			  </div> <!-- end of all tab -->
+				
+				
+				
+				
+				
+				
+			  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+			  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+			</div>
+			
+				
 		</div>
 	</section>
 		
