@@ -328,6 +328,35 @@ section#contactMe label.control-label{
 	
 }
 
+
+
+#projects  .card-header{
+	color: #434343;
+    background-color: #dee2e6;
+	text-transform: capitalize;
+	font-weight: 700;
+	font-size: 1.2em;
+	
+}
+
+#projects .card-body{
+	background-color: #fff;
+}
+
+#projects  .card-text{
+	color: #434343;
+}
+
+#projects .card-footer{
+	background-color: #434343;
+}
+
+#projects .card-footer > span{
+	display: inline-block;
+	width: 100%;
+}
+
+
 @media (min-width: 34em){
 	
 }
