@@ -330,18 +330,18 @@ section#contactMe label.control-label{
 
 
 #projects{
-	background: #535353;
-	padding: 2em 0;
+	background: #434343;
+	padding: 1em 0;
 }
 
 #projects h1{
-	padding: 0.7em 0;
+	padding: 0.5em 0;
 }
 
 #projects  .card{
 	overflow: hidden;
 	border-radius: 20px;
-	margin: 0.8em;
+	margin: 1em;
 	border: none;
 	background: none;
 /*	box-shadow:  -6px -6px 20px rgba(08, 08, 08, 0.5), inset  6px 6px 20px rgba(67, 67, 67, 0.5);*/
@@ -362,11 +362,11 @@ section#contactMe label.control-label{
 }
 
 #projects  .card-text{
-	color: #434343;
+	color: #343434;
 }
 
 #projects .card-footer{
-	background-color: #434343;
+	background-color: #535353;
 }
 
 #projects .card-footer > span{
