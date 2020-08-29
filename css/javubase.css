@@ -329,6 +329,24 @@ section#contactMe label.control-label{
 }
 
 
+#projects{
+	background: #535353;
+	padding: 2em 0;
+}
+
+#projects h1{
+	padding: 0.7em 0;
+}
+
+#projects  .card{
+	overflow: hidden;
+	border-radius: 20px;
+	margin: 0.8em;
+	border: none;
+	background: none;
+/*	box-shadow:  -6px -6px 20px rgba(08, 08, 08, 0.5), inset  6px 6px 20px rgba(67, 67, 67, 0.5);*/
+}
+
 
 #projects  .card-header{
 	color: #434343;
@@ -355,6 +373,21 @@ section#contactMe label.control-label{
 	display: inline-block;
 	width: 100%;
 }
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+	background: transparent;
+	color: gold;
+}
+
+.nav-pills .nav-link{
+	color: #dee2e6;
+    font-size: 16px;
+    font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+
 
 
 @media (min-width: 34em){
