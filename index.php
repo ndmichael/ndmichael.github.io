@@ -219,7 +219,8 @@
 		
 	<section id="projects">
 		<div class="container">
-			<ul class="nav nav-pills" id="myTab" role="tablist">
+			<h1>Projects</h1>
+			<ul class="nav nav-pills my-4" id="myTab" role="tablist">
 			  <li class="nav-item">
 				<a class="nav-link active" id="home-tab" data-toggle="tab" href="#all" role="tab" aria-controls="home" aria-selected="true">All</a>
 			  </li>
@@ -258,7 +259,7 @@
 					</div>
 					
 					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card h-100">
+						<div class="card">
 						  <img class="card-img-top img-fluid" src="images/CMForm2.png" alt="Card image cap">
 						  <div class="card-header">
 							<h5 >Student Class Form </h5>
@@ -280,7 +281,7 @@
 					</div>
 					
 					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card h-100">
+						<div class="card">
 							<img class="card-img-top img-fluid" src="images/number_pyramid.png" alt="Card image cap">
 						  
 						  <div class="card-header">
@@ -303,11 +304,11 @@
 					</div>
 					
 					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card h-100">
+						<div class="card">
 							<img class="card-img-top img-fluid" src="images/number_pyramid.png" alt="Card image cap">
 						  
 						  <div class="card-header">
-							<h5>Numeric Pyramid Pattern</h5>
+							<h5>Lotto Game</h5>
 						  </div>
 						  <div class="card-body">
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -326,11 +327,11 @@
 					</div>
 					
 					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card h-100">
+						<div class="card">
 							<img class="card-img-top img-fluid" src="images/number_pyramid.png" alt="Card image cap">
 						  
 						  <div class="card-header">
-							<h5>Numeric Pyramid Pattern</h5>
+							<h5>Recipe App</h5>
 						  </div>
 						  <div class="card-body">
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -349,11 +350,11 @@
 					</div>
 					
 					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card h-100">
+						<div class="card">
 							<img class="card-img-top img-fluid" src="images/number_pyramid.png" alt="Card image cap">
 						  
 						  <div class="card-header">
-							<h5>Numeric Pyramid Pattern</h5>
+							<h5>Beautiful Heart Pattern</h5>
 						  </div>
 						  <div class="card-body">
 							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
