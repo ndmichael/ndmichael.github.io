@@ -360,7 +360,7 @@
 		</div>
 	</section>
 	
-	<section id="skill">
+	<section id="skills">
 		<div class="container">
 			<h1>Skills</h1>
 			<nav>
@@ -373,7 +373,7 @@
 			  <div class="ntab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 				  <div class="row">
 					<div class="col col-12 col-md-6 col-lg-4  my-5">
-					  <div class="skills h-100">
+					  <div class="skill h-100">
 						  <div class="icon-align">
 							  <i class="icofont icofont-4x icofont-data"></i>
 						  </div>  
@@ -418,7 +418,7 @@
 					  
 				  	</div>
 				  <div class="col col-12 col-md-6 col-lg-4 my-5">
-					 <div class="skills h-100"> 
+					 <div class="skill h-100"> 
 						 <div class="icon-align">
 						 	<i class="icofont icofont-4x icofont-code"></i>
 						 </div>
@@ -450,7 +450,7 @@
 					  
 				  </div>
 				  <div class="col col-12 col-md-6 col-lg-4 my-5 mx-auto">
-					  <div class="skills h-100">
+					  <div class="skill h-100">
 					  	<div class="icon-align">
 							<i class="icofont icofont-4x icofont-tools-alt-2"></i>
 						</div>

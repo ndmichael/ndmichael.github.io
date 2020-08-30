@@ -35,7 +35,7 @@ p{
 	font-size: 1em;
 	line-height: 1.5;
 	letter-spacing: 1px;
-	color: #ffffff;
+	color: #dee2e6;
 	font-family: "apercu",sans-serif;
 }
 
@@ -82,10 +82,10 @@ section#intro-header #headline{
 }
 
 section#intro-header{
-	background: linear-gradient(90deg, rgba(08, 08, 08,  0.8), rgba(08, 08, 08,  0.8)), url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
-    background-position: center;
+	background: linear-gradient(90deg, rgba(08, 08, 08,  0.7), rgba(08, 08, 08,  0.7)), url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     position: relative;
 	height: 100vh;
 	width: 100%;
@@ -163,20 +163,22 @@ section#intro-header p{
 
 
 
-/* the mainpage about section */
+/* the about section */
 section#about{
 	background: #1B1B1B;
-	padding-top: 2rem;
+	padding: 4em 0;
+	width: 100%;
+		
 }
 
 section#about img{
-	margin-top: 2rem;
-	margin-bottom: 3rem;
+	margin-top: 3em;
+	margin-bottom: 3em;
 	
 }
 
 section#about h3{
-	margin-top: 3rem;
+	margin-top: 4.5em;
 }
 
 
@@ -239,10 +241,12 @@ section#contactMe label.control-label{
 
 /* **Csss style rules for the skills section ** */
 
-#skill{
+#skills{
 	background: #434343;
+	padding: 4em 0;
+	
 }
-.skills{
+.skill{
 	padding: 0.5em;
 	background: #434343;
 	border-radius: 20px 10px;
@@ -252,25 +256,25 @@ section#contactMe label.control-label{
 
 
 
-#skill h1{
+#skills h1{
 	padding: 0.7em 0;
 }
 
-#skill h2{
+#skills h2{
 	text-align: center;
 	margin-top: 0.4em;
 	color: #dee2e6;
 }
 
 
-#skill ul{
+#skills ul{
 	margin-left: -20px;
 	font-weight: 300;
 	list-style: none;
 	list-style-position: inside;
 }
 
-#skill ul li{
+#skills ul li{
 	text-align: left;
 	overflow: hidden;
 	padding-bottom: 2px 0;
@@ -278,12 +282,12 @@ section#contactMe label.control-label{
 
 
 
-#skill ul li span{
+#skills ul li span{
 	display: block;
 	color: #dee2e6;
 }
 
-#skill  .icofont-data, .icofont-code, .icofont-tools-alt-2 {
+#skills  .icofont-data, .icofont-code, .icofont-tools-alt-2 {
 	padding: 15px;
 	color: gold;
 	background: #080808;
@@ -298,13 +302,13 @@ section#contactMe label.control-label{
 	margin-top: -50px;
 }
 
-#skill ul .icofont{
+#skills ul .icofont{
 	color: #ffdf00;
 	float: left;
 	padding:0.44em 0;
 }
 
-#skill nav{
+#skills nav{
 	padding: .2em 0 2em 0;
 }
 
@@ -336,7 +340,7 @@ section#contactMe label.control-label{
 
 #projects{
 	background: #434343;
-	padding: 1em 0;
+	padding: 4em 0;
 }
 
 #projects h1{
@@ -396,7 +400,7 @@ section#contactMe label.control-label{
 
 
 @media (min-width: 34em){
-	
+
 }
 
 
