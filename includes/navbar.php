@@ -21,24 +21,25 @@
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="contact.php">
+						<a class="nav-link" href="#projects">
+							<span class="badge">20</span>
+							<span class="icofont icofont-bell"  aria-hidden="true"></span>
+							Project
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">
 							<span class="icofont icofont-man-in-glasses" aria-hidden="true"></span>
 							About
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="contact.php">
+						<a class="nav-link" href="#skills">
 							<span class="icofont icofont-architecture-alt" aria-hidden="true"></span>
 							Skills
 						</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="portfolio.php">
-							<span class="badge">20</span>
-							<span class="icofont icofont-bell"  aria-hidden="true"></span>
-							Portfolio
-						</a>
-					</li>
+					
 					
 					
 					<li class="nav-item">
