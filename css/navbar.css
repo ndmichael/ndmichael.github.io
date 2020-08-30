@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Slab&family=Russo+One&display=swap');
+
 
 /*
 **** 
@@ -17,12 +19,14 @@
 
 
 /** Adding the required styling by overriding  bootstrap default **/
+
 .navbar-expand-lg{
 	background: #1B1B1B;
 	text-transform: uppercase;
-	font-weight: bold;
-	font-family: lucida sans, 'Arial';
+	font-weight: 100;
+	font-family: 'Russo One', sans-serif;
 	padding: 0px  !important;
+	
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{

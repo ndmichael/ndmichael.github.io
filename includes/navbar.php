@@ -43,9 +43,9 @@
 					
 					
 					<li class="nav-item">
-						<a class="nav-link" href="contact.php">
+						<a class="nav-link" href="#contacts">
 							<span class="icofont icofont-mail" aria-hidden="true"></span>
-							Contact Me
+							Contact
 						</a>
 					</li>
 				</ul>

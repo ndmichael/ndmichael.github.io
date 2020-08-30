@@ -15,12 +15,22 @@
 <link rel="stylesheet" href="css/javubase.css" />
 <link rel="stylesheet" href="css/navbar.css" />	
 <link rel="stylesheet" href="css/footer.css" />
+	
+	<style>
+	p#error{
+		margin-top: 3.2%;
+		text-align: center;
+	}	
+</style>
 </head>
 
 <body>
 	
 	<!-- the nav included via php -->
-	 <?php include ("./includes/navbar.php");  ?> 
+	 <?php include ("./includes/navbar.php");  ?>  
+	
+	
+	<?php include ("./includes/contactform_validator.php"); ?>
 	
 	
 	
@@ -32,9 +42,10 @@
 					<h1 class="h4">Hello, I am</h1>
 					<h2 class="h1">Ukeje Michael</h2>	
 					<p>A Software Engineer</p>
+<!--					<p>I am fascinated by anything that lives, and breathes  on the cyber space</p>-->
 					
 						<button class="btn btn-primary btn-lg">See Projects</button>
-						<button class="btn btn-lg btn-outline-light">Hire Me</button>
+						<button class="btn btn-lg btn-outline-light">Get In Touch</button>
 					</p>
 				</div>
 			
@@ -140,10 +151,11 @@
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
 								<span>
-									<button class="btn btn-warning">Live Preview</button>
+									<button class="btn btn-warning btn-sm">Live Preview</button>
 								</span>
 								<span>
-									<button class="btn btn-outline-light">Source Code</button>
+<!--									<button class="btn btn-outline-light">Source Code</button>-->
+								<span><i class="icofont icofont-code icofont-1x"></i></span>
 								</span>
 							</div>
 						  </div>
@@ -382,35 +394,35 @@
 						<ul>
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Python - Django, Flask, Pandas</span>
+								<p>Python - Django, Flask, Pandas</p>
 							</li>  
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>JavaScript - NodeJS, TypeScript</span></li> 
+								<p>JavaScript - NodeJS, TypeScript</p></li> 
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>PHP, Laravel</span>
+								<p>PHP, Laravel</p>
 							</li> 
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>C Language</span>
+								<p>C Language</p>
 						 	</li> 
 
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Google Cloud Platform - (Firebase, Firestore)</span>
+								<p>Google Cloud Platform - (Firebase, Firestore)</p>
 							</li> 
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>AWS - (S3, Lambda)</span>
+								<p>AWS - (S3, Lambda)</p>
 							</li> 
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Heroku</span>
+								<p>Heroku</p>
 							</li>
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Databases - MySql, PostgreSql, MongoDB</span>
+								<p>Databases - MySql, PostgreSql, MongoDB</p>
 							</li>
 							
 						</ul>
@@ -427,23 +439,23 @@
 						 <ul>
 						 	<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Javascript / ReactJS / jQuery</span>
+								<p>Javascript / ReactJS / jQuery</p>
 							 </li>
 							 <li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>HTML5, CSS3</span>
+								<p>HTML5, CSS3</p>
 							 </li>
 							 <li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Bootstrap</span>
+								<p>Bootstrap</p>
 							 </li>
 							 <li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Materialize CSS</span>
+								<p>Materialize CSS</p>
 							</li>
 							 <li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Wordpress</span>
+								<p>Wordpress</p>
 							</li>
 						 </ul>
 					 </div>	
@@ -458,19 +470,19 @@
 						  <ul>
 						  	<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Git and Github</span>
+								<p>Git and Github</p>
 							</li>
 							<li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Rest API</span>
+								<p>Rest API</p>
 							</li>
 							 <li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Google Classroom, Google Doc </span>
+								<p>Google Classroom, Google Doc </p>
 							 </li>
 							  <li>
 								<i class="icofont icofont-tick-mark pr-2"></i>
-								<span>Microsoft Office</span>
+								<p>Microsoft Office</p>
 							 </li>
 						  </ul>
 					  </div>
@@ -483,6 +495,45 @@
 			
 		</div>
 	</section>
+		
+		<section id="contacts">
+			<div class="container">
+				<h1>Contact</h1>
+				
+				<div class="row">
+					<div class="col col-12 col-md-6 social_contact">
+					
+					</div>
+					
+					<div class="col col-12 col-md-6">
+						<p id="error" class="text-danger"><?php if (!empty($error)) echo $error; if($success) echo $success_message;  ?></p>
+						<form class="form-horizontal" id="contact_form" method="post" action="<?php $_SERVER['REQUEST_URI'] ?>">
+<!--							htmlspecialchars($_SERVER['REQUEST_URI'])-->
+			
+					<div class="form-group">
+						<input class="form-control" type="email" id="contact_email" name="contact_email" value="<?php if(isset($email)) echo $email; ?>" maxlength="30"  required />
+						<label for="Email">Email address</label>
+					</div>
+					<div class="form-group">
+						<input class="form-control" type="text" id="contact_topic" name="contact_topic" value="<?php if(isset($topic)) echo $topic; ?>" maxlength="50" required />
+						<label for="Topic">Subject</label>
+					</div>
+					<div class="form-group">
+						<textarea class="form-control" rows="3" id="msg" name="msg"  maxlength="150" required><?php if(isset($message)) echo $message; ?></textarea>
+						<label for="Topic">Your message</label>
+					</div>
+						<div>
+							<input type="submit" class="btn btn-outline-secondary btn-lg btn-block" name="submit" id="submit" value="Send Message" />
+						</div>
+
+				</form>
+					</div>
+				</div>
+			</div>
+		
+		</section>
+		
+
 		
 	
 	
@@ -506,7 +557,12 @@
 		
 		}	
 
-
   	</script>	
+	<!-- prevents user from refreshing and resubmitting form after submitted -->
+	<script>
+			if (window.history.replaceState){
+				window.history.replaceState(null, null, window.location.href);
+			}
+	</script>
 </body>
 </html>

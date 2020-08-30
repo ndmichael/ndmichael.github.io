@@ -3,7 +3,6 @@
 $success = false; // variable to check and print successful message
 
 if (isset($_POST['submit'])){
-	$name = clean_data($_POST['contact_name']);
 	$email = clean_data($_POST['contact_email']);
 	$topic = clean_data($_POST['contact_topic']);
 	$message = clean_data($_POST['msg']);
@@ -11,32 +10,25 @@ if (isset($_POST['submit'])){
 	$success_message = "<span class='text-success'>Message has been submitted successfully<br /> do check your email for confirmation</span>";
 	$error =  "";
 	// check if above one field empty, two field empty, or all field empty then set error message
-	if ((empty($name) && empty($email) && empty($topic) && empty($message)) or (!empty($name) && empty($email) && empty($topic) && empty($message)) or
+	if ((empty($email) && empty($topic) && empty($message)) or (!empty($name) && empty($email) && empty($topic) && empty($message)) or
 	   (empty($name) && !empty($email) && empty($topic) && empty($message)) or (empty($name) && empty($email) && !empty($topic) && empty($message)) or
 	   (empty($name) && empty($email) && empty($topic) && !empty($message)))  {
 		$error = "all fields musn't be empty";
 	}
 
-	elseif ((empty($name)) && (!empty($email)) && (!empty($topic)) && (!empty($message))){
-		$error = "name cant be empty";
-
-	}
-	elseif ((!empty($name)) && (empty($email)) && (!empty($topic)) && (!empty($message))){
+	elseif ((empty($email)) && (!empty($topic)) && (!empty($message))){
 		$error = "Email cant be empty";
 
 	}
-	elseif ((!empty($name)) && (!empty($email)) && (empty($topic)) && (!empty($message))){
+	elseif ( (!empty($email)) && (empty($topic)) && (!empty($message))){
 		$error = "subject cant be empty";
 
 	}
-	elseif ((!empty($name)) && (!empty($email)) && (!empty($topic)) && (empty($message))){
+	elseif ((!empty($email)) && (!empty($topic)) && (empty($message))){
 		$error = "message cant be empty";
 
 	}
-	elseif ((strlen($name) < 3)){
-		$error = "name shouldnt be less than 3";
-		
-	}
+	
 	elseif ((strlen($topic) < 5)){
 		$error = "Topic Can't be less than 5";
 		
@@ -47,14 +39,14 @@ if (isset($_POST['submit'])){
 	}
 	else{
 		$dbc = mysqli_connect('localhost', 'root', '', 'codejavu_db');
-		$query = "INSERT INTO contact_tb (c_name, c_topic, email, c_message, ts) VALUES('$name', '$topic', '$email', '$message', NOW())";
+		$query = "INSERT INTO contact_tb (c_topic, email, c_message, ts) VALUES('$topic', '$email', '$message', NOW())";
 		mysqli_query($dbc, $query) or die ("cant access database");
 		$from = 'Papercut@user.com';
 		$mail_subject = "contact message successfully recieved";
 		$to = $email;		
-		$mailed_msg = "Dear $name, Thank you for contacting us \n I will get back to you via your email address";
+		$mailed_msg = "Dear $email, Thank you for contacting Me \n I will get back to you via your email address";
 		mail ($to, $mail_subject, $mailed_msg, 'from:' . $from);
-		$name = $message = $topic = $email = "";
+		$message = $topic = $email = "";
 		$success = true; // boolean set to true for success message
 		mysqli_close($dbc);
 		

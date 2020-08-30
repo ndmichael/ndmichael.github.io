@@ -1,6 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css?family=Cardo|Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto&family=Russo+One&display=swap');
+
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Russo One', sans-serif;
+*/
 
 body{
 	font-weight: 400;
@@ -11,8 +17,7 @@ body{
 }
 
 section{
-	width:100%;
-	height: 100%;
+	min-height: 100vh;
 }
 
 h1, h2{
@@ -20,23 +25,25 @@ h1, h2{
 	color: gold;
 	font-weight: 500;
 	font-size: 2.0em;
-	font-family: 'berlin sans fb', 'berlin sans fb demi';
+	font-family: 'Russo One', sans-serif;
 }
 h3, h4{
 	font-weight: 500;
 	font-size: 1.7em;
 	text-transform: capitalize;
-	font-family: 'berlin sans fb', 'berlin sans fb demi';
 	word-spacing: .2em;
+	font-family: 'Russo One', sans-serif;
+	
 }
 
 p{
 	font-weight: 300;
-	font-size: 1em;
+	font-size: 0.85em;
 	line-height: 1.5;
 	letter-spacing: 1px;
 	color: #dee2e6;
-	font-family: "apercu",sans-serif;
+/*	font-family: "apercu",sans-serif;*/
+	font-family: 'Roboto Slab', serif;
 }
 
 hr{
@@ -83,11 +90,11 @@ section#intro-header #headline{
 
 section#intro-header{
 	background: linear-gradient(90deg, rgba(08, 08, 08,  0.7), rgba(08, 08, 08,  0.7)), url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
-    background-position: right;
+    background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
 }
 section#intro-header #headline{
@@ -100,19 +107,19 @@ section#intro-header #headline{
 }
 
 section#intro-header h1{
-	font-weight: 700;
+	font-weight: 500;
 	color: #fff;
 } 
 section#intro-header h2 {
     color: #dee2e6;
-    font-size: 4rem;
+    font-size: 4.5rem;
 	font-weight: 900;
 	
 }
 
 section#intro-header p{
 	color: gold;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .scroll-down{
@@ -168,6 +175,7 @@ section#about{
 	background: #1B1B1B;
 	padding: 4em 0;
 	width: 100%;
+	min-height: 100vh;
 		
 }
 
@@ -184,59 +192,91 @@ section#about h3{
 
 /*CSS for contact form ON THE BODY*/
 
-
-section#contactMe{
-        margin-top: 3.5em;
-	padding-bottom: 3rem;
-	font-weight:500;
+#contacts{
+	position: relative;
+	padding: 4em 0;
+	background: rgba(08, 08, 08, 0.8);
+	min-height: 100vh;
 }
 
-section#contactMe h1{
-	font-weight:600;
-	text-align: center;
-	text-transform: uppercase;
+#contacts:before{
+	content: "";
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 50%;
+	height:100%;
 	
 }
 
-section#contactMe label.control-label{
-	color: seagreen;
-	font-weight: 900;
+#contacts  .social_contact{
+	background: linear-gradient(90deg, rgba(08, 08, 08,  0.7), rgba(08, 08, 08,  0.7)), url("../images/../images/icon-set-1142000_1280.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+	z-index: 5;
 }
 
-.control-override {
-
-    display: block;
-    height: 50px;
-    padding: 6px 12px;
-    font-size: 20px;
-    line-height: 1.42857143;
-    color: #5E5B5B;
-	background-color: transparent;
-	background-image: none;
-	border-bottom: 1px thick #686767;
-	-webkit-box-shadow: 0 2px 7px rgba(128,128,120,1); 
-	box-shadow: 0 5px 2px 10px green;
-	border-radius: 10px;	
-
-
+#contacts form{
+	padding: 20px;
+	
 }
 
-.textarea-override{
-	border: 2px solid #686767;
+.form-group{
+	position: relative;
 }
 
-.btn-override{
-	padding: 10px;
+.form-control {
+	height: 50px;
+	font-size: 20px;
+	border: none;
+	border-bottom: 1px solid #dee2e6;
+	background: transparent !important;
+	border-radius: 0;
+	color: #dee2e6;	
+	margin-bottom: 25px;
 }
-.btn-override input{
-	margin: 0 10px 5px 10px;
-	box-shadow: -3px 4px 4px grey;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.4s ease-in-out;
-	-ms-transition: all 0.4s ease-in-out;
-	-o-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-} 
+
+.form-control:focus{
+	box-shadow: none;
+	border-bottom: 2px solid gold;
+	transition: All .5s;
+	color: #fff;
+}
+
+.form-group label{
+	position: absolute;
+	top: 0;
+	font-size: 1.2em;
+	transition: top .5s;	
+	
+}
+
+
+.form-control:focus + label,
+.form-control:valid + label{
+	top: -20px;
+	font-size: 0.8em;
+	background: transparent !important;
+	color: gold;
+}
+
+.form-control:focus,
+.form-control:valid{
+	border: none;
+	border-bottom: 2px solid gold;
+	background: transparent !important;
+}
+
+/**Removing chrome auto fill**/
+.form-control:-webkit-autofill,
+.form-control:-webkit-autofill:hover,
+.form-control:-webkit-autofill:focus,
+.form-control:-webkit-autofill:active {
+	transition: background-color 5000s ease-in-out;
+	-webkit-text-fill-color: #fff !important;
+}
+
 
 
 /* **Csss style rules for the skills section ** */
@@ -263,13 +303,13 @@ section#contactMe label.control-label{
 #skills h2{
 	text-align: center;
 	margin-top: 0.4em;
-	color: #dee2e6;
+	color: #fff;
 }
 
 
 #skills ul{
 	margin-left: -20px;
-	font-weight: 300;
+	font-weight: 100;
 	list-style: none;
 	list-style-position: inside;
 }
@@ -277,7 +317,6 @@ section#contactMe label.control-label{
 #skills ul li{
 	text-align: left;
 	overflow: hidden;
-	padding-bottom: 2px 0;
 }
 
 
@@ -289,7 +328,7 @@ section#contactMe label.control-label{
 
 #skills  .icofont-data, .icofont-code, .icofont-tools-alt-2 {
 	padding: 15px;
-	color: gold;
+	color: #fff;
 	background: #080808;
 	border: 5px solid #535353;
 	border-radius: 50%;
