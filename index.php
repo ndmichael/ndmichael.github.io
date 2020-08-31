@@ -44,9 +44,9 @@
 					<p>A Software Engineer</p>
 <!--					<p>I am fascinated by anything that lives, and breathes  on the cyber space</p>-->
 						<br />
-						<button class="btn btn-warning btn-lg"><a href="#project">View Project</a></button>
+						<button class="btn btn-warning btn-lg"><a href="#projects">View Project</a></button>
 						<button class="btn btn-lg btn-outline-light">
-							<a href="#contact">Get In Touch</a>
+							<a href="#contacts">Get In Touch</a>
 						</button>
 					</p>
 				</div>
@@ -79,7 +79,7 @@
 				<a class="nav-link active" id="home-tab" data-toggle="tab" href="#all" role="tab" aria-controls="home" aria-selected="true">All</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Web</a>
+				<a class="nav-link" id="profile-tab" data-toggle="tab" href="#web" role="tab" aria-controls="profile" aria-selected="false">Web</a>
 			  </li>
 			  <li class="nav-item">
 				<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Django</a>
@@ -137,7 +137,7 @@
 								</span>
 							</div>
 						  </div>
-						</div> <!-- Class Management Form  -->
+						</div> <!-- Class Management Form card  -->
 					</div>
 					
 					<div class="col col-12 col-md-6 col-lg-4 ">
@@ -172,7 +172,7 @@
 							<h5>Lotto Game</h5>
 						  </div>
 						  <div class="card-body">
-							<p class="card-text">Number Lotto game built with vanilla Javascript. It incremen tuser values depending on how many correct guess.</p>
+							<p class="card-text">Number Lotto game built with vanilla Javascript. It incremen t/ decrement user money depending on how many correct guess.</p>
 						  </div>
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
@@ -243,7 +243,7 @@
 							<h5>Number Converter</h5>
 						  </div>
 						  <div class="card-body">
-							<p class="card-text">A number comverter app built on react that converts number depending on the selected choice. works for binary, hexadecimal, and octal.</p>
+							<p class="card-text">A number converter app built on react that converts number depending on the selected choice. works for binary, hexadecimal, octal, and decimal.</p>
 						  </div>
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
@@ -255,7 +255,7 @@
 								</span>
 							</div>
 						  </div>
-						</div> <!-- Class Management Form  -->
+						</div> <!-- Number Converter card  -->
 					</div>
 					
 					<div class="col col-12 col-md-6 col-lg-4 ">
@@ -289,7 +289,7 @@
 							<h5>Portfolio Website</h5>
 						  </div>
 						  <div class="card-body">
-							<p class="card-text">Afully responsive portfolio that showcase my work and details about my software programming skills.</p>
+							<p class="card-text">A fully responsive portfolio that showcase my work and details about my software programming skills.</p>
 						  </div>
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
@@ -303,17 +303,7 @@
 						  </div>
 						</div> <!-- Portfolio Card  -->
 					</div>
-					
-					
-					
-					
-					
-					
-					
-					
-					
-						  
-					
+							
 				</div>
 			  	
 			  </div> <!-- end of all tab -->
@@ -322,8 +312,151 @@
 				
 				
 				
+			<!-- web section tab -->
+			  <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="profile-tab">
+				  <div class="row">
+				  	<div class="col col-12 col-md-6 col-lg-4 ">
+						<div class="card">
+						  <img class="card-img-top img-fluid" src="images/kiki_port.jpg" alt="Card image cap">
+						  <div class="card-header">
+							<h5 >E-Commerce </h5>
+						  </div>
+						  <div class="card-body">
+							<p class="card-text">An E-Commerce website built on Django for medium scale business, Utilizing django middewares.</p>
+						  </div>
+						  <div class="card-footer">
+							<div class="d-flex flex-row justify-content-between">
+								<span>
+									<button class="btn btn-outline-warning">Live Preview</button>
+								</span>
+								<span>
+									<button class="btn btn-outline-light">Source Code</button>
+								</span>
+							</div>
+						  </div>
+						</div> <!-- E commerce card  -->	 
+					</div>
+					  
+					<div class="col col-12 col-md-6 col-lg-4 ">
+						<div class="card">
+						  <img class="card-img-top img-fluid" src="images/CMForm2.png" alt="Card image cap">
+						  <div class="card-header">
+							<h5 >Student Class Form </h5>
+						  </div>
+						  <div class="card-body">
+							<p class="card-text">Class form built on React using formik reusable component, validated with Yup and styled with ChakaUI.</p>
+						  </div>
+						  <div class="card-footer">
+							<div class="d-flex flex-row justify-content-between">
+								<span>
+									<button class="btn btn-outline-warning">Live Preview</button>
+								</span>
+								<span>
+									<button class="btn btn-outline-light">Source Code</button>
+								</span>
+							</div>
+						  </div>
+						</div> <!-- Class Management Form card  -->
+					</div>
+					  
+					 <div class="col col-12 col-md-6 col-lg-4 ">
+						<div class="card">
+							<img class="card-img-top img-fluid" src="images/portfolio_port2.png" alt="Card image cap">
+						  
+						  <div class="card-header">
+							<h5>Portfolio Website</h5>
+						  </div>
+						  <div class="card-body">
+							<p class="card-text">A fully responsive portfolio that showcase my work and details about my software programming skills.</p>
+						  </div>
+						  <div class="card-footer">
+							<div class="d-flex flex-row justify-content-between">
+								<span>
+									<button class="btn btn-outline-warning">Live Preview</button>
+								</span>
+								<span>
+									<button class="btn btn-outline-light">Github Code</button>
+								</span>
+							</div>
+						  </div>
+						</div> <!-- Portfolio Card  -->
+					</div> 
+					  
+					<div class="col col-12 col-md-6 col-lg-4 ">
+						<div class="card">
+							<img class="card-img-top img-fluid" src="images/Untitled design.jpg" alt="Card image cap">
+						  
+						  <div class="card-header">
+							<h5>Recipe App</h5>
+						  </div>
+						  <div class="card-body">
+							<p class="card-text">Different from your regular app, supports user blogging, authentication and allows users to upload their own recipes.</p>
+						  </div>
+						  <div class="card-footer">
+							<div class="d-flex flex-row justify-content-between">
+								<span>
+									<button class="btn btn-outline-warning">Live Preview</button>
+								</span>
+								<span>
+									<button class="btn btn-outline-light">Source Code</button>
+								</span>
+							</div>
+						  </div>
+						</div> <!-- Recipe app card  -->
+					</div>
+					  
+					<div class="col col-12 col-md-6 col-lg-4 ">
+						<div class="card">
+							<img class="card-img-top img-fluid" src="images/Untitled design.jpg" alt="Card image cap">
+						  
+						  <div class="card-header">
+							<h5>Number Converter</h5>
+						  </div>
+						  <div class="card-body">
+							<p class="card-text">A number converter app built on react that converts number depending on the selected choice. works for binary, hexadecimal, octal, and decimal.</p>
+						  </div>
+						  <div class="card-footer">
+							<div class="d-flex flex-row justify-content-between">
+								<span>
+									<button class="btn btn-outline-warning">Live Preview</button>
+								</span>
+								<span>
+									<button class="btn btn-outline-light">Source Code</button>
+								</span>
+							</div>
+						  </div>
+						</div> <!-- Number Converter card  -->
+					</div>
+					  
+					
+					  <div class="col col-12 col-md-6 col-lg-4 ">
+						<div class="card">
+							<img class="card-img-top img-fluid" src="images/LottoGame.png" alt="Card image cap">
+						  
+						  <div class="card-header">
+							<h5>Lotto Game</h5>
+						  </div>
+						  <div class="card-body">
+							<p class="card-text">Number Lotto game built with vanilla Javascript. It incremen t/ decrement user money depending on how many correct guess.</p>
+						  </div>
+						  <div class="card-footer">
+							<div class="d-flex flex-row justify-content-between">
+								<span>
+									<button class="btn btn-outline-warning">Live Preview</button>
+								</span>
+								<span>
+									<button class="btn btn-outline-light">Source Code</button>
+								</span>
+							</div>
+						  </div>
+						</div> <!-- Lotto Game Card  -->
+					</div>
+					  
+
+				  </div>
+			  </div>
 				
-			  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+				
 			  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
 			</div>
 			
