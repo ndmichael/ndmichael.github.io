@@ -43,15 +43,17 @@
 					<h2 class="h1">Ukeje Michael</h2>	
 					<p>A Software Engineer</p>
 <!--					<p>I am fascinated by anything that lives, and breathes  on the cyber space</p>-->
-					
-						<button class="btn btn-primary btn-lg">See Projects</button>
-						<button class="btn btn-lg btn-outline-light">Get In Touch</button>
+						<br />
+						<button class="btn btn-warning btn-lg"><a href="#project">View Project</a></button>
+						<button class="btn btn-lg btn-outline-light">
+							<a href="#contact">Get In Touch</a>
+						</button>
 					</p>
 				</div>
 			
 								
 				<div class="col-12 col-sm-12">
-					<a href="#" class="scroll-down">
+					<a href="#projects" class="scroll-down">
 						<div class="mouse">
 							<span></span>
 						</div>
@@ -106,7 +108,7 @@
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
 								<span>
-									<button class="btn btn-warning">Live Preview</button>
+									<button class="btn btn-outline-warning">Live Preview</button>
 								</span>
 								<span>
 									<button class="btn btn-outline-light">Source Code</button>
@@ -128,7 +130,7 @@
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
 								<span>
-									<button class="btn btn-warning">Live Preview</button>
+									<button class="btn btn-outline-warning">Live Preview</button>
 								</span>
 								<span>
 									<button class="btn btn-outline-light">Source Code</button>
@@ -151,11 +153,11 @@
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
 								<span>
-									<button class="btn btn-warning btn-sm">Live Preview</button>
+									<button class="btn btn-outline-warning">Live Preview</button>
 								</span>
 								<span>
 <!--									<button class="btn btn-outline-light">Source Code</button>-->
-								<span><i class="icofont icofont-code icofont-1x"></i></span>
+								<span class="btn btn-outline-light">Source Code</span>
 								</span>
 							</div>
 						  </div>
@@ -175,7 +177,7 @@
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
 								<span>
-									<button class="btn btn-warning">Live Preview</button>
+									<button class="btn btn-outline-warning">Live Preview</button>
 								</span>
 								<span>
 									<button class="btn btn-outline-light">Source Code</button>
@@ -198,7 +200,7 @@
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
 								<span>
-									<button class="btn btn-warning">Live Preview</button>
+									<button class="btn btn-outline-warning">Live Preview</button>
 								</span>
 								<span>
 									<button class="btn btn-outline-light">Source Code</button>
@@ -221,7 +223,7 @@
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
 								<span>
-									<button class="btn btn-warning">Live Preview</button>
+									<button class="btn btn-outline-warning">Live Preview</button>
 								</span>
 								<span>
 									<button class="btn btn-outline-light">Source Code</button>
@@ -520,7 +522,7 @@
 					</div>
 					<div class="form-group">
 						<textarea class="form-control" rows="3" id="msg" name="msg"  maxlength="150" required><?php if(isset($message)) echo $message; ?></textarea>
-						<label for="Topic">Your message</label>
+						<label for="Message">Your message</label>
 					</div>
 						<div>
 							<input type="submit" class="btn btn-outline-secondary btn-lg btn-block" name="submit" id="submit" value="Send Message" />

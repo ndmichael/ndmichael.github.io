@@ -7,6 +7,19 @@ font-family: 'Alfa Slab One', cursive;
 font-family: 'Roboto Slab', serif;
 font-family: 'Russo One', sans-serif;
 */
+.btn-outline-warning{
+	border-width: 2px;
+	font-weight: 300;
+	font-family: 'Roboto Slab', serif;
+	
+	
+}
+
+.btn-warning{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+
+}
 
 body{
 	font-weight: 400;
@@ -22,7 +35,7 @@ section{
 
 h1, h2{
 	text-transform: capitalize;
-	color: gold;
+	color: #fff;
 	font-weight: 500;
 	font-size: 2.0em;
 	font-family: 'Russo One', sans-serif;
@@ -42,51 +55,17 @@ p{
 	line-height: 1.5;
 	letter-spacing: 1px;
 	color: #dee2e6;
-/*	font-family: "apercu",sans-serif;*/
 	font-family: 'Roboto Slab', serif;
 }
 
-hr{
-	border: 2px solid grey;
-}
 
-#name{
-	font-weight: 900;
-	font-size: 1.2em;
-	color: ghostwhite;
-	background: -webkit-linear-gradient(right, gold 30%, goldenrod, darkgoldenrod);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-family: 'broadway';
-	
-}
-#name:hover{
-	background: -webkit-linear-gradient(right, gold 10%, goldenrod 10%, seagreen 80%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
 
 /* navbar button group */
 nav .btn-group {
 	margin: 0.8rem 2rem 0 0;
 }
 
-@media(max-width: 48em){
-	nav .btn-group {
-		position: absolute;
-		top: 0;
-		right: 3em; 
-}
-
-
-section#intro-header #headline{
-	margin: 4em auto 8em auto !important;
-	
-	
-	} 
-
-       
-}
+ 
 
 section#intro-header{
 	background: linear-gradient(90deg, rgba(08, 08, 08,  0.7), rgba(08, 08, 08,  0.7)), url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
@@ -120,6 +99,11 @@ section#intro-header h2 {
 section#intro-header p{
 	color: gold;
 	font-weight: 500;
+}
+
+section#intro-header a{
+	text-decoration: none;
+	color: inherit;
 }
 
 .scroll-down{
@@ -173,9 +157,9 @@ section#intro-header p{
 /* the about section */
 section#about{
 	background: #1B1B1B;
-	padding: 4em 0;
+	padding: 25vh 0;
 	width: 100%;
-	min-height: 100vh;
+/*	min-height: 100vh;*/
 		
 }
 
@@ -398,7 +382,7 @@ section#about h3{
 
 
 #projects  .card-header{
-	color: #434343;
+	color: #1b1b1b;
     background-color: #dee2e6;
 	text-transform: capitalize;
 	font-size: 1.2em;
@@ -414,7 +398,7 @@ section#about h3{
 }
 
 #projects .card-footer{
-	background-color: #535353;
+	background-color: #3B3B3B;
 }
 
 #projects .card-footer > span{
@@ -437,9 +421,27 @@ section#about h3{
 }
 
 
+@media(max-width: 48em){
+	nav .btn-group {
+		position: absolute;
+		top: 0;
+		right: 3em; 
 
-@media (min-width: 34em){
+	}
+section#intro-header #headline{
+	margin: 4em auto 8em auto !important;
+	}
+	/* the about section */
+	section#about{
+		background: #1B1B1B;
+		padding: 17vh 0;
+		width: 100%;
 
+	}
+
+	section#about h3{
+		margin-top: 0;
+	}
 }
 
 
