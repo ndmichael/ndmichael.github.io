@@ -683,32 +683,25 @@
 						I also hold a Diploma in Information Technology with a Distinction from Informatics Academics Singapore.  
 						My previous experience includes writing dynamic, responsive Websites and Desktop Applications. 
 						
-<!--
-						I am a Software Engineer, Full-Stack Developer, and Coding instructor, 
-						who is interested in anything that breath, and live on the cyber space.
-						A computer science graduate with first class honors. <br /> <br />
-						I also hold a Diploma in Information Technology with a Distinction from Informatics Academics Singapore.  
-						My previous experience includes writing dynamic, responsive Websites and Desktop Applications. 
--->
-						
 					</p>
 				</div>
 				
 			</div> <!-- end of row 3 -->			
 		</div>
 	</section>
-	
+			
+	<!-- skills section -->
 	<section id="skills">
 		<div class="container">
 			<h1>Skills</h1>
 			<nav>
 			  <div class="nav nav-tabs" id="nav-tab" role="tablist">
-				<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Professional </a>
-				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Personnal</a>
+				<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#coding-skills" role="tab" aria-controls="nav-home" aria-selected="true">Professional </a>
+				<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#soft-skills" role="tab" aria-controls="nav-profile" aria-selected="false">Personnal</a>
 			  </div>
 			</nav>
 			<div class="tab-content" id="nav-tabContent">
-			  <div class="ntab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+			  <div class="tab-pane fade show active" id="coding-skills" role="tabpanel" aria-labelledby="nav-home-tab">
 				  <div class="row">
 					<div class="col col-12 col-md-6 col-lg-4  my-5">
 					  <div class="skill h-100">
@@ -817,7 +810,71 @@
 			  	  
 			  </div>
 			</div>
-			  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">bullshit 2</div>
+				
+		    <div class="tab-pane fade" id="soft-skills" role="tabpanel" aria-labelledby="contact-tab">
+				<div class="container">
+			  <div class="row">
+				<div class="col-6 col-md-4">
+					<h5>self discipline</h5>
+				</div>
+				  
+				<div class="col-6 col-md-4">
+					<h5>Team Work</h5>
+				</div>
+				
+				<div class="col-6 col-md-4">
+					<h5>Time Management</h5>
+				</div>
+				  
+				<div class="col-6 col-md-4">
+					<h5>Respect</h5>
+				</div>
+				  
+				<div class="col-6 col-md-4">
+					<h5>Loyalty</h5>
+				</div>
+				
+				<div class="col-6 col-md-4">
+					<h5>Critical Thinking</h5>
+				</div>
+				 
+				  
+			  </div>
+			</div>
+			</div>
+<!--
+		  <div class="ntab-pane fade show" id="soft-skills" role="tabpanel" aria-labelledby="nav-home-tab">
+			<div class="container">
+			  <div class="row">
+				<div class="col-6 col-md-4">
+					<h5>self discipline</h5>
+				</div>
+				  
+				<div class="col-6 col-md-4">
+					<h5>Team Work</h5>
+				</div>
+				
+				<div class="col-6 col-md-4">
+					<h5>Time Management</h5>
+				</div>
+				  
+				<div class="col-6 col-md-4">
+					<h5>Respect</h5>
+				</div>
+				  
+				<div class="col-6 col-md-4">
+					<h5>Loyalty</h5>
+				</div>
+				
+				<div class="col-6 col-md-4">
+					<h5>Critical Thinking</h5>
+				</div>
+				 
+				  
+			  </div>
+			</div>
+		  </div>
+-->
 			
 		</div>
 	</section>
