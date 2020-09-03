@@ -39,8 +39,8 @@
 
 .navbar-expand-lg .navbar-nav > .active > a{
 	background-color: transparent;
-	color: #fff;
-	border-bottom: 0.8em solid #F9EBEC;
+	color: #ffd700 !important;
+	border-bottom: 0.8em solid #FFF;
 }
 
 

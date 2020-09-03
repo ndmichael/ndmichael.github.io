@@ -68,7 +68,7 @@ nav .btn-group {
  
 
 section#intro-header{
-	background: linear-gradient(90deg, rgba(08, 08, 08,  0.7), rgba(08, 08, 08,  0.7)), url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+	background: linear-gradient(120deg, rgba(27, 27, 27, 0.8) 0%, rgba(54, 69, 79, 0.8) 100%), url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -195,6 +195,7 @@ section#about h3 > span{
 	left: 0;
 	width: 50%;
 	height:100%;
+	background: #dee2e6;
 	
 }
 
@@ -381,7 +382,7 @@ section#about h3 > span{
 
 .soft-skill{
 	position: relative;
-	border-bottom: 5px solid #ffd700;
+	border-bottom: 5px solid #dee2e6;
 	margin-bottom: 4em;
 	z-index: 5;
 	
