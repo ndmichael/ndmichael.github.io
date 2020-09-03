@@ -89,6 +89,7 @@ section#intro-header{
     position: relative;
 	height: 100vh;
 	width: 100%;
+	
 }
 section#intro-header #headline{
 	margin-top: 22%;
@@ -181,6 +182,10 @@ section#about h3{
 	margin-top: 4.5em;
 }
 
+section#about h3 > span{
+	color: #ffd700;
+}
+
 
 /*CSS for contact form ON THE BODY*/
 
@@ -255,6 +260,16 @@ section#contactMe label.control-label{
 }
 
 
+<<<<<<< Updated upstream
+=======
+.skill:hover::before{
+	opacity: 1;
+	z-index: -1;
+	background-color: #1B1B1B;
+	
+}
+
+>>>>>>> Stashed changes
 
 #skills h1{
 	padding: 0.7em 0;
@@ -291,12 +306,25 @@ section#contactMe label.control-label{
 	padding: 15px;
 	color: gold;
 	background: #080808;
-	border: 5px solid #535353;
+	border: 5px solid #dee2e6;
 	border-radius: 50%;
 	display: inline-block;
 	text-align: center;
 }
 
+<<<<<<< Updated upstream
+=======
+#skills  .icofont-data:hover, #skills .icofont-code:hover, #skills .icofont-tools-alt-2:hover {
+	color: #fff;
+	background: #080808;
+	border: 5px solid #ffd700;
+	border-radius: 0;
+	transform: rotate(45deg);
+}
+
+
+
+>>>>>>> Stashed changes
 .icon-align{
 	text-align: center;
 	margin-top: -50px;
@@ -311,6 +339,29 @@ section#contactMe label.control-label{
 #skills nav{
 	padding: .2em 0 2em 0;
 }
+
+#soft-skills{
+	margin-top: 4em;
+}
+
+.soft-skill{
+	position: relative;
+	border-bottom: 5px solid #ffd700;
+	margin-bottom: 4em;
+	z-index: 5;
+	
+}
+
+.soft-skill h5{
+	font-weight: 700px;
+	margin: 0 !important;
+	color: #dee2e6;
+	background: #1b1b1b;
+	display: inline-block;
+	padding: 5px 20px;
+	z-index: 5;
+}
+
 
 
 .nav-tabs .nav-link.active, 
