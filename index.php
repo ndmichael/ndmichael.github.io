@@ -674,7 +674,7 @@
 				</div>
 				
 				<div class="col-12 col-sm-12 col-md-6" data-aos="zoom-in">
-					<h3>My name is Michael</h3>
+					<h3>My name is <span>Michael</span></h3>
 					<p>
 						
 						I am interested in anything that breath, and live on the cyber space.
@@ -814,28 +814,45 @@
 		    <div class="tab-pane fade" id="soft-skills" role="tabpanel" aria-labelledby="contact-tab">
 				<div class="container">
 			  <div class="row">
-				<div class="col-6 col-md-4">
-					<h5>self discipline</h5>
+				<div class="col-12 col-md-6">
+					<div class="soft-skill">
+						<h5>self discipline</h5>
+					</div>
+					
 				</div>
 				  
-				<div class="col-6 col-md-4">
-					<h5>Team Work</h5>
+				<div class="col-12 col-md-6">
+					<div class="soft-skill">
+						<h5>Team Work</h5>
+					</div>
 				</div>
 				
-				<div class="col-6 col-md-4">
-					<h5>Time Management</h5>
+				<div class="col-12 col-md-6">
+					<div class="soft-skill">
+						<h5>Time Management</h5>
+					</div>
+					
 				</div>
 				  
-				<div class="col-6 col-md-4">
-					<h5>Respect</h5>
+				<div class="col-12 col-md-6">
+					<div class="soft-skill">
+						<h5>Respect</h5>
+					</div>
+					
 				</div>
 				  
-				<div class="col-6 col-md-4">
-					<h5>Loyalty</h5>
+				<div class="col-12 col-md-6">
+					<div class="soft-skill">
+						<h5>Loyalty</h5>
+					</div>
+					
 				</div>
 				
-				<div class="col-6 col-md-4">
-					<h5>Critical Thinking</h5>
+				<div class="col-12 col-md-6">
+					<div class="soft-skill">
+						<h5>Critical Thinking</h5>
+					</div>
+					
 				</div>
 				 
 				  
