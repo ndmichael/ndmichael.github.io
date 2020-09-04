@@ -1,5 +1,5 @@
 	<!-- -->
-	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+	<nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top">
 		
 		<div class="container">
 			<a  id="name" class="navbar-brand" href="http://www.codeja-vu.dx.am/index.php">
@@ -15,7 +15,7 @@
 			<div id="nav-menu" class="collapse navbar-collapse navbar-right">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="index.php">
+						<a class="nav-link" href="#intro-header">
 							<span class="icofont icofont-home" aria-hidden="true"></span>
 							Home
 						</a>

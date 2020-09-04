@@ -965,6 +965,21 @@
 <?php include("./includes/footer.php"); ?> 
 <!-- referencing bootstrap scripts dependencies -->	
 <?php include("./includes/ref_footer.php"); ?>
+	 
+		<script src="scripts/jquery.nav.js"></script>
+		
+		<!-- one page nav -->
+		<script>
+			$('#nav-menu').onePageNav({
+				currentClass: 'active',
+				changeHash: false,
+				scrollSpeed: 750,
+				scrollThreshold: 0.5,
+				filter: '',
+				easing: 'swing'
+			});
+		</script>
+<!--
 	 <script>
 		 	window.onload = function(){	
 			var colBtn = document.getElementById("colBtn");
@@ -981,6 +996,7 @@
 		}	
 
   	</script>	
+-->
 	<!-- prevents user from refreshing and resubmitting form after submitted -->
 	<script>
 			if (window.history.replaceState){
