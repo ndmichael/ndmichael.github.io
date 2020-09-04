@@ -189,7 +189,9 @@ section#about h3 > span{
 	background: rgb(36, 41, 46) ;
 }
 
-
+#contacts h1{
+	padding: 0.7em 0;
+}
 
 /*#contacts:before{*/
 	content: "";
@@ -271,6 +273,7 @@ section#about h3 > span{
 
 .form-control:focus + label,
 .form-control:valid + label{
+	-webkit-top: -20px;
 	top: -20px;
 	font-size: 0.8em;
 	background: transparent !important;
