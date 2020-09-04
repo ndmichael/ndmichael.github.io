@@ -68,7 +68,7 @@ nav .btn-group {
  
 
 section#intro-header{
-	background: linear-gradient(120deg, rgba(27, 27, 27, 0.8) 0%, rgba(54, 69, 79, 0.8) 100%), url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+	background: linear-gradient(120deg, rgba(27, 27, 27, 0.8) 0%, rgba(54, 69, 79, 0.7) 100%), url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -179,28 +179,54 @@ section#about h3 > span{
 }
 
 
+
 /*CSS for contact form ON THE BODY*/
 
 #contacts{
 	position: relative;
 	padding: 4em 0;
-	background: rgba(08, 08, 08, 0.8);
-	min-height: 100vh;
+/*	background: rgba(54, 69, 79, 1)*/
+	background: rgb(36, 41, 46) ;
 }
 
-#contacts:before{
+
+
+/*#contacts:before{*/
 	content: "";
 	position: absolute;
 	top:0;
 	left: 0;
 	width: 50%;
 	height:100%;
-	background: #dee2e6;
+	background: #434343;
+	z-index: -1;
 	
 }
 
+#contacts ul{
+	margin-left: -20px;
+	font-weight: 100;
+	list-style: none;
+	text-align: center;
+
+}
+
+#contacts ul li{
+	text-align: left;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+#contacts ul .icofont{
+	color: #ffdf00;
+	float: left;
+	font-size: 46px;
+/*	padding:0.44em 0;*/
+}
+
 #contacts  .social_contact{
-	background: linear-gradient(90deg, rgba(08, 08, 08,  0.7), rgba(08, 08, 08,  0.7)), url("../images/../images/icon-set-1142000_1280.png");
+	background:  rgba(27, 27, 27, 1);
+/*	background: linear-gradient(90deg, rgba(08, 08, 08,  0.7), rgba(08, 08, 08,  0.7)), url("../images/../images/icon-set-1142000_1280.png");*/
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -325,7 +351,7 @@ section#about h3 > span{
 	margin-left: -20px;
 	font-weight: 100;
 	list-style: none;
-	list-style-position: inside;
+
 }
 
 #skills ul li{
@@ -335,9 +361,11 @@ section#about h3 > span{
 
 
 
+/*
 #skills ul li span{
 	display: block;
 }
+*/
 
 #skills  .icofont-data, #skills .icofont-code, #skills .icofont-tools-alt-2 {
 	padding: 15px;

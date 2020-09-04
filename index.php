@@ -757,7 +757,7 @@
 					    <h2>FrontEnd</h2>
 						 <ul>
 						 	<li>
-								<i class="icofont icofont-tick-mark pr-2"></i>
+								<i class="icofont icofont-tick-mark pr-2"></i> 
 								<p>Javascript / ReactJS / jQuery</p>
 							 </li>
 							 <li>
@@ -902,7 +902,30 @@
 				
 				<div class="row">
 					<div class="col col-12 col-md-6 social_contact">
-					
+						<div>
+							<ul class="p-5">
+								<li>
+									<i class="icofont icofont-linkedin pr-5"></i> 
+									<h5>LinkedIn</h5>
+									<p>linkedin.com/in/ukeje-micheal-519051b0/</p>
+								</li>
+								<li>
+									<i class="icofont icofont-github pr-5"></i>
+									<h5>Github</h5>
+									<p>https://github.com/ndmichael</p>
+								</li>
+								<li>
+									<i class="icofont icofont-mail pr-5"></i>
+									<h5>GMail</h5>
+									<p>ukejemicheal@gmail.com</p>
+								</li>
+								<li>
+									<i class="icofont icofont-web pr-5"></i>
+									<h5>Website</h5>
+									<p>www.codeja-vu.dx.am</p>
+								</li>
+							</ul>
+						</div>
 					</div>
 					
 					<div class="col col-12 col-md-6">
@@ -923,7 +946,7 @@
 						<label for="Message">Your message</label>
 					</div>
 						<div>
-							<input type="submit" class="btn btn-outline-secondary btn-lg btn-block" name="submit" id="submit" value="Send Message" />
+							<input type="submit" class="btn btn-outline-warning btn-lg btn-block" name="submit" id="submit" value="Send Message" />
 						</div>
 
 				</form>
