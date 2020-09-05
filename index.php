@@ -669,11 +669,11 @@
 					<h1>About Me</h1>
 				</div>
 				
-				<div class="col-12 col-sm-12 col-md-6" data-aos="fade-right">
+				<div class="col-12 col-sm-12 col-md-6" data-aos="zoom-in">
 					<img src="images/imgaboutme3.jpg" alt="about image placeholder" class="img-fluid" />
 				</div>
 				
-				<div class="col-12 col-sm-12 col-md-6" data-aos="zoom-in">
+				<div class="col-12 col-sm-12 col-md-6" data-aos="zoom-in-down">
 					<h3>My name is <span>Michael</span></h3>
 					<p>
 						
@@ -901,7 +901,7 @@
 				<h1>Contact</h1>
 				
 				<div class="row">
-					<div class="col col-12 col-md-6 social_contact">
+					<div class="col col-12 col-md-6 social_contact" data-aos="fade-in-down">
 						<div>
 							<ul class="p-5">
 								<li>
@@ -928,7 +928,7 @@
 						</div>
 					</div>
 					
-					<div class="col col-12 col-md-6">
+					<div class="col col-12 col-md-6" data-aos="zoom-in-down">
 						<p id="error" class="text-danger"><?php if (!empty($error)) echo $error; if($success) echo $success_message;  ?></p>
 						<form class="form-horizontal" id="contact_form" method="post" action="<?php $_SERVER['REQUEST_URI'] ?>">
 <!--							htmlspecialchars($_SERVER['REQUEST_URI'])-->
@@ -967,36 +967,9 @@
 <?php include("./includes/ref_footer.php"); ?>
 	 
 		<script src="scripts/jquery.nav.js"></script>
+		<script src="scripts/main.js"></script>
 		
-		<!-- one page nav -->
-		<script>
-			$('#nav-menu').onePageNav({
-				currentClass: 'active',
-				changeHash: false,
-				scrollSpeed: 750,
-				scrollThreshold: 0.5,
-				filter: '',
-				easing: 'swing'
-			});
-		</script>
-<!--
-	 <script>
-		 	window.onload = function(){	
-			var colBtn = document.getElementById("colBtn");
-			function mySimpleFunc(){
-				
-				if (colBtn.value == "Show All"){
-					colBtn.value = "Show less";
-				}else{
-					colBtn.value = "Show All";
-				}
-			}
-		colBtn.addEventListener('click', mySimpleFunc);	
 		
-		}	
-
-  	</script>	
--->
 	<!-- prevents user from refreshing and resubmitting form after submitted -->
 	<script>
 			if (window.history.replaceState){

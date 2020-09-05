@@ -12,6 +12,13 @@ font-family: 'Russo One', sans-serif;
 	font-weight: 300;
 	font-family: 'Roboto Slab', serif;
 	
+}
+
+h1::before{
+	content: " ";
+	display: block;
+	background: gold;
+	height: 10px;
 	
 }
 

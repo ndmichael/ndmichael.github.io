@@ -7,7 +7,7 @@
     	AOS.init({
 			delay: 0,
 			duration: 1200,
-			easing: 'ease-out-back',
+			easing: 'ease-in-sine',
 		});
   	</script>
 	

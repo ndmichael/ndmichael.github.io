@@ -2,42 +2,36 @@
 /* CSS Document */
 
 footer {
-	background-color: #191919; 
+	background-color: #1B1B1B; 
 	color: #ADADAD;
-	margin-top: 3em;
+	padding: 3em 0;
 }
-footer h5,
-footer img {
-	margin-top: 5em;
+
+footer h5 span:nth-child(2){
+	color: gold;
+}
+
+
+footer img{
+	width: auto;
+	height: 100px;
+} 
+
+footer h5{
 	font-weight: bold;
 	font-size: 1.1em;
 	color: aliceblue;
 } 
-footer address {
-	margin-top: 5em;
-	margin-bottom: 5em;
-	color: #5A5A5A;
-} 
-footer ul {
-	margin-bottom: 5em;
-} 
-footer address strong {
-	color: #ADADAD;
-	display: block;
-	padding-bottom: 0.62em;
-} 
+
 footer a {
 	font-weight: 300;
 	color: #5A5A5A;
 } 
-footer a:hover .fa,
+
+footer a:hover .icofont,
 footer a:hover{
 	text-decoration: none;
 	color: #FFF;
 } 
 
 
-.list-unstyled .fa{
-	color: mediumseagreen;
-	font-size: 18px;
-}
