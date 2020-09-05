@@ -192,6 +192,9 @@ section#about h3 > span{
 #contacts a{
 	text-decoration: none;
 	color: inherit;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
 }
 
 #contacts h1{
@@ -231,11 +234,7 @@ section#about h3 > span{
 	font-size: 46px;
 	transition: transform .2s ease-in-out;
 /*	transform: rotate(0deg) scale(0.8);*/
-	
 	transform: skewY(5deg) scale(1) ;
-	;
-	
-
 	
 }
 

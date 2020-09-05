@@ -597,7 +597,7 @@
 								</span>
 								<span>
 <!--									<button class="btn btn-outline-light">Source Code</button>-->
-								<span class="btn btn-outline-light">Source Code</span>
+								<span class="btn btn-outline-light icofont icofont-external-link">Source Code</span>
 								</span>
 							</div>
 						  </div>
@@ -905,21 +905,29 @@
 						<div>
 							<ul class="p-md-5 p-4">
 								<li>
-									<a href="https://www.linkedin.com/in/ukeje-micheal-519051b0/" target="_blank">
+<!--									<a href="https://www.linkedin.com/in/ukeje-micheal-519051b0/" target="_blank">-->
 										<i class="icofont icofont-linkedin mr-md-5 mr-2"></i>
-									</a>
-									<a href="https://www.linkedin.com/in/ukeje-micheal-519051b0/" target="_blank">
-										<h5>LinkedIn</h5>
-									</a>
+<!--									</a>-->
+									
+										<h5>
+											<a href="https://www.linkedin.com/in/ukeje-micheal-519051b0/" target="_blank">
+												LinkedIn
+											</a>
+										</h5> <br />
+									
 									<p>linkedin.com/in/ukeje-micheal-519051b0/</p>
 								</li>
 								<li>
 									<a href="https://github.com/ndmichael" target="_blank">
 										<i class="icofont icofont-github mr-md-5 mr-2"></i>
 									</a>
-									<a href="https://github.com/ndmichael" target="_blank">
-										<h5>Github</h5>
-									</a>
+									
+										<h5>
+											<a href="https://github.com/ndmichael" target="_blank">
+												Github
+											</a>
+										</h5> <br />
+									
 									
 									<p>https://github.com/ndmichael</p>
 								</li>
