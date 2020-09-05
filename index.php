@@ -903,24 +903,33 @@
 				<div class="row">
 					<div class="col col-12 col-md-6 social_contact" data-aos="fade-in-down">
 						<div>
-							<ul class="p-5">
+							<ul class="p-md-5 p-4">
 								<li>
-									<i class="icofont icofont-linkedin pr-5"></i> 
-									<h5>LinkedIn</h5>
+									<a href="https://www.linkedin.com/in/ukeje-micheal-519051b0/" target="_blank">
+										<i class="icofont icofont-linkedin mr-md-5 mr-2"></i>
+									</a>
+									<a href="https://www.linkedin.com/in/ukeje-micheal-519051b0/" target="_blank">
+										<h5>LinkedIn</h5>
+									</a>
 									<p>linkedin.com/in/ukeje-micheal-519051b0/</p>
 								</li>
 								<li>
-									<i class="icofont icofont-github pr-5"></i>
-									<h5>Github</h5>
+									<a href="https://github.com/ndmichael" target="_blank">
+										<i class="icofont icofont-github mr-md-5 mr-2"></i>
+									</a>
+									<a href="https://github.com/ndmichael" target="_blank">
+										<h5>Github</h5>
+									</a>
+									
 									<p>https://github.com/ndmichael</p>
 								</li>
 								<li>
-									<i class="icofont icofont-mail pr-5"></i>
+									<i class="icofont icofont-mail mr-md-5 mr-2"></i>	
 									<h5>GMail</h5>
 									<p>ukejemicheal@gmail.com</p>
 								</li>
 								<li>
-									<i class="icofont icofont-web pr-5"></i>
+									<i class="icofont icofont-web mr-md-5 mr-2"></i>
 									<h5>Website</h5>
 									<p>www.codeja-vu.dx.am</p>
 								</li>

@@ -14,14 +14,6 @@ font-family: 'Russo One', sans-serif;
 	
 }
 
-h1::before{
-	content: " ";
-	display: block;
-	background: gold;
-	height: 10px;
-	
-}
-
 .btn-warning{
 	font-family: 'Roboto Slab', serif;
 	font-weight: 700;
@@ -46,6 +38,7 @@ h1, h2{
 	font-weight: 500;
 	font-size: 2.0em;
 	font-family: 'Russo One', sans-serif;
+	position: relative
 }
 h3, h4{
 	font-weight: 500;
@@ -196,6 +189,11 @@ section#about h3 > span{
 	background: rgb(36, 41, 46) ;
 }
 
+#contacts a{
+	text-decoration: none;
+	color: inherit;
+}
+
 #contacts h1{
 	padding: 0.7em 0;
 }
@@ -213,10 +211,10 @@ section#about h3 > span{
 }
 
 #contacts ul{
-	margin-left: -20px;
 	font-weight: 100;
 	list-style: none;
-	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
 
 }
 
@@ -226,25 +224,42 @@ section#about h3 > span{
 	margin-bottom: 10px;
 }
 
-#contacts ul .icofont{
+#contacts .icofont{
 	color: #ffdf00;
 	float: left;
+	display: inline-block;
 	font-size: 46px;
-/*	padding:0.44em 0;*/
+	transition: transform .2s ease-in-out;
+/*	transform: rotate(0deg) scale(0.8);*/
+	
+	transform: skewY(5deg) scale(1) ;
+	;
+	
+
+	
+}
+
+#contacts .icofont:hover{	
+	transform: skewY(0deg)scale(1.1);
+	color: #dee2e6;
+	cursor: pointer;
+
 }
 
 #contacts  .social_contact{
 	background:  rgba(27, 27, 27, 1);
-/*	background: linear-gradient(90deg, rgba(08, 08, 08,  0.7), rgba(08, 08, 08,  0.7)), url("../images/../images/icon-set-1142000_1280.png");*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
 	z-index: 5;
+	padding: 0 !important;
 }
 
 #contacts form{
 	padding: 20px;
 	
+}
+
+#contacts p{
+	display: block;
+	overflow: hidden;
 }
 
 .form-group{
