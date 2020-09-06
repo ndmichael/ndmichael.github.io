@@ -593,11 +593,19 @@
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
 								<span>
-									<button class="btn btn-outline-warning">Live Preview</button>
+									<a href="images/number_pyramid.png" target="_blank">
+										<button class="btn btn-outline-warning">
+											Live Preview
+										</button>
+									</a>
+									
 								</span>
 								<span>
-<!--									<button class="btn btn-outline-light">Source Code</button>-->
-								<span class="btn btn-outline-light icofont icofont-external-link">Source Code</span>
+									<a href="https://github.com/ndmichael/pyramid-number-pattern" target="_blank">
+										<button class="btn btn-outline-light ">
+											Source Code
+										</button>
+									</a>	
 								</span>
 							</div>
 						  </div>
@@ -617,10 +625,16 @@
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
 								<span>
-									<button class="btn btn-outline-warning">Live Preview</button>
+									<a href="images/HeartPattern.png" target="_blank">
+										<button class="btn btn-outline-warning">ScreenShot</button>
+									</a>	
 								</span>
 								<span>
-									<button class="btn btn-outline-light">Source Code</button>
+									<button class="btn btn-outline-light">
+										<a href="https://github.com/ndmichael/Beautiful-Heart-Pattern" target="_blank">
+											Source Code
+										</a>
+									</button>
 								</span>
 							</div>
 						  </div>
@@ -640,10 +654,18 @@
 						  <div class="card-footer">
 							<div class="d-flex flex-row justify-content-between">
 								<span>
-									<button class="btn btn-outline-warning">Live Preview</button>
+									<button class="btn btn-outline-warning">
+										<a href="#">
+											ScreenShot
+										</a>
+									</button>
 								</span>
 								<span>
-									<button class="btn btn-outline-light">Source Code</button>
+									<button class="btn btn-outline-light">
+										<a href="https://github.com/ndmichael/C_Files" target="_blank">
+											Source Code
+										</a>
+									</button>
 								</span>
 							</div>
 						  </div>

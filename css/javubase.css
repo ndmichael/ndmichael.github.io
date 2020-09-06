@@ -7,17 +7,27 @@ font-family: 'Alfa Slab One', cursive;
 font-family: 'Roboto Slab', serif;
 font-family: 'Russo One', sans-serif;
 */
+.btn{
+	font-family: 'Roboto Slab', serif;
+}
 .btn-outline-warning{
 	border-width: 2px;
 	font-weight: 300;
-	font-family: 'Roboto Slab', serif;
-	
+
 }
 
 .btn-warning{
-	font-family: 'Roboto Slab', serif;
 	font-weight: 700;
+}
 
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	text-decoration: none;
+	color: inherit;
 }
 
 body{
