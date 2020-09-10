@@ -1,7 +1,6 @@
 // JavaScript Document
 
 
-
 $('#nav-menu').onePageNav({
 	currentClass: 'active',
 	changeHash: false,
@@ -10,6 +9,8 @@ $('#nav-menu').onePageNav({
 	filter: '',
 	easing: 'swing'
 });
+
+
 
 /**
 window.onload = function(){	

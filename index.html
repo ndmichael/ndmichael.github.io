@@ -5,11 +5,8 @@
 <title>Home</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" >
-<!-- bootstrap and other dependecies referenced here -->
-<?php include ("./includes/ref_header.php"); ?>
 	
 <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" />
-<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css" />
 <link rel="stylesheet" href="bootstrap-4.4.1-dist/icofont/icofont.min.css" />
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <link rel="stylesheet" href="css/javubase.css" />
@@ -26,15 +23,64 @@
 
 <body>
 	
-	<!-- the nav included via php -->
-	 <?php include ("./includes/navbar.php");  ?>  
+		<!-- Navbar section -->
+	<nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top">
+		
+		<div class="container">
+			<a  id="name" class="navbar-brand" href="http://www.codeja-vu.dx.am/index.php">
+				<!-- <img src="images/zendlogo.jpg" class="img-responsive" alt="header" /> -->
+				<span>Ukeje</span>
+				<span> .NM</span>
+
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    				<span class="navbar-toggler-icon"></span>
+  			</button>
+						
+			<div id="nav-menu" class="collapse navbar-collapse navbar-right">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#intro-header">
+							<span class="icofont icofont-home" aria-hidden="true"></span>
+							Home
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">
+							<span class="badge">20</span>
+							<span class="icofont icofont-bell"  aria-hidden="true"></span>
+							Project
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">
+							<span class="icofont icofont-man-in-glasses" aria-hidden="true"></span>
+							About
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#skills">
+							<span class="icofont icofont-architecture-alt" aria-hidden="true"></span>
+							Skills
+						</a>
+					</li>
+					
+					
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#contacts">
+							<span class="icofont icofont-mail" aria-hidden="true"></span>
+							Contact
+						</a>
+					</li>
+				</ul>
+			</div> <!-- end of id="menu" -->	
+		</div> <!-- container inside the navbar -->
+	</nav> <!-- end of navbar -->
 	
 	
-	<?php include ("./includes/contactform_validator.php"); ?>
 	
-	
-	
-	<!-- section 1 , row 1 -->
+	<!-- header -->
 	<section id="intro-header">
 		<div class="container">
 			<div class="row">
@@ -79,16 +125,16 @@
 				<a class="nav-link active" id="home-tab" data-toggle="tab" href="#all" role="tab" aria-controls="home" aria-selected="true">All</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" id="profile-tab" data-toggle="tab" href="#web" role="tab" aria-controls="profile" aria-selected="false">Web</a>
+				<a class="nav-link" id="web-tab" data-toggle="tab" href="#web" role="tab" aria-controls="profile" aria-selected="false">Web</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" id="contact-tab" data-toggle="tab" href="#django" role="tab" aria-controls="contact" aria-selected="false">Django</a>
+				<a class="nav-link" id="django-tab" data-toggle="tab" href="#django" role="tab" aria-controls="contact" aria-selected="false">Django</a>
 			  </li>
 				<li class="nav-item">
-				<a class="nav-link" id="profile-tab" data-toggle="tab" href="#react" role="tab" aria-controls="profile" aria-selected="false">ReactJS</a>
+				<a class="nav-link" id="reactjs-tab" data-toggle="tab" href="#react" role="tab" aria-controls="profile" aria-selected="false">ReactJS</a>
 			  </li>
 			  <li class="nav-item">
-				<a class="nav-link" id="contact-tab" data-toggle="tab" href="#algorithm" role="tab" aria-controls="contact" aria-selected="false">Algorithm</a>
+				<a class="nav-link" id="algorithm-tab" data-toggle="tab" href="#algorithm" role="tab" aria-controls="contact" aria-selected="false">Algorithm</a>
 			  </li>
 			</ul>
 			
@@ -543,10 +589,19 @@
 							  <div class="card-footer">
 								<div class="d-flex flex-row justify-content-between">
 									<span>
-										<button class="btn btn-outline-warning">Live Preview</button>
+										<a href="images/CMForm2.png" target="_blank">
+											<button class="btn btn-outline-warning">
+												ScreenShot
+											</button>
+										</a>	
 									</span>
 									<span>
-										<button class="btn btn-outline-light">Source Code</button>
+										<a href="https://github.com/ndmichael/StudentManagementForms" target="_blank">
+											<button class="btn btn-outline-light">
+												Source Code
+											</button>
+										</a>
+										
 									</span>
 								</div>
 							  </div>
@@ -566,10 +621,15 @@
 							  <div class="card-footer">
 								<div class="d-flex flex-row justify-content-between">
 									<span>
-										<button class="btn btn-outline-warning">Live Preview</button>
+										<a href="https://ndmichael.github.io/Lottoapp/" target="_blank">
+											<button class="btn btn-outline-warning">Live Preview</button>
+										</a>
+										
 									</span>
 									<span>
-										<button class="btn btn-outline-light">Source Code</button>
+										<a href="https://github.com/ndmichael/Lottoapp" target="_blank">
+											<button class="btn btn-outline-light">Source Code</button>
+										</a>		
 									</span>
 								</div>
 							  </div>
@@ -968,20 +1028,18 @@
 					</div>
 					
 					<div class="col col-12 col-md-6" data-aos="zoom-in-down">
-						<p id="error" class="text-danger"><?php if (!empty($error)) echo $error; if($success) echo $success_message;  ?></p>
-						<form class="form-horizontal" id="contact_form" method="post" action="<?php $_SERVER['REQUEST_URI'] ?>">
-<!--							htmlspecialchars($_SERVER['REQUEST_URI'])-->
+						<form class="form-horizontal" id="contact_form" method="post">
 			
 					<div class="form-group">
-						<input class="form-control" type="email" id="contact_email" name="contact_email" value="<?php if(isset($email)) echo $email; ?>" maxlength="30"  required />
+						<input class="form-control" type="email" id="contact_email" name="contact_email" maxlength="30"  required />
 						<label for="Email">Email address</label>
 					</div>
 					<div class="form-group">
-						<input class="form-control" type="text" id="contact_topic" name="contact_topic" value="<?php if(isset($topic)) echo $topic; ?>" maxlength="50" required />
+						<input class="form-control" type="text" id="contact_topic" name="contact_topic" maxlength="50" required />
 						<label for="Topic">Subject</label>
 					</div>
 					<div class="form-group">
-						<textarea class="form-control" rows="3" id="msg" name="msg"  maxlength="150" required><?php if(isset($message)) echo $message; ?></textarea>
+						<textarea class="form-control" rows="3" id="msg" name="msg"  maxlength="150" required></textarea>
 						<label for="Message">Your message</label>
 					</div>
 						<div>
@@ -995,25 +1053,74 @@
 		
 		</section>
 		
+		
+		<!-- footer section  -->
+		<footer>
+			<div class="container">
+				<div class="row">
+				<div class="col-6 col-md-3">
+					<img class="img-responsive" src="images/zendlogo.jpg" alt="img logo" />
+				</div>
+				<div class="col-6 col-md-3">
+					<h5><span>Ukeje </span> <span>.NM</span></h5>
+					<ul class="list-unstyled">
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#about">About me</a></li>
+						<li><a href="#contacts">Contact</a></li>
+						<li><small class="text-faded text-warning">Worldwide</small></li>
+					</ul>
+				</div>
+				<div class="col-6 col-md-3">
+					<h5>Social</h5>
+					<ul class="list-unstyled">
+						<li><a href="https://github.com/ndmichael" target="_blank"><span class="icofont icofont-github"></span>github </a></li></span>
+						<li><a href="https://www.linkedin.com/in/ukeje-micheal-519051b0/" target="_blank"><span class="icofont icofont-linkedin"></span> linkedIn </a></li>
+	<!--					<li><a href="https://www.sololearn.com/Profile/13806678" target="_blank"><span class="fa fa-safari"></span>Sololearn</a></li>-->
+					</ul>
+				</div>
+				<div class="col-6 col-md-3">
+					<h5>Support</h5>
+					<ul class="list-unstyled">
+						<li><a href="#">Thanks</a></li>
+						<li><a href="#">Tools</a></li>
+						<li><a href="#">Dependencies</a></li>
+					</ul>
+				</div>
+				</div>
+			</div> <!-- end of container div -->
+		</footer>
+		
 
 		
-	
-	
-	
-<!-- referencing the codeja-vu footer -->
-<?php include("./includes/footer.php"); ?> 
-<!-- referencing bootstrap scripts dependencies -->	
-<?php include("./includes/ref_footer.php"); ?>
-	 
+		
+	<script src="bootstrap-4.4.1-dist/js/jquery-3.4.1.min.js">
+	</script>
+	<script src="bootstrap-4.4.1-dist/js/bootstrap.min.js">
+	</script>
+ 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script>
+				/**** javascript cvode for aos file ****/
+				AOS.init({
+					delay: 0,
+					duration: 1200,
+					easing: 'ease-in-sine',
+				});
+
+			</script>
+		
+
 		<script src="scripts/jquery.nav.js"></script>
 		<script src="scripts/main.js"></script>
 		
 		
-	<!-- prevents user from refreshing and resubmitting form after submitted -->
-	<script>
-			if (window.history.replaceState){
-				window.history.replaceState(null, null, window.location.href);
-			}
-	</script>
+<!--
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>	
+		
+		<script>
+			const scroll = new SmoothScroll('a[href*="#"]');
+		</script>
+-->
+		
+
 </body>
 </html>
