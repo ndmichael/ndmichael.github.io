@@ -36,10 +36,15 @@ body{
     max-height: 100%;
     overflow-x: hidden; 
 	color: #ffffff;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	
+		
 }
 
 section{
 	min-height: 100vh;
+	
 }
 
 h1, h2{
@@ -137,7 +142,7 @@ section#intro-header a{
 	height: 5rem;
 	border: 2px solid white;
 	border-radius: 2rem;
-	margin-bottom: .5rem;
+	margin-bottom: 2rem;
 	display: flex;
 }
 
@@ -211,7 +216,7 @@ section#about h3 > span{
 	padding: 0.7em 0;
 }
 
-/*#contacts:before{*/
+/*#contacts:before{
 	content: "";
 	position: absolute;
 	top:0;
@@ -222,6 +227,7 @@ section#about h3 > span{
 	z-index: -1;
 	
 }
+*/
 
 #contacts ul{
 	font-weight: 100;
