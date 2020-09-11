@@ -150,7 +150,7 @@
 			
 			
 			<div class="tab-content" id="myTabContent">
-			  <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="web-tab">
+			  <div class="tab-pane show active" id="all" role="tabpanel" aria-labelledby="web-tab">
 				<div class="row">
 					  <div class="col col-12 col-md-6 col-lg-4 ">
 						<div class="card">
@@ -439,9 +439,9 @@
 						
 			  <!-- web section tab -->
 				
-			  <div class="tab-pane fade" id="web" role="tabpanel" aria-labelledby="web-tab">
+			  <div class="tab-pane" id="web" role="tabpanel" aria-labelledby="web-tab">
 				  <div class="row">
-				  	<div class="col col-12 col-md-6 col-lg-4 ">
+				  	<div class="col col-12 col-md-6 col-lg-4" data-aos="zoom-in-down">
 						<div class="card">
 						  <img class="card-img-top img-fluid" src="images/kiki_port.jpg" alt="Card image cap">
 						  <div class="card-header">
@@ -464,7 +464,7 @@
 					</div>
 					  
 					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
+						<div class="card" data-aos="zoom-in-down">
 						  <img class="card-img-top img-fluid" src="images/CMForm2.png" alt="Card image cap">
 						  <div class="card-header">
 							<h5 >Student Class Form </h5>
@@ -485,7 +485,7 @@
 						</div> <!-- Class Management Form card  -->
 					</div>
 					  
-					 <div class="col col-12 col-md-6 col-lg-4 ">
+					 <div class="col col-12 col-md-6 col-lg-4 " data-aos="zoom-in-down">
 						<div class="card">
 							<img class="card-img-top img-fluid" src="images/portfolio_port2.png" alt="Card image cap">
 						  
@@ -581,9 +581,9 @@
 			  </div> <!-- web section ends here -->
 				
 				
-			  <!-- Django tab section starts hereb -->
+			  <!-- Django tab section starts here -->
 				
-			  <div class="tab-pane fade" id="django" role="tabpanel" aria-labelledby="django-tab">
+			  <div class="tab-pane " id="django" role="tabpanel" aria-labelledby="django-tab">
 			  	<div class="row">
 					<div class="col col-12 col-md-6 col-lg-4 ">
 						<div class="card">
@@ -635,7 +635,7 @@
 				
 			<!-- reactjs tab section starts here -->
 				
-			<div class="tab-pane fade" id="react" role="tabpanel" aria-labelledby="reactjs-tab">
+			<div class="tab-pane" id="react" role="tabpanel" aria-labelledby="reactjs-tab">
 				<div class="row">
 					<div class="col col-12 col-md-6 col-lg-4 ">
 						<div class="card">
@@ -724,7 +724,7 @@
 				
 			<!-- algorithm tab section starts here -->
 				
-			<div class="tab-pane fade" id="algorithm" role="tabpanel" aria-labelledby="algorithm-tab">
+			<div class="tab-pane" id="algorithm" role="tabpanel" aria-labelledby="algorithm-tab">
 				<div class="row">
 					<div class="col col-12 col-md-6 col-lg-4 ">
 						<div class="card">
@@ -1117,7 +1117,7 @@
 					<form class="form-horizontal" id="contact_form" method="post" action="mailto:ukejemicheal@gmail.com">
 
 				<div class="form-group">
-					<input class="form-control" type="email" id="contact_email" name="contact_email" maxlength="30"  reaadonly placeholder="To:ukejemicheal@gmail.com" />
+					<input class="form-control" type="email" id="contact_email" name="contact_email" maxlength="30"  readonly placeholder="To:ukejemicheal@gmail.com" />
 <!--					<label for="Email">To:ukejemicheal@gmail.com</label>-->
 				</div>
 				<div class="form-group">
@@ -1158,7 +1158,7 @@
 				<div class="col-6 col-md-3">
 					<h5>Social</h5>
 					<ul class="list-unstyled">
-						<li><a href="https://github.com/ndmichael" target="_blank"><span class="icofont icofont-github"></span>github </a></li></span>
+						<li><a href="https://github.com/ndmichael" target="_blank"><span class="icofont icofont-github"></span>github </a></li>
 						<li><a href="https://www.linkedin.com/in/ukeje-micheal-519051b0/" target="_blank"><span class="icofont icofont-linkedin"></span> linkedIn </a></li>
 	<!--					<li><a href="https://www.sololearn.com/Profile/13806678" target="_blank"><span class="fa fa-safari"></span>Sololearn</a></li>-->
 					</ul>
@@ -1202,20 +1202,13 @@
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 			<script>
 				/**** javascript cvode for aos file ****/
-				$(document).ready(function(){
-					AOS.init({
-						delay: 0,
-						duration: 800,
-						easing: 'ease-in-sine',
-					});
+				AOS.init({
+					delay: 0,
+					duration: 800,
+					easing: 'ease-in-sine',
 				});
 
 			</script>
-	
-		
-		
-	
-		
 
 </body>
 </html>

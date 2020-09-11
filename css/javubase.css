@@ -442,6 +442,7 @@ section#about h3 > span{
 
 #skills nav{
 	padding: .2em 0 2em 0;
+	transition: 5s;
 }
 
 #soft-skills{
@@ -464,6 +465,19 @@ section#about h3 > span{
 	display: inline-block;
 	padding: 5px 20px;
 	z-index: 5;
+}
+
+.tab-pane.active .card {
+	animation: slide-down  1s;
+}
+
+@keyframes slide-down {
+	0% {
+		opacity: 0; transform-origin: right; transform: translateX(100%);
+	}
+	100% {
+		opacity: 1; transform-origin: left; transform: translateX(0);
+	}
 }
 
 
