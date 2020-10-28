@@ -90,7 +90,6 @@ section#intro-header #headline{
 	margin-top: 22%;
 	margin-bottom: 20%;
 	padding: 10px;
-	color: #fff;
 	font-weight: 700;
 	font-size: 1.7em;
 }
@@ -106,7 +105,7 @@ section#intro-header h2 {
 	
 }
 
-section#intro-header p{
+section#intro-header .p{
 	color: gold;
 	font-weight: 500;
 }
@@ -166,9 +165,12 @@ section#intro-header button {
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Roboto Slab', serif;
-    padding: 10px;
+    padding: 15px;
     border-radius: 0px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .35);
+	outline: none;
+	display: inline-block;
+	
 }
 
 
@@ -585,13 +587,13 @@ section#about h3 > span{
 	section#intro-header h1 {
 		font-weight: 500;
 		color: #fff;
-		font-size: 0.5em;
+		font-size: 0.8em;
 	}
 	section#intro-header h2 {
-		font-size: 1em;
+		font-size: 4rem;
 	}
 	
-	section#intro-header button {
+	section#intro-header .btn {
 		text-transform: uppercase;
     	font-weight: 500;
 		padding: 5px;
