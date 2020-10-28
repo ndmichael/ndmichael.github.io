@@ -585,7 +585,7 @@ section#about h3 > span{
 	section#intro-header h1{
 		font-weight: 500;
 		color: #fff;
-		font-size: 1em
+		font-size: 0.7em;
 	}
 	/* the about section */
 	section#about{
