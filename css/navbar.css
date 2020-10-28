@@ -43,9 +43,12 @@
 	border-bottom: 0.8em solid #FFF;
 }
 
+.navbar-expand-lg .navbar-nav > .active > a span.icofont {
+	color: #ffffff;
+}
 
-.navbar-expand-lg .navbar-nav > .active > a:hover,
-.navbar-expand-lg .navbar-nav > li > a:hover{
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
 	background-color: transparent;
 	color: darkgrey;
 	border-bottom: 0.8em solid gold;
@@ -54,6 +57,10 @@
 	-ms-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: border-radius .2s ease-in-out,;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover span.icofont {
+	color: #ffffff;
 }
 
 
@@ -73,7 +80,9 @@
 }
 
 
-/*Removing borders for extra small devices */
+/*
+ * 	Removing borders for extra small devices 
+*/
 @media(max-width:34em){
 	.navbar-expand-lg .navbar-nav > .active > a {
 		border-bottom: none;
