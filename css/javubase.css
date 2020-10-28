@@ -76,7 +76,7 @@ nav .btn-group {
  
 
 section#intro-header{
-	background: linear-gradient(120deg, rgba(27, 27, 27, 0.8) 0%, rgba(54, 69, 79, 0.7) 100%), url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+	background: linear-gradient(120deg, rgba(08, 08, 08, 0.8) 0%, rgba(08, 69, 79, 0.7) 100%), url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
