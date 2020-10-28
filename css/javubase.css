@@ -7,18 +7,7 @@ font-family: 'Alfa Slab One', cursive;
 font-family: 'Roboto Slab', serif;
 font-family: 'Russo One', sans-serif;
 */
-.btn{
-	font-family: 'Roboto Slab', serif;
-}
-.btn-outline-warning{
-	border-width: 2px;
-	font-weight: 300;
 
-}
-
-.btn-warning{
-	font-weight: 700;
-}
 
 a{
 	text-decoration: none;
@@ -161,7 +150,7 @@ section#intro-header a{
 	animation: move-wheel 1s linear infinite;
 }
 
-.arrow span{
+.arrow span {
 	display: block;
 	width: 1rem;
 	height: 1rem;
@@ -171,6 +160,15 @@ section#intro-header a{
 	transform: rotate(45deg);
 	animation: arrow-down 0.5s alternate infinite;
 	
+}
+
+section#intro-header button {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .35);
 }
 
 
@@ -587,7 +585,7 @@ section#about h3 > span{
 	section#intro-header h1{
 		font-weight: 500;
 		color: #fff;
-		font-size: 1.2em
+		font-size: 1em
 	}
 	/* the about section */
 	section#about{
