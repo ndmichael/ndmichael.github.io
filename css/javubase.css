@@ -105,7 +105,7 @@ section#intro-header h2 {
 	
 }
 
-section#intro-header .p{
+section#intro-header p{
 	color: gold;
 	font-weight: 500;
 }
@@ -161,17 +161,16 @@ section#intro-header a{
 	
 }
 
-section#intro-header button {
+section#intro-header .btn {
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Roboto Slab', serif;
-    padding: 15px;
-    border-radius: 0px;
+    padding: 10px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .35);
-	outline: none;
-	display: inline-block;
 	
 }
+
+
 
 
 
@@ -181,7 +180,6 @@ section#about{
 	position: relative;
 	padding: 25vh 0;
 	width: 100%;
-/*	min-height: 100vh;*/
 		
 }
 
