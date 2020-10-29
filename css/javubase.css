@@ -176,10 +176,12 @@ section#intro-header .btn {
 
 /* the about section */
 section#about{
-	background: rgba(27, 27, 27, 1);
+/*	background: rgba(27, 27, 27, 1);*/
+	background: #ffffff;
 	position: relative;
 	padding: 25vh 0;
 	width: 100%;
+	color: #1B1B1B;
 		
 }
 
@@ -189,6 +191,26 @@ section#about img{
 	
 }
 
+section#about h1{
+	color: inherit;
+}
+
+section#about h3{
+	margin-top: 4.5em;
+}
+
+section#about h3 > span{
+	color: #ffd700;
+	background: #1B1B1B;
+	padding: 5px;
+	border-radius: 0 20px 0 0;
+}
+
+section#about p{
+	color: #3d3e40;
+}
+
+/*
 section#about h3{
 	margin-top: 4.5em;
 }
@@ -196,6 +218,7 @@ section#about h3{
 section#about h3 > span{
 	color: #ffd700;
 }
+*/
 
 
 
@@ -621,7 +644,7 @@ section#about h3 > span{
 	
 	/* the about section */
 	section#about{
-		background: #1B1B1B;
+/*		background: #1B1B1B;*/
 		padding: 17vh 0;
 		width: 100%;
 
