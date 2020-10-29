@@ -204,7 +204,6 @@ section#about h3 > span{
 #contacts{
 	position: relative;
 	padding: 4em 0;
-/*	background: rgba(54, 69, 79, 1)*/
 	background: rgb(36, 41, 46) ;
 }
 
@@ -356,7 +355,7 @@ section#about h3 > span{
 	
 }
 
-.skill:before{
+.skill:before {
 	content: "";
 	position: absolute;
 	border-radius: 20px 10px;
@@ -364,18 +363,26 @@ section#about h3 > span{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	transition: left 0.5s, opacity 0.5s;
+	transition: opacity 0.5s ease-in-out;
 	opacity: 0;
 	z-index: -1;
-	background-color: #1b1b1b;
+/*	background: rgba(36, 41, 46, 0.8);*/
 	
 }
 
 
-.skill:hover::before{
+.skill:hover::before {
 	opacity: 1;
 	z-index: -1;
-	background-color: #1B1B1B;
+	background: rgba(36, 41, 46, 1);
+/*	background: #080808;*/
+	
+}
+
+#skills .skill:hover .my-icofont-css{
+	color: #dee2e6;
+	background: rgba(08, 08, 08, 0.5);
+	border-radius: 0;
 	
 }
 
@@ -411,31 +418,28 @@ section#about h3 > span{
 }
 */
 
-#skills  .icofont-data, #skills .icofont-code, #skills .icofont-tools-alt-2 {
+#skills  .my-icofont-css {
 	padding: 15px;
-	color: #fff;
-	background: #080808;
-	border: 5px solid #dee2e6;
+	color: gold;
+	background: rgba(08, 08, 08, 0.5);
 	border-radius: 50%;
 	display: inline-block;
 	text-align: center;
-	transition: transform .2s, border .5s;
+	transition: border-radius .2s linear, color .2s .2s ease-in-out;
 	z-index: 5;
 }
 
-#skills  .icofont-data:hover, #skills .icofont-code:hover, #skills .icofont-tools-alt-2:hover {
-	color: #fff;
-	background: #080808;
-	border: 5px solid #ffd700;
+#skills  .my-icofont-css:hover {
+	color: #dee2e6;
+	background: rgba(08, 08, 08, 0.5);
 	border-radius: 0;
-	transform: rotate(45deg);
 }
 
 
 
 .icon-align{
 	text-align: center;
-	margin-top: -50px;
+	margin-top: -55px;
 }
 
 #skills ul .icofont{
@@ -527,7 +531,22 @@ section#about h3 > span{
 	border: none;
 	background: none;
 	height: 95%;
-/*	box-shadow:  -6px -6px 20px rgba(08, 08, 08, 0.5), inset  6px 6px 20px rgba(67, 67, 67, 0.5);*/
+	box-shadow: 0 5px 10px 0 rgba(08, 08, 08, .15);
+/*	transform: scale(1, 1);*/
+	transition: filter .35s .3s, transform .35s  ease-in-out;
+}
+
+#projects  .card:hover {
+	transform: scale(1.03, 1.03);
+}
+.icofont{
+	transition: color .5s linear;
+	display: inline-block;
+}
+
+#projects  .card:hover .icofont{
+	transform: rotateX(360deg);
+	color: brown;
 }
 
 
