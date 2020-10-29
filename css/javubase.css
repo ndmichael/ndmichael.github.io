@@ -554,6 +554,7 @@ section#about h3 > span{
 	border: none;
 	background: none;
 	height: 95%;
+	width: 95%;
 	box-shadow: 0 5px 10px 0 rgba(08, 08, 08, .15);
 /*	transform: scale(1, 1);*/
 	transition: filter .35s .3s, transform .35s  ease-in-out;
