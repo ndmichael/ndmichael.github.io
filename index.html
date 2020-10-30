@@ -18,34 +18,51 @@
 
 <body>
 	
-<div class="loading">
-  <div class="finger finger-1">
-    <div class="finger-item">
-      <span></span><i></i>
+
+<div class="load-wrapper">
+	<div class="loading">
+	  <div class="finger finger-1">
+		<div class="finger-item">
+		  <span></span><i></i>
+		</div>
+	  </div>
+	  <div class="finger finger-2">
+		<div class="finger-item">
+		  <span></span><i></i>
+		</div>
+  	  </div>
+  	  <div class="finger finger-3">
+		<div class="finger-item">
+		  <span></span><i></i>
+		</div>
+  	  </div>
+  	  <div class="finger finger-4">
+		<div class="finger-item">
+		  <span></span><i></i>
+		</div>
+  	  </div>
+  	<div class="last-finger">
+		<div class="last-finger-item">
+			<i></i>
+		</div>
     </div>
-  </div>
-  <div class="finger finger-2">
-    <div class="finger-item">
-      <span></span><i></i>
-    </div>
-  </div>
-  <div class="finger finger-3">
-    <div class="finger-item">
-      <span></span><i></i>
-    </div>
-  </div>
-  <div class="finger finger-4">
-    <div class="finger-item">
-    	<span></span>
-		<i></i>
-    </div>
-  </div>
-  <div class="last-finger">
-  	<div class="last-finger-item">
-		<i></i>
+		
+		<div class="loader-text">
+		<div>
+<!--
+			<div class="tap">
+				<span>Tap!!!</span> <span>Tap!!!</span>
+			</div>
+-->
+			<p style="color: #fff700;">Loading ...</p>
+		</div>
 	</div>
+		
+		
   </div>
-</div>	
+	
+</div>
+
 	
 <div class="wrapper">
 	<!-- Navbar section -->
@@ -1221,12 +1238,12 @@
 			</script>
 	
 	<script>
-		const loader = document.querySelector('.loading');
+		const loader = document.querySelector('.load-wrapper');
 		const wrapper = document.querySelector('.wrapper');
 		
 		window.addEventListener('load', function(){
 			loader.style.display = 'none';
-			setTimeout(() => wrapper.style.opacity = 1, 500);
+			setTimeout(() => wrapper.style.opacity = 1, 50);
 		})
 		
 //		function init () {
@@ -1234,11 +1251,8 @@
 //				loader.style.opacity = 0;
 //				loader.style.display = 'none';
 //				
-//				wrapper.style.display = 'block';
 //				
-//				setTimeout(() => wrapper.style.opacity = 1, 50);
-//				
-//			}, 30000);
+//			}, 300000);
 //		}
 //		
 //		init();
