@@ -1242,8 +1242,16 @@
 		const wrapper = document.querySelector('.wrapper');
 		
 		window.addEventListener('load', function(){
-			loader.style.display = 'none';
-			setTimeout(() => wrapper.style.opacity = 1, 50);
+			function init () {
+			setTimeout(() => {
+				loader.style.opacity = 0;
+				loader.style.display = 'none';
+				
+				
+			}, 4000);
+		}
+		
+		init();
 		})
 		
 //		function init () {
