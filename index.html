@@ -19,47 +19,12 @@
 <body>
 	
 
-<div class="load-wrapper">
-	<div class="loading">
-	  <div class="finger finger-1">
-		<div class="finger-item">
-		  <span></span><i></i>
-		</div>
-	  </div>
-	  <div class="finger finger-2">
-		<div class="finger-item">
-		  <span></span><i></i>
-		</div>
-  	  </div>
-  	  <div class="finger finger-3">
-		<div class="finger-item">
-		  <span></span><i></i>
-		</div>
-  	  </div>
-  	  <div class="finger finger-4">
-		<div class="finger-item">
-		  <span></span><i></i>
-		</div>
-  	  </div>
-  	<div class="last-finger">
-		<div class="last-finger-item">
-			<i></i>
-		</div>
-    </div>
-		
-		<div class="loader-text">
-		<div>
-<!--
-			<div class="tap">
-				<span>Tap!!!</span> <span>Tap!!!</span>
-			</div>
--->
-			<p style="color: #fff700;">Loading ...</p>
-		</div>
+<div class="loader-wrapper">
+	<div class="loader">
+	  <div class="inner one"></div>
+	  <div class="inner two"></div>
+	  <div class="inner three"></div>
 	</div>
-		
-		
-  </div>
 	
 </div>
 
@@ -130,6 +95,7 @@
 					<h1 class="h4">Hello, I am</h1>
 					<h2 class="h1">Ukeje Michael</h2>	
 					<p>A Software <span class="typing-text" style="color: #fff700;"></span></p>
+					<p><small class="text-muted">I start my count from zero, don't ask me why, ask binary.</small></p>
 					
 					<div class="mt-5">					
 						<a href="#projects">
@@ -1212,7 +1178,7 @@
 			</script>
 	
 	<script>
-		const loader = document.querySelector('.load-wrapper');
+		const loader = document.querySelector('.loader-wrapper');
 		const wrapper = document.querySelector('.wrapper');
 		
 		window.addEventListener('load', function(){
@@ -1222,7 +1188,7 @@
 				loader.style.display = 'none';
 				
 				
-			}, 4000);
+			}, 4000000);
 		}
 		
 		init();
