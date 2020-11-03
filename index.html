@@ -26,6 +26,11 @@
 	  <div class="inner three"></div>
 	</div>
 	
+	<div class="mt-5">
+		<h1>STEPPIN INTO PORTFOLIO</h1>
+		<p class="text-warning">Page Loading...</p>
+	</div>
+	
 </div>
 
 	
@@ -95,7 +100,6 @@
 					<h1 class="h4">Hello, I am</h1>
 					<h2 class="h1">Ukeje Michael</h2>	
 					<p>A Software <span class="typing-text" style="color: #fff700;"></span></p>
-					<p><small class="text-muted">I start my count from zero, don't ask me why, ask binary.</small></p>
 					
 					<div class="mt-5">					
 						<a href="#projects">
@@ -1180,19 +1184,22 @@
 	<script>
 		const loader = document.querySelector('.loader-wrapper');
 		const wrapper = document.querySelector('.wrapper');
-		
+		const body = document.querySelector("body");
 		window.addEventListener('load', function(){
-			function init () {
+		function init () {
 			setTimeout(() => {
 				loader.style.opacity = 0;
 				loader.style.display = 'none';
+				wrapper.style.opacity = 1;
+				body.style.overflow = 'scroll';
 				
 				
-			}, 4000000);
+			}, 3000);
 		}
 		
 		init();
-		})
+		});
+
 	</script>
 	
 	<script>

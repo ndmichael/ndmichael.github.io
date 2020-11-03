@@ -23,12 +23,17 @@ body{
 	font-weight: 400;
     max-width: 100% !important;
     max-height: 100%;
-    overflow-x: hidden; 
 	color: #ffffff;
-	overflow-y: scroll;
+	overflow: hidden;
 	scroll-behavior: smooth;
 	
 		
+}
+
+.wrapper {
+	opacity: 0.1;
+	transition: opacity 1s ease-out;
+/*	display: none;*/
 }
 
 section{
