@@ -129,7 +129,7 @@
 				<div id="headline" class="col-12 col-md-7" data-aos="zoom-out">
 					<h1 class="h4">Hello, I am</h1>
 					<h2 class="h1">Ukeje Michael</h2>	
-					<p>A Software Engineer</p>
+					<p>A Software <span class="typing-text" style="color: #fff700;"></span></p>
 					
 					<div class="mt-5">					
 						<a href="#projects">
@@ -1181,6 +1181,8 @@
 	</script>
 	<script src="bootstrap-4.4.1-dist/js/bootstrap.min.js">
 	</script>
+	<script src="scripts/typed.min.js">
+	</script>
  	
 		
 
@@ -1225,17 +1227,19 @@
 		
 		init();
 		})
-		
-//		function init () {
-//			setTimeout(() => {
-//				loader.style.opacity = 0;
-//				loader.style.display = 'none';
-//				
-//				
-//			}, 300000);
-//		}
-//		
-//		init();
+	</script>
+	
+	<script>
+		  var typed = new Typed('.typing-text', {
+			strings: [
+				"Engineer! ^1000",
+				"Developer!! ^1000",
+			],
+			  typeSpeed: 100,
+			  backSpeed: 70,
+			  loop: true
+		  });
+	
 	</script>
 
 </body>
