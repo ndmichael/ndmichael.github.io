@@ -434,13 +434,6 @@ section#about h3 > span{
 }
 
 
-
-/*
-#skills ul li span{
-	display: block;
-}
-*/
-
 #skills  .my-icofont-css {
 	padding: 15px;
 	color: gold;
@@ -547,17 +540,24 @@ section#about h3 > span{
 	padding: 0.5em 0;
 }
 
+.card {
+	background: none;
+}
+
+.card-img, .card-img-top {
+	border-radius:  0 0 30px 0;
+}
+
 #projects  .card{
 	overflow: hidden;
-	border-radius: 20px;
 	margin: 1em;
 	border: none;
-	background: none;
 	height: 95%;
 	width: 95%;
-	box-shadow: 0 5px 10px 0 rgba(08, 08, 08, .15);
+	box-shadow: 0 5px 15px 0 rgba(08, 08, 08, .15);
 /*	transform: scale(1, 1);*/
 	transition: filter .35s .3s, transform .35s  ease-in-out;
+	border-radius: 5px 5px 30px 5px;
 }
 
 #projects  .card:hover {
@@ -575,7 +575,7 @@ section#about h3 > span{
 
 
 #projects  .card-header{
-	color: #1b1b1b;
+	color: #1B1B1B;
     background-color: #dee2e6;
 	text-transform: capitalize;
 	font-size: 1.2em;
@@ -590,8 +590,8 @@ section#about h3 > span{
 	color: #343434;
 }
 
-#projects .card-footer{
-	background-color: #535353;
+#project {
+	background: #535353;
 }
 
 #projects .card-footer > span{
