@@ -594,6 +594,10 @@ section#about h3 > span{
 	background: #535353;
 }
 
+#projects .card-footer {
+	background: #535353;
+}
+
 #projects .card-footer > span{
 	display: inline-block;
 	width: 100%;
