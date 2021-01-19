@@ -8,8 +8,10 @@
 	
 <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" />
 <link rel="stylesheet" href="bootstrap-4.4.1-dist/icofont/icofont.min.css" />
+<link rel="stylesheet" href="fonts/BeVietnam-Light/style.css" />
+	<link rel="stylesheet" href="fonts/YouTubeSansDark-Black/style.css" />
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<link rel="stylesheet" href="css/javubase.css" />
+<link rel="stylesheet" href="css/mainlight.css" />
 <link rel="stylesheet" href="css/navbar.css" />	
 <link rel="stylesheet" href="css/footer.css" />
 	<link rel="stylesheet" href="css/loader.css" />
@@ -36,10 +38,9 @@
 	
 <div class="wrapper">
 	<!-- Navbar section -->
-	<nav id="nav" class="navbar navbar-expand-lg navbar-dark fixed-top">
-		
-		<div class="container">
-			<a  id="name" class="navbar-brand" href="https://ndmichael.github.io/ndmichael/">
+	<nav id="nav" class="navbar navbar-expand-lg fixed-top ">
+		<div class="container-fluid">
+			<a  id="name" class="navbar-brand" href="https://ndmichael.github.io/">
 				<!-- <img src="images/zendlogo.jpg" class="img-responsive" alt="header" /> -->
 				<span>Ukeje</span>
 				<span> .NM</span>
@@ -87,14 +88,15 @@
 					</li>
 				</ul>
 			</div> <!-- end of id="menu" -->	
-		</div> <!-- container inside the navbar -->
+		</div>   <!--container inside the navbar -->
 	</nav> <!-- end of navbar -->
+		
 	
 	
 	
 	<!-- header -->
 	<section id="intro-header">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div id="headline" class="col-12 col-md-7" data-aos="zoom-out">
 					<h1 class="h4">Hello, I am</h1>
@@ -103,7 +105,7 @@
 					
 					<div class="mt-5">					
 						<a href="#projects">
-							<button type="button" class="btn btn-warning btn-lg">
+							<button type="button" class="btn btn-info btn-lg">
 								View Project
 							</button>
 						</a>
@@ -117,33 +119,19 @@
 					</div>
 				</div>
 			
-								
-				<div class="col-12 col-sm-12">
-					<a href="#projects" class="scroll-down">
-						<div class="mouse">
-							<span></span>
-						</div>
-						<div class="arrow">
-							<span></span>
-						</div>
-					</a>
-				</div>
-			
 			</div>
 				
 		</div> <!-- end of the container -->
 	</section>
 	
 	<section id="projects">
-		<div class="container">
+		<div class="container-fluid">
 			<h1>Projects</h1>
 			<ul class="nav nav-pills my-3" id="myTab" role="tablist">
 			  <li class="nav-item">
-				<a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">All</a>
+				<a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Web</a>
 			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" id="web-tab" data-toggle="tab" href="#web" role="tab" aria-controls="web" aria-selected="false">Web</a>
-			  </li>
+			  
 			  <li class="nav-item">
 				<a class="nav-link" id="django-tab" data-toggle="tab" href="#django" role="tab" aria-controls="django" aria-selected="false">Django</a>
 			  </li>
@@ -159,621 +147,357 @@
 			<div class="tab-content" id="myTabContent">
 			  <div class="tab-pane show active" id="all" role="tabpanel" aria-labelledby="web-tab">
 				<div class="row">
-					  <div class="col col-12 col-md-6 col-lg-4">
-						<div class="card">
-						  <img class="card-img-top img-fluid" src="images/kiki_port.jpg" alt="Card image cap">
-						  <div class="card-header">
-							<h5 >E-Commerce </h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">An E-Commerce website built on Django for medium scale business, Utilizing django middewares.</p>
-						  </div>
-						  <div class="card-footer w-100">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="images/kiki_port.jpg" target="_blank">
-									<button class="btn btn-warning">
-										<i class="icofont icofont-image"></i>
-										ScreenShot
-									</button>
-								</a>	
-
-								<a href="https://github.com/ndmichael/cookElla-recipe"  target="_blank">
-									<button class="btn btn-light">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
+					<!-- project images -->
+					<div class="col-12 col-md-6 my-5">
+						<div>
+							<img class="img-fluid w-100" src="images/kiki_port.jpg" alt="..."/>
+						</div>
+					</div>
+					
+					<!-- project details -->
+					<div class="col-6 d-flex flex-column align-self-center">
+						<div class="p-5 project_detailsL">
+							<h1> Django E-Commerce Website</h1>
+							<div class="icofont_container">
+								<span>
+									<i class="icofont icofont-file-python"></i>
+									<span class="">Django</span>
+								</span>
+								<span>
+									<i class="icofont icofont-file-javascript "></i>
+									<span class="">Ajax</span>
+								</span>
+								<span>
+									<i class="icofont icofont-bootstrap"></i>
+									<span class="">Bootstrap</span>
+								</span>
+							</div>
+							<p>
+								Cupidatat exercitation excepteur eiusmod tempor veniam nulla Lorem deserunt minim ipsum. Do velit non in minim cillum ullamco do excepteur incididunt. Ea occaecat magna eiusmod nulla dolore ex irure est Lorem.
+							</p>
+							<div class="float-right">
+								<a href="" class="btn btn-lg btn-info">Watch Video</a>
+								<a href="" class="btn btn-lg btn-outline-info">Source Code</a>
+							</div>
+						</div>
+					</div>
+				</div>  
+				  
+				  <div class="row">
+					  
+					<div class="col-6 d-flex flex-column align-self-center">
+						
+						<!-- project details -->
+						<div class="p-5 project_detailsR">
+							<h1>Reusable Student Management Form</h1>
+							<div class="icofont_container">	
+								<span>
+									<i class="icofont icofont-file-javascript "></i>
+									<span class="">ReactJS</span>
+								</span>
+								<span>
+									<i class="icofont icofont-presentation-alt"></i>
+									<span class="">ChakraUI</span>
+								</span>
+								<span>
+									<i class="icofont icofont-file-presentation"></i>
+									<span class="">Formik</span>
+								</span>
+								<span>
+									<i class="icofont icofont-file-sql"></i>
+									<span class="">Yup</span>
+								</span>
+							</div>
+							<p>
+								Class Management form built on React using formik reusable component, validated with Yup and styled with ChakaUI.
+							</p>
+							<div  class="float-left">
+								<a href="https://class-form-nd.firebaseapp.com/" target="_blank" class="btn btn-lg btn-info">
+									Watch Video
+								</a>
+								<a href="https://github.com/ndmichael/StudentManagementForms" target="_blank" class="btn btn-lg btn-light">
+									Source Code
 								</a>
 							</div>
-						  </div>
-						</div> <!-- E commerce card  -->	 
+						</div>		
+					</div>
+					  
+					<!-- project image / video -->
+					  <div class="col-12 col-md-6 my-5">
+						<div>
+							<img class="img-fluid w-100" src="images/CMForm2.png" alt="..."/>
+						</div>
+					</div>
+					  
+				</div>
+				  
+				<div class="row">
+					<!-- project image / video -->
+					<div class="col-12 col-md-6 my-5">
+						<div>
+							<img class="img-fluid w-100" src="images/kiki_port.jpg" alt="..."/>
+						</div>
 					</div>
 					
-					<div class="col col-12 col-md-6 col-lg-4">
-						<div class="card">
-						  <img class="card-img-top img-fluid" src="images/CMForm2.png" alt="Card image cap">
-						  <div class="card-header">
-							<h5 >Student Class Form </h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">Class form built on React using formik reusable component, validated with Yup and styled with ChakaUI.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="https://class-form-nd.firebaseapp.com/" target="_blank" style="display: inline-block">
-									<button class="btn btn-warning">
-										<i class="icofont icofont-external-link"></i>
-										Live Preview
-									</button>
-								</a>	
-								<a href="https://github.com/ndmichael/StudentManagementForms" target="_blank" style="display: inline-block">
-									<button class="btn btn-light">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>	
+					<div class="col-6 d-flex flex-column align-self-center">
+						<!-- project details -->
+						<div class="p-5 project_detailsL">
+							<h1 class="">Social Recipe and Blogging System</h1>
+							<div class="icofont_container">
+								<span>
+									<i class="icofont icofont-file-python"></i>
+									<span class="">Django</span>
+								</span>
+								<span>
+									<i class="icofont icofont-file-javascript "></i>
+									<span class="">Ajax</span>
+								</span>
+								<span>
+									<i class="icofont icofont-bootstrap"></i>
+									<span class="">Bootstrap</span>
+								</span>
+								<span>
+									<i class="icofont icofont-file-sql"></i>
+									<span class="">PostgreSql</span>
+								</span>
 							</div>
-						  </div>
-						</div> <!-- Class Management Form card  -->
-					</div>
-					
-					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/number_pyramid.png" alt="Card image cap">
-						  
-						  <div class="card-header">
-							<h5 style="width: 100%">Numeric Pyramid Pattern</h5>	  
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">An algorithm that prints numbers in reverse and direct chronological pattern creating a pyramid.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex justify-content-between ">
-								<a href="images/number_pyramid.png" target="_blank">
-									<button class="btn btn-warning ">
-										<i class="icofont icofont-image"></i>
-										ScreenShot
-									</button>
-								</a>	
-								<a href="https://github.com/ndmichael/pyramid-number-pattern"  target="_blank">
-									<button class="btn btn-light ">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>
+							<p class="" style=" font-size: 16px">
+								Cupidatat exercitation excepteur eiusmod tempor veniam nulla Lorem deserunt minim ipsum. Do velit non in minim cillum ullamco do excepteur incididunt. Ea occaecat magna eiusmod nulla dolore ex irure est Lorem.
+							</p>
+							<div class="float-right">
+								<a href="" class="btn btn-lg btn-info">Watch Video</a>
+								<a href="" class="btn btn-lg btn-light">Source Code</a>
 							</div>
-						  </div>
-						</div> <!--Number Pyramid Card -->
+						</div>
 					</div>
 					
-					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/lotto-game.png" alt="Card image cap">
-						  
-						  <div class="card-header">
-							<h5>Lotto Game</h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">Number Lotto game built with vanilla Javascript. It increment/ decrement user money depending on how many correct guess.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="https://ndmichael.github.io/lottoapp/" target="_blank">
-									<button class="btn btn-warning">
-										<i class="icofont icofont-external-link"></i>
-										Live Preview
-									</button>
-								</a>	
-								<a href="https://github.com/ndmichael/lottoapp" target="_blank">
-									<button class="btn btn-light">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>	
-							</div>
-						  </div>
-						</div> <!-- Lotto Game Card  -->
-					</div>
-					
-					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/Untitled design.jpg" alt="Card image cap">
-						  
-						  <div class="card-header">
-							<h5>Social Recipe App</h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">Different from your regular app, supports user blogging, authentication and allows users to upload their own recipes.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="http://cookella.herokuapp.com/" target="_blank">
-									<button class="btn btn-warning">
-										<i class="icofont icofont-external-link"></i>
-										Live Preview
-									</button>
-								</a>	
-
-								<a href="https://github.com/ndmichael/cookElla-recipe" target="_blank">
-									<button class="btn btn-light">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>	
-							</div>
-						  </div>
-						</div> <!-- Recipe app card  -->
-					</div>
-					
-					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/HeartPattern.png" alt="Card image cap">
-						  
-						  <div class="card-header">
-							<h5>Beautiful Heart Pattern</h5>
-						  </div>
-						  <div class="card-body h-100">
-							<p class="card-text">A simple application that print different colorful heart pattern depending on user selection between 1 - 7.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="images/HeartPattern.png" target="_blank">
-									<button class="btn btn-warning ">
-										<i class="icofont icofont-image"></i>
-										ScreenShot
-									</button>
-								</a>	
-								<a href="https://github.com/ndmichael/Beautiful-Heart-Pattern"  target="_blank">
-									<button class="btn btn-light ">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>
-							</div>
-						  </div>
-						</div> <!-- Beautiful Heart Pattern Card  -->
-					</div>
-					
-					<!-- cards row 3 -->
-					
-					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/Untitled design.jpg" alt="Card image cap">
-						  
-						  <div class="card-header">
-							<h5>Number Converter</h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">A number converter app built on react that converts number depending on the selected choice. works for binary, hexadecimal, octal, and decimal.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="images/Untitled design.jpg" target="_blank">
-									<button class="btn btn-warning ">
-										<i class="icofont icofont-image"></i>
-										ScreenShot
-									</button>
-								</a>	
-
-								<a href="https://github.com/ndmichael/number-converter"  target="_blank">
-									<button class="btn btn-light ">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>
-								
-							</div>
-						  </div>
-						</div> <!-- Number Converter card  -->
-					</div>
-					
-					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/HeartPattern.png" alt="Card image cap">
-						  
-						  <div class="card-header">
-							<h5>Files Handling</h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">An algorithm to handles files in C. Write and read files, return the number of lines, characters and words in a file.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="images/HeartPattern.png" target="_blank">
-									<button class="btn btn-warning ">
-										<i class="icofont icofont-image"></i>
-										ScreenShot
-									</button>
-								</a>	
-								<a href="https://github.com/ndmichael/C_Files"  target="_blank">
-									<button class="btn btn-light ">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>
-
-							</div>
-						  </div>
-						</div> <!-- File Scheduling Card  -->
-					</div>
-					
-					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/portfolio_port2.png" alt="Card image cap">
-						  
-						  <div class="card-header">
-							<h5>Portfolio Website</h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">A fully responsive portfolio that showcase my work and details about my software programming skills.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="https://ndmichael.github.io/ndmichael/" target="_blank">
-									<button class="btn btn-warning">
-										<i class="icofont icofont-external-link"></i>
-										Live Preview
-									</button>
-								</a>	
-
-								<a href="https://github.com/ndmichael/ndmichael" target="_blank">
-									<button class="btn btn-light">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>	
-							</div>
-						  </div>
-						</div> <!-- Portfolio Card  -->
-					</div>
-							
 				</div>
 			  	
-			  </div> <!-- end of all tab -->
-				
-						
-			  <!-- web section tab -->
-				
-			  <div class="tab-pane" id="web" role="tabpanel" aria-labelledby="web-tab">
-				  <div class="row">
-				  	<div class="col col-12 col-md-6 col-lg-4" data-aos="zoom-in-down">
-						<div class="card">
-						  <img class="card-img-top img-fluid" src="images/kiki_port.jpg" alt="Card image cap">
-						  <div class="card-header">
-							<h5 >E-Commerce </h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">An E-Commerce website built on Django for medium scale business, Utilizing django middewares.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="images/kiki_port.jpg" target="_blank">
-									<button class="btn btn-warning">
-										<i class="icofont icofont-image"></i>
-										ScreenShot
-									</button>
-								</a>	
-
-								<a href="https://github.com/ndmichael/cookElla-recipe"  target="_blank">
-									<button class="btn btn-light">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>
-							</div>
-						  </div>
-						</div> <!-- E commerce card  -->	 
-					</div>
-					  
-					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card" data-aos="zoom-in-down">
-						  <img class="card-img-top img-fluid" src="images/CMForm2.png" alt="Card image cap">
-						  <div class="card-header">
-							<h5 >Student Class Form </h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">Class form built on React using formik reusable component, validated with Yup and styled with ChakaUI.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="https://class-form-nd.firebaseapp.com/" target="_blank" style="display: inline-block">
-									<button class="btn btn-warning">
-										<i class="icofont icofont-external-link"></i>
-										Live Preview
-									</button>
-								</a>	
-								<a href="https://github.com/ndmichael/StudentManagementForms" target="_blank" style="display: inline-block">
-									<button class="btn btn-light">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>	
-							</div>
-						  </div>
-						</div> <!-- Class Management Form card  -->
-					</div>
-					  
-					 <div class="col col-12 col-md-6 col-lg-4 " data-aos="zoom-in-down">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/portfolio_port2.png" alt="Card image cap">
-						  
-						  <div class="card-header">
-							<h5>Portfolio Website</h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">A fully responsive portfolio that showcase my work and details about my software programming skills.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="https://ndmichael.github.io/ndmichael/" target="_blank">
-									<button class="btn btn-warning">
-										<i class="icofont icofont-external-link"></i>
-										Live Preview
-									</button>
-								</a>	
-
-								<a href="https://github.com/ndmichael/ndmichael" target="_blank">
-									<button class="btn btn-light">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>	
-							</div>
-						  </div>
-						</div> <!-- Portfolio Card  -->
-					</div> 
-					  
-					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/Untitled design.jpg" alt="Card image cap">
-						  
-						  <div class="card-header">
-							<h5>Recipe App</h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">Different from your regular app, supports user blogging, authentication and allows users to upload their own recipes.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="http://cookella.herokuapp.com/" target="_blank">
-									<button class="btn btn-warning">
-										<i class="icofont icofont-external-link"></i>
-										Live Preview
-									</button>
-								</a>	
-
-								<a href="https://github.com/ndmichael/cookElla-recipe" target="_blank">
-									<button class="btn btn-light">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>	
-							</div>
-						  </div>
-						</div> <!-- Recipe app card  -->
-					</div>
-					  
-					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/Untitled design.jpg" alt="Card image cap">
-						  
-						  <div class="card-header">
-							<h5>Number Converter</h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">A number converter app built on react that converts number depending on the selected choice. works for binary, hexadecimal, octal, and decimal.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="images/Untitled design.jpg" target="_blank">
-									<button class="btn btn-warning ">
-										<i class="icofont icofont-image"></i>
-										ScreenShot
-									</button>
-								</a>	
-
-								<a href="https://github.com/ndmichael/number-converter"  target="_blank">
-									<button class="btn btn-light ">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>
-								
-							</div>
-						  </div>
-						</div> <!-- Number Converter card  -->
-					</div>
-					  
-					
-					  <div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/lotto-game.png" alt="Card image cap">
-						  
-						  <div class="card-header">
-							<h5>Lotto Game</h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">Number Lotto game built with vanilla Javascript. It incremen t/ decrement user money depending on how many correct guess.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="https://ndmichael.github.io/lottoapp/" target="_blank">
-									<button class="btn btn-warning">
-										<i class="icofont icofont-external-link"></i>
-										Live Preview
-									</button>
-								</a>	
-								<a href="https://github.com/ndmichael/lottoapp" target="_blank">
-									<button class="btn btn-light">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>	
-							</div>
-						  </div>
-						</div> <!-- Lotto Game Card  -->
-					</div>
-				  </div>
-			  </div> <!-- web section ends here -->
+			  </div> <!-- end of all tab -->	
 				
 				
 			  <!-- Django tab section starts here -->
 				
 			  <div class="tab-pane " id="django" role="tabpanel" aria-labelledby="django-tab">
-			  	<div class="row">
-					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-						  <img class="card-img-top img-fluid" src="images/kiki_port.jpg" alt="Card image cap">
-						  <div class="card-header">
-							<h5 >E-Commerce </h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">An E-Commerce website built on Django for medium scale business, Utilizing django middewares.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="images/kiki_port.jpg" target="_blank">
-									<button class="btn btn-warning">
-										<i class="icofont icofont-image"></i>
-										ScreenShot
-									</button>
-								</a>	
-
-								<a href="https://github.com/ndmichael/cookElla-recipe"  target="_blank">
-									<button class="btn btn-light">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>
-							</div>
-						  </div>
-						</div> <!-- E commerce card  -->	 
+				 
+				<div class="row">
+					<!-- project images -->
+					<div class="col-12 col-md-6 my-5">
+						<div>
+							<img class="img-fluid w-100" src="images/kiki_port.jpg" alt="..."/>
+						</div>
 					</div>
+					
+					<!-- project details -->
+					<div class="col-6 d-flex flex-column align-self-center">
+						<div class="p-5 project_detailsL">
+							<h1 class="text-dark"> Django E-Commerce Website</h1>
+							<div class="icofont_container">
+								<span>
+									<i class="icofont icofont-file-python"></i>
+									<span class="">Django</span>
+								</span>
+								<span>
+									<i class="icofont icofont-file-javascript "></i>
+									<span class="">Ajax</span>
+								</span>
+								<span>
+									<i class="icofont icofont-bootstrap"></i>
+									<span class="">Bootstrap</span>
+								</span>
+							</div>
+							<p class="text-dark" style=" font-size: 16px">
+								Cupidatat exercitation excepteur eiusmod tempor veniam nulla Lorem deserunt minim ipsum. Do velit non in minim cillum ullamco do excepteur incididunt. Ea occaecat magna eiusmod nulla dolore ex irure est Lorem.
+							</p>
+							<div class="float-right">
+								<a class="btn btn-lg btn-info">Watch Video</a>
+								<a class="btn btn-lg btn-outline-light">Source Code</a>
+							</div>
+						</div>
+					</div>
+				</div>  
 				  
-				    <div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/Untitled design.jpg" alt="Card image cap">
-						  
-						  <div class="card-header">
-							<h5>Recipe App</h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">Different from your regular app, supports user blogging, authentication and allows users to upload their own recipes.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="http://cookella.herokuapp.com/" target="_blank">
-									<button class="btn btn-warning">
-										<i class="icofont icofont-external-link"></i>
-										Live Preview
-									</button>
-								</a>	
-
-								<a href="https://github.com/ndmichael/cookElla-recipe" target="_blank">
-									<button class="btn btn-light">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>	
+				<div class="row">
+					<div class="col-6 d-flex flex-column align-self-center">
+						<!-- project details -->
+						<div class="p-5 project_detailsR">
+							<h1 class="text-dark">Social Recipe and Blogging System</h1>
+							<div class="icofont_container">
+								<span>
+									<i class="icofont icofont-file-python"></i>
+									<span class="">Django</span>
+								</span>
+								<span>
+									<i class="icofont icofont-file-javascript "></i>
+									<span class="">Ajax</span>
+								</span>
+								<span>
+									<i class="icofont icofont-bootstrap"></i>
+									<span class="">Bootstrap</span>
+								</span>
+								<span>
+									<i class="icofont icofont-file-sql"></i>
+									<span class="">PostgreSql</span>
+								</span>
 							</div>
+							<p class="text-dark" style=" font-size: 16px">
+								Cupidatat exercitation excepteur eiusmod tempor veniam nulla Lorem deserunt minim ipsum. Do velit non in minim cillum ullamco do excepteur incididunt. Ea occaecat magna eiusmod nulla dolore ex irure est Lorem.
+							</p>
+							<div class="float-left">
+								<a class="btn btn-lg btn-info">Watch Video</a>
+								<a class="btn btn-lg btn-outline-light">Source Code</a>
 							</div>
-						</div> <!-- Recipe app card  -->
-					</div>  
+						</div>
+					</div>
+					<!-- project image / video -->
+					<div class="col-12 col-md-6 my-5">
+						<div>
+							<img class="img-fluid w-100" src="images/kiki_port.jpg" alt="..."/>
+						</div>
+					</div>
 				</div>
+				
+				 
+				  
+				
+				  
+				  
+				  
+			  	
+				  
+				    
 			  </div> <!-- django tab section section -->
 				
 				
 			<!-- reactjs tab section starts here -->
 				
 			<div class="tab-pane" id="react" role="tabpanel" aria-labelledby="reactjs-tab">
+				
 				<div class="row">
-					<div class="col col-12 col-md-6 col-lg-4 ">
-						<div class="card">
-							<img class="card-img-top img-fluid" src="images/Untitled design.jpg" alt="Card image cap">
-
-						  <div class="card-header">
-							<h5>Number Converter</h5>
-						  </div>
-						  <div class="card-body">
-							<p class="card-text">A number converter app built on react that converts number depending on the selected choice. works for binary, hexadecimal, octal, and decimal.</p>
-						  </div>
-						  <div class="card-footer">
-							<div class="d-flex flex-row justify-content-between">
-								<a href="images/Untitled design.jpg" target="_blank">
-									<button class="btn btn-warning ">
-										<i class="icofont icofont-image"></i>
-										ScreenShot
-									</button>
-								</a>	
-
-								<a href="https://github.com/ndmichael/number-converter"  target="_blank">
-									<button class="btn btn-light ">
-										<i class="icofont icofont-github"></i>
-										Source Code
-									</button>
-								</a>
-								
-							</div>
-						  </div>
-						</div> <!-- Number Converter card  -->
-					</div>
-
-					<div class="col col-12 col-md-6 col-lg-4 ">
-							<div class="card">
-							  <img class="card-img-top img-fluid" src="images/CMForm2.png" alt="Card image cap">
-							  <div class="card-header">
-								<h5 >Student Class Form </h5>
-							  </div>
-							  <div class="card-body">
-								<p class="card-text">Class form built on React using formik reusable component, validated with Yup and styled with ChakaUI.</p>
-							  </div>
-							  <div class="card-footer">
-								<div class="d-flex flex-row justify-content-between">
-									<a href="https://class-form-nd.firebaseapp.com/" target="_blank" style="display: inline-block">
-										<button class="btn btn-warning">
-											<i class="icofont icofont-external-link"></i>
-											Live Preview
-										</button>
-									</a>	
-									<a href="https://github.com/ndmichael/StudentManagementForms" target="_blank" style="display: inline-block">
-										<button class="btn btn-light">
-											<i class="icofont icofont-github"></i>
-											Source Code
-										</button>
-									</a>	
-								</div>
-							  </div>
-							</div> <!-- Class Management Form card  -->
+					<!-- project images -->
+					<div class="col-12 col-md-6 my-5">
+						<div>
+							<img class="img-fluid w-100" src="images/kiki_port.jpg" alt="..."/>
 						</div>
-
-						<div class="col col-12 col-md-6 col-lg-4 ">
-							<div class="card">
-							  <img class="card-img-top img-fluid" src="images/lotto-game.png" alt="Card image cap">
-
-							  <div class="card-header">
-								<h5>Lotto Game</h5>
-							  </div>
-							  <div class="card-body">
-								<p class="card-text">Number Lotto game built with vanilla Javascript. It increment/ decrement user money depending on how many correct guess.</p>
-							  </div>
-							  <div class="card-footer">
-								<div class="d-flex flex-row justify-content-between">
-									<a href="https://ndmichael.github.io/lottoapp/" target="_blank">
-										<button class="btn btn-warning">
-											<i class="icofont icofont-external-link"></i>
-											Live Preview
-										</button>
-									</a>	
-									<a href="https://github.com/ndmichael/lottoapp" target="_blank">
-										<button class="btn btn-light">
-											<i class="icofont icofont-github"></i>
-											Source Code
-										</button>
-									</a>	
-								</div>
-							  </div>
-						</div> <!-- Lotto Game Card  -->
+					</div>
+					
+					<!-- project details -->
+					<div class="col-6 d-flex flex-column align-self-center">
+						<div class="p-5 project_detailsL">
+							<h1 class="text-dark">Number Base Converter WebApp</h1>
+							<div class="icofont_container">
+							
+								<span>
+									<i class="icofont icofont-file-javascript "></i>
+									<span class="">React</span>
+								</span>
+								<span>
+									<i class="icofont icofont-mixx"></i>
+									<span class="">MaterialUI</span>
+								</span>
+							</div>
+							<p class="text-dark" style=" font-size: 16px">
+								A number converter app built on react that converts number depending on the selected choice. works for binary, hexadecimal, octal, and decimal.
+							</p>
+							<div class="float-right">
+								<a href="https://github.com/ndmichael/number-converter" class="btn btn-lg btn-info">
+									Live Preview
+								</a>
+								<a href="https://github.com/ndmichael/number-converter" class="btn btn-lg btn-light">
+									Source Code
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>  
+				  
+				<div class="row">
+					<div class="col-6 d-flex flex-column align-self-center">
+						<!-- project details -->
+						<div class="p-5 project_detailsR">
+							<h1 class="text-dark">Reusable Student Management Form</h1>
+							<div class="icofont_container">
+								
+								<span>
+									<i class="icofont icofont-file-javascript "></i>
+									<span class="">ReactJS</span>
+								</span>
+								<span>
+									<i class="icofont icofont-presentation-alt"></i>
+									<span class="">ChakraUI</span>
+								</span>
+								<span>
+									<i class="icofont icofont-file-presentation"></i>
+									<span class="">Formik</span>
+								</span>
+								<span>
+									<i class="icofont icofont-file-sql"></i>
+									<span class="">Yup</span>
+								</span>
+							</div>
+							<p class="text-dark" style=" font-size: 16px">
+								Class Management form built on React using formik reusable component, validated with Yup and styled with ChakaUI.
+							</p>
+							<div  class="float-left">
+								<a href="https://class-form-nd.firebaseapp.com/" target="_blank" class="btn btn-lg btn-info">
+									Watch Video
+								</a>
+								<a href="https://github.com/ndmichael/StudentManagementForms" target="_blank" class="btn btn-lg btn-dark">
+									Source Code
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- project image / video -->
+					<div class="col-12 col-md-6 my-5">
+						<div>
+							<img class="img-fluid w-100" src="images/CMForm2.png" alt="..."/>
+						</div>
 					</div>
 				</div>
+				
+				<div class="row">
+					<!-- project images -->
+					<div class="col-12 col-md-6 my-5">
+						<div>
+							<img class="img-fluid w-100" src="images/kiki_port.jpg" alt="..."/>
+						</div>
+					</div>
+					
+					<!-- project details -->
+					<div class="col-6 d-flex flex-column align-self-center">
+						<div class="p-5 project_detailsL">
+							<h1 class="text-dark">Lotto Game</h1>
+							<div class="icofont_container">
+							
+								<span>
+									<i class="icofont icofont-file-javascript "></i>
+									<span class="">JavaScript</span>
+								</span>
+								<span>
+									<i class="icofont icofont-file-html5"></i>
+									<span class="">HTML 5</span>
+								</span>
+								<span>
+									<i class="icofont icofont-file-css"></i>
+									<span class="">CSS 3</span>
+								</span>
+							</div>
+							<p class="text-dark" style=" font-size: 16px">
+								Number Lotto game built with vanilla Javascript. It increment/ decrement user money depending on how many correct guess.
+							</p>
+							<div class="float-right">
+								<a href="https://ndmichael.github.io/lottoapp/" target="_blank" class="btn btn-lg btn-info">
+									Live Preview
+								</a>
+								<a href="https://github.com/ndmichael/lottoapp" target="_blank" class="btn btn-lg btn-light">
+									Source Code
+								</a>
+							</div>
+						</div>
+					</div>
+				</div> 
+				
 			</div> <!-- react tab section ends here -->
 				
 				
@@ -910,7 +634,20 @@
 			
 	<!-- skills section -->
 	<section id="skills">
-		<div class="container">
+<!--
+		<i class="icofont icofont-database icofont-4x span"></i>
+		<span class="icofont icofont-4x span icofont-calculator-alt-2"></span>
+		<span class="icofont icofont-code icofont-8x span"></span>
+-->
+		<span class="icofont icofont-database icofont-4x span"></span>
+		<span class="icofont icofont-code icofont-6x span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		<div class="container-fluid ">
 			<h1>Skills</h1>
 			<nav>
 			  <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -921,56 +658,50 @@
 			<div class="tab-content" id="nav-tabContent">
 			  <div class="tab-pane fade show active" id="coding-skills" role="tabpanel" aria-labelledby="nav-professional-tab">
 				  <div class="row">
-					<div class="col col-12 col-md-6 col-lg-4  my-5">
-					  <div class="skill h-100">
-						  <div class="icon-align">
-							  <i class="icofont icofont-4x icofont-data my-icofont-css"></i>
-						  </div>  
-						
-						<h2>BackEnd</h2>
-						<ul>
-							<li>
-								<i class="icofont icofont-tick-mark pr-2"></i>
-								<p>Python - Django, Flask, Pandas</p>
-							</li>  
-							<li>
-								<i class="icofont icofont-tick-mark pr-2"></i>
-								<p>JavaScript - NodeJS, TypeScript</p></li> 
-							<li>
-								<i class="icofont icofont-tick-mark pr-2"></i>
-								<p>PHP, Laravel</p>
-							</li> 
-							<li>
-								<i class="icofont icofont-tick-mark pr-2"></i>
-								<p>C Language</p>
-						 	</li> 
+					<div class="col col-12 col-md-6 col-lg-4 my-5">
+					  <div class="h-100 skill">
+									  
+							  <h2>BackEnd</h2>
+								<ul>
+									<li>
+										<i class="icofont icofont-tick-mark pr-2"></i>
+										<p>Python - Django, Flask, Pandas</p>
+									</li>  
+									<li>
+										<i class="icofont icofont-tick-mark pr-2"></i>
+										<p>JavaScript - NodeJS, TypeScript</p></li> 
+									<li>
+										<i class="icofont icofont-tick-mark pr-2"></i>
+										<p>PHP, Laravel</p>
+									</li> 
+									<li>
+										<i class="icofont icofont-tick-mark pr-2"></i>
+										<p>C Language</p>
+									</li> 
 
-							<li>
-								<i class="icofont icofont-tick-mark pr-2"></i>
-								<p>Google Cloud Platform - (Firebase, Firestore)</p>
-							</li> 
-							<li>
-								<i class="icofont icofont-tick-mark pr-2"></i>
-								<p>AWS - (S3, Lambda)</p>
-							</li> 
-							<li>
-								<i class="icofont icofont-tick-mark pr-2"></i>
-								<p>Heroku</p>
-							</li>
-							<li>
-								<i class="icofont icofont-tick-mark pr-2"></i>
-								<p>Databases - MySql, PostgreSql, MongoDB</p>
-							</li>
-							
-						</ul>
+									<li>
+										<i class="icofont icofont-tick-mark pr-2"></i>
+										<p>Google Cloud Platform - (Firebase, Firestore)</p>
+									</li> 
+									<li>
+										<i class="icofont icofont-tick-mark pr-2"></i>
+										<p>AWS - (S3, Lambda)</p>
+									</li> 
+									<li>
+										<i class="icofont icofont-tick-mark pr-2"></i>
+										<p>Heroku</p>
+									</li>
+									<li>
+										<i class="icofont icofont-tick-mark pr-2"></i>
+										<p>Databases - MySql, PostgreSql, MongoDB</p>
+									</li>
+
+								</ul>					
 					  </div>
 					  
 				  	</div>
 				  <div class="col col-12 col-md-6 col-lg-4 my-5">
 					 <div class="skill h-100"> 
-						 <div class="icon-align">
-						 	<i class="icofont icofont-4x icofont-code my-icofont-css"></i>
-						 </div>
 					 	
 					    <h2>FrontEnd</h2>
 						 <ul>
@@ -1000,9 +731,6 @@
 				  </div>
 				  <div class="col col-12 col-md-6 col-lg-4 my-5 mx-auto">
 					  <div class="skill h-100">
-					  	<div class="icon-align">
-							<i class="icofont icofont-4x icofont-tools-alt-2 my-icofont-css"></i>
-						</div>
 					    <h2>Others</h2>
 						  <ul>
 						  	<li>
@@ -1256,7 +984,7 @@
 				body.style.overflowX = 'hidden';
 				
 				
-			}, 3000);
+			}, 300);
 		}
 		
 		init();
@@ -1276,6 +1004,12 @@
 		  });
 	
 	</script>
+	
+	<script>
+        $(window).scroll(function () {
+            $('#nav').toggleClass('scrolled', $(this).scrollTop() > 500);
+        });
+    </script>
 
 </body>
 </html>

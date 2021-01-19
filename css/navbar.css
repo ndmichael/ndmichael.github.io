@@ -10,6 +10,23 @@
 ****
 */
 
+
+.scrolled {
+	background: rgba(255, 255, 255, 1);
+	transition: .3s;
+	color: #000;
+	
+}
+
+.scrolled .navbar-nav .nav-link {
+	color: #000;
+}
+
+.scrolled .active > a span.icofont {
+    color: #000 !important;
+}
+
+
 .navbar-brand img{
 	min-height: 40px;
 	height: 100% !important;
@@ -21,46 +38,45 @@
 /** Adding the required styling by overriding  bootstrap default **/
 
 .navbar-expand-lg{
-	background: #1B1B1B;
-	text-transform: uppercase;
+	padding: 15px 10px !important;
+	text-align: left !important;
+	text-transform: capitalize;
 	font-weight: 100;
 	font-family: 'Russo One', sans-serif;
-	padding: 0px  !important;
+	font-size: 22px;
+	box-shadow: 0 3px 10px rgba(08,08,08, 0.2);color: #fff;
+	width: 100%;	
+	display: block !important;
 	
 }
 
-.navbar-expand-lg .navbar-nav .nav-link{
-	color: #F9EBEC;
+.navbar-expand-lg .navbar-nav .nav-link{	
 	font-size: 0.75em;
-	padding-top:15px !important;
+	padding: 0 15px !important;
+	color: #000;
+	
 }
 
-
-
-.navbar-expand-lg .navbar-nav > .active > a{
+.navbar-expand-lg .active > a{
 	background-color: transparent;
-	color: #ffd700 !important;
-	border-bottom: 0.8em solid #FFF;
+	color: #17a2b8 !important;
+	
 }
 
-.navbar-expand-lg .navbar-nav > .active > a span.icofont {
-	color: #ffffff;
+.navbar-expand-lg  .active > a span.icofont {
+	color: #fff;
 }
 
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
 	background-color: transparent;
-	color: darkgrey;
-	border-bottom: 0.8em solid gold;
+	color: #17a2b8;
+	transition: border-radius .2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
-	transition: border-radius .2s ease-in-out,;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link:hover span.icofont {
-	color: #ffffff;
+	
 }
 
 
@@ -69,7 +85,7 @@
 	color: #000;
 	background-color: gold;
 	font-size: 0.8em;
-	padding: 3px;
+	padding: 0 !important;
 	position: relative;
 	left: 0.57rem;
 	bottom: 0.56rem;
@@ -112,7 +128,7 @@
 
 .navbar span.icofont{
 	display: inline-block;
-	color: #434343;
+	color: #dee2e6;
 	font-size:17px;
 	
 }
