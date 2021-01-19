@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Be Vietnam';
+    src: local('Be Vietnam Light'), local('Be-Vietnam-Light'),
+        url('BeVietnam-Light.woff2') format('woff2'),
+        url('BeVietnam-Light.woff') format('woff'),
+        url('BeVietnam-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }

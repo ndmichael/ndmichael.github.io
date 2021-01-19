@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'YouTube Sans Dark';
+    src: local('YouTube Sans Dark Black'), local('YouTube-Sans-Dark-Black'),
+        url('YouTubeSansDark-Black.woff2') format('woff2'),
+        url('YouTubeSansDark-Black.woff') format('woff'),
+        url('YouTubeSansDark-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
