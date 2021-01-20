@@ -85,48 +85,26 @@ nav .btn-group {
  
 
 section#intro-header{
-	background: linear-gradient(120deg, rgba(08, 69, 79, 0.7), rgba(08, 69, 79, 0.7)), url("../images/christopher-gower-m_HRfLhgABo-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-	background-attachment: fixed;
-    position: relative;
-	min-height: 100vh;
+/*	background: linear-gradient(45deg, rgba(08, 69, 79, 1), #0BA2B8);*/
+	background: rgba(08, 69, 79, 1);
+/*	min-height: 100vh;*/
+	height: 100%;
 	width: 100%;
 	
 }
-section#intro-header #headline{
-	margin-top: 22%;
-	margin-bottom: 20%;
-	padding: 10px;
-	font-weight: 700;
-	font-size: 1.7em;
-}
 
-section#intro-header h1{
-	font-weight: 500;
-	color: #fff;
-} 
-section#intro-header h2 {
-    color: #dee2e6;
+section#intro-header h1 {
+    color: #fff;
     font-size: 4.5rem;
 	font-weight: 900;
 	
 }
 
-section#intro-header a{
-	text-decoration: none;
-	color: inherit;
-}
 
-
-
-
-section#intro-header .btn {
+section#intro-header a {
     text-transform: uppercase;
     font-weight: 600;
-    font-family: 'Roboto Slab', serif;
-    padding: 10px;
+	padding: 10px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .35);
 	
 }
@@ -170,17 +148,6 @@ section#about h3 > span{
 section#about p{
 	color: #3d3e40;
 }
-
-/*
-section#about h3{
-	margin-top: 4.5em;
-}
-
-section#about h3 > span{
-	color: #ffd700;
-}
-*/
-
 
 
 /*CSS for contact form ON THE BODY*/
@@ -652,17 +619,21 @@ section#about h3 > span{
 	padding-right: 7px;
 }
 
+#projects .btn-outline-info {
+	border: 0 !important;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
 	background: transparent;
-	color: gold;
+	color: #17a2b8;
 }
 
 .nav-pills .nav-link{
-	color: #dee2e6;
-    font-size: 16px;
+	color: darkgrey;
+    font-size: 18px;
     font-weight: 700;
 	text-align: center;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	
 }
 

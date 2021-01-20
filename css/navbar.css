@@ -14,16 +14,20 @@
 .scrolled {
 	background: rgba(255, 255, 255, 1);
 	transition: .3s;
-	color: #000;
 	
 }
 
 .scrolled .navbar-nav .nav-link {
-	color: #000;
+	color: #5b5b5b !important;
 }
 
 .scrolled .active > a span.icofont {
     color: #000 !important;
+}
+
+.scrolled .active > a{
+	color: #17a2b8 !important;
+	
 }
 
 
@@ -53,13 +57,13 @@
 .navbar-expand-lg .navbar-nav .nav-link{	
 	font-size: 0.75em;
 	padding: 0 15px !important;
-	color: #000;
+	color: #dee2e6;
 	
 }
 
 .navbar-expand-lg .active > a{
 	background-color: transparent;
-	color: #17a2b8 !important;
+	color: #FFFFFF !important;
 	
 }
 
