@@ -25,16 +25,25 @@
     color: #000 !important;
 }
 
-.scrolled .active > a{
+.scrolled .active .nav-link{
+	background-color: transparent;
 	color: #17a2b8 !important;
+	
 	
 }
 
+.scrolled .navbar-brand {
+	color: #17a2b8 !important;
+	font-family: 'YouTube Sans Dark';
+}
 
-.navbar-brand img{
-	min-height: 40px;
+
+.navbar-brand{
+/*	min-height: 40px;*/
 	height: 100% !important;
 	margin: 0px;
+	color: #FFFFFF;
+	font-size: 28px;
 }
 
 
@@ -47,34 +56,35 @@
 	text-transform: capitalize;
 	font-weight: 100;
 	font-family: 'Russo One', sans-serif;
+/*	font-family: 'YouTube Sans Dark';*/
 	font-size: 22px;
-	box-shadow: 0 3px 10px rgba(08,08,08, 0.2);color: #fff;
+	box-shadow: 0 3px 10px rgba(08,08,08, 0.2);
 	width: 100%;	
 	display: block !important;
+	color: #dee2e6;
 	
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{	
 	font-size: 0.75em;
 	padding: 0 15px !important;
-	color: #dee2e6;
 	
 }
 
 .navbar-expand-lg .active > a{
 	background-color: transparent;
-	color: #FFFFFF !important;
+	color: #FFFFFF;
 	
 }
 
 .navbar-expand-lg  .active > a span.icofont {
-	color: #fff;
+	color: #dc4535;
 }
 
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
 	background-color: transparent;
-	color: #17a2b8;
+	color: #ffffff;
 	transition: border-radius .2s ease-in-out;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
