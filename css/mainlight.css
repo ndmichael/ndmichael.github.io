@@ -66,7 +66,7 @@ h3, h4{
 
 p{
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 0.9em;
 	line-height: 1.5;
 	letter-spacing: 1px;
 	color: #080808;
@@ -114,18 +114,19 @@ section#intro-header a {
 
 /* the about section */
 section#about{
-/*	background: rgba(27, 27, 27, 1);*/
 	background: #ffffff;
 	position: relative;
-	padding: 25vh 0;
+	padding: 20vh 0;
 	width: 100%;
-	color: #1B1B1B;
+	color: #000;
 		
 }
 
 section#about img{
+/*
 	margin-top: 3em;
 	margin-bottom: 3em;
+*/
 	
 }
 
@@ -134,35 +135,29 @@ section#about h1{
 }
 
 section#about h3{
-	margin-top: 4.5em;
+	margin-top: 2.5em;
 }
 
 section#about h3 > span{
-	color: #ffd700;
-	background: #1B1B1B;
-	padding: 5px;
-	border-radius: 0 20px 0 0;
-}
-
-section#about p{
-	color: #3d3e40;
+	color: #17a2b8;
 }
 
 
 /*CSS for contact form ON THE BODY*/
 
-#contacts{
+#contacts {
 	position: relative;
-	padding: 4em 0;
-	background: rgb(36, 41, 46) ;
+	padding: 15vh;
+	background: #f6f6f6;
+	color: #FFFFFF;
 }
 
-#contacts a{
+#contacts a {
 	text-decoration: none;
-	color: inherit;
 	display: inline-block;
 	overflow: hidden;
 	float: left;
+
 }
 
 #contacts h1{
@@ -198,25 +193,26 @@ section#about p{
 }
 
 #contacts .icofont{
-	color: #ffdf00;
+	color: #17a2b8;
+	padding: 10px;
+	background: white;
+	border-radius: 50%;
 	float: left;
 	display: inline-block;
-	font-size: 46px;
-	transition: transform .2s ease-in-out;
-/*	transform: rotate(0deg) scale(0.8);*/
-	transform: skewY(5deg) scale(1) ;
+	font-size: 36px;
+	transition: transform .4s ease-in-out;
 	
 }
 
 #contacts .icofont:hover{	
-	transform: skewY(0deg)scale(1.1);
-	color: #dee2e6;
+	transform: rotate(360deg) scale(1.05, 1.05);
 	cursor: pointer;
+	color: #dc4535;
 
 }
 
 #contacts  .social_contact{
-	background:  rgba(27, 27, 27, 1);
+	background:  #17a2b8;
 	z-index: 5;
 	padding: 0 !important;
 }
@@ -229,6 +225,7 @@ section#about p{
 #contacts p{
 	display: block;
 	overflow: hidden;
+	color: #dee2e6;
 }
 
 .form-group{
@@ -242,7 +239,7 @@ section#about p{
 	border-bottom: 1px solid #dee2e6;
 	background: transparent !important;
 	border-radius: 0;
-	color: #dee2e6;	
+	color: #000;	
 	margin-bottom: 25px;
 }
 
@@ -257,7 +254,8 @@ section#about p{
 	position: absolute;
 	top: 0;
 	font-size: 1.2em;
-	transition: top .5s;	
+	transition: top .5s;
+	color: #000;
 	
 }
 
@@ -268,14 +266,15 @@ section#about p{
 	top: -20px;
 	font-size: 0.8em;
 	background: transparent !important;
-	color: gold;
+	color: #17a2b8;
 }
 
 .form-control:focus,
 .form-control:valid{
 	border: none;
-	border-bottom: 2px solid gold;
+	border-bottom: 2px solid #17a2b8;
 	background: transparent !important;
+	color: #17a2b8;
 }
 
 /**Removing chrome auto fill**/
@@ -284,7 +283,7 @@ section#about p{
 .form-control:-webkit-autofill:focus,
 .form-control:-webkit-autofill:active {
 	transition: background-color 5000s ease-in-out;
-	-webkit-text-fill-color: #fff !important;
+	-webkit-text-fill-color: #17a2b8 !important;
 }
 
 
@@ -461,20 +460,26 @@ section#about p{
 #skills h2{
 	text-align: center;
 	margin-top: 0.4em;
-	color: #000;font-weight: 800;
+	color: #343a40;
+}
+
+#skills p{
+	font-weight: 600;
+	color: #000;
 }
 
 
 #skills ul{
 	margin-left: -20px;
-	font-weight: 100;
 	list-style: none;
+	
 
 }
 
 #skills ul li{
 	text-align: left;
 	overflow: hidden;
+	font-weight: 900 !important;
 }
 
 
@@ -528,25 +533,26 @@ section#about p{
 
 .nav-tabs .nav-link.active, 
 .nav-tabs .nav-item.show .nav-link {
-    color: #4d4b46;
-    background-color: #dee2e6;
+    color: #17a2b8;
+    background-color: #FFF;
     width: 50%;
     text-align: center;
     padding: 8px;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
+	border: 0;
 }
 
 .nav-tabs .nav-link{
-	color: gold;
+	color: #FFF;
 	width: 50%;
 	padding: 8px;
     font-size: 16px;
     font-weight: 700;
 	text-align: center;
 	text-transform: uppercase;
-	border: 2px solid #535353;
+	border: 0;
 	
 }
 
