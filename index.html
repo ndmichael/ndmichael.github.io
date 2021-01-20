@@ -102,14 +102,15 @@
 			<div class="row">
 				<div id="headline" class="col-12" data-aos="zoom-out">
 					<h1><span class="h6 text-white-50">Hello, I am</span> <br />
-					Ukeje Michael</h1>
+					Michael Ukeje </h1>
 					<p class="h4 my-4 text-light">A Software <span class="typing-text" style="color: #fff700;"></span></p>
 					
-					<p class="h6 text-light" >
-						I am a self-discplined software engineer. <br >
+					<p class="h6 text-white-50 mr-5 w-85">
+						I am a highly-disciplined software engineer. <br >
 						I lean more towards the backend but i can code frontend as well. <br />
-						A fast learner, who can contribute in all stack and see a job to the finis., <br />
-						My jokes are so dry, they will make you smile.
+						A fast learner, who can contribute in all stack and see a job to the finish <br />
+							My jokes are so dry, they will make you smile.
+						
 					</p>
 					
 					<div class="mt-5">					
@@ -187,8 +188,8 @@
 	
 	<section id="projects">
 		<div class="container-fluid">
-			<h1><span>Some</span> Projects</h1>
-			<ul class="nav nav-pills my-3" id="myTab" role="tablist">
+			<h1 class="py-2"><span>Some</span> Projects</h1>
+			<ul class="nav nav-pills" id="myTab" role="tablist">
 			  <li class="nav-item">
 				<a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Web</a>
 			  </li>
@@ -351,15 +352,15 @@
 				<div class="row">
 					<!-- project images -->
 					<div class="col-12 col-md-6 my-5">
-						<div>
+						<div class="animated fadeInUp">
 							<img class="img-fluid w-100" src="images/kiki_port.jpg" alt="..."/>
 						</div>
 					</div>
 					
 					<!-- project details -->
 					<div class="col-6 d-flex flex-column align-self-center">
-						<div class="p-5 project_detailsL">
-							<h1 class="text-dark"> Django E-Commerce Website</h1>
+						<div class="p-5 project_detailsL animated slideInRight">
+							<h1> Django E-Commerce Website</h1>
 							<div class="icofont_container">
 								<span>
 									<i class="icofont icofont-file-python"></i>
@@ -374,12 +375,15 @@
 									<span class="">Bootstrap</span>
 								</span>
 							</div>
-							<p class="text-dark" style=" font-size: 16px">
-								Cupidatat exercitation excepteur eiusmod tempor veniam nulla Lorem deserunt minim ipsum. Do velit non in minim cillum ullamco do excepteur incididunt. Ea occaecat magna eiusmod nulla dolore ex irure est Lorem.
+							<p>
+								An E-commerce website built on Django framework and Twitter Bootstrap for a  textile business.
+								Also I built this website to demostrate that Django E-commerce can be cost effective, robust 
+								and highly scalable.
+								and highly scalable.
 							</p>
 							<div class="float-right">
-								<a href="#" class="btn btn-lg btn-info">Watch Video</a>
-								<a href="#" class="btn btn-lg btn-outline-info">Source Code</a>
+								<a href="" class="btn btn-lg btn-info">Watch Video</a>
+								<a href="" class="btn btn-lg btn-outline-info">Source Code</a>
 							</div>
 						</div>
 					</div>
@@ -452,6 +456,7 @@
 					<!-- project details -->
 					<div class="col-6 d-flex flex-column align-self-center">
 						<div class="p-5 project_detailsL">
+							<h6 class="text-info">Personal Project</h6>
 							<h1 class="text-dark">Number Base Converter WebApp</h1>
 							<div class="icofont_container">
 							
@@ -672,7 +677,7 @@
 	
 <!-- section 3 row 3 and row 4 -->
 	<section id="about">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				
 				<div class="col-12 col-sm-12 col-md-12">
@@ -685,7 +690,7 @@
 				
 				<div class="col-12 col-sm-12 col-md-6" data-aos="zoom-in-down">
 					<h3>My name is <span>Michael</span></h3>
-					<p class="mt-3">
+					<p class="p-3">
 						
 						I am interested in anything that breath, and live on the cyber space.
 						I am a Software Engineer, Full-Stack Developer, and Coding instructor. A computer science graduate with first class honors. <br /> <br />
@@ -696,10 +701,6 @@
 					</p>
 					<div>
 						<button class="btn btn-info btn-lg">Download CV</button>
-						<div class="float-right">
-							<a href="" class="icofont icofont-2x icofont-email"></a>
-							<a href="" class="icofont icofont-2x icofont-github"></a>
-						</div>
 					</div>
 				</div>
 				
@@ -938,12 +939,12 @@
 					</div>
 				</div>
 
-				<div class="col col-12 col-md-6" data-aos="zoom-in-down">
+				<div class="col col-12 col-md-6 border" data-aos="zoom-in-down">
 					<form class="form-horizontal" id="contact_form" method="post" action="mailto:ukejemicheal@gmail.com">
 
 				<div class="form-group">
-					<input class="form-control" type="email" id="contact_email" name="contact_email" maxlength="30"  readonly placeholder="To:ukejemicheal@gmail.com" />
-<!--					<label for="Email">To:ukejemicheal@gmail.com</label>-->
+					<input class="form-control" type="email" id="contact_email" name="contact_email" maxlength="30" readonly  />
+					<label for="Email">To:ukejemicheal@gmail.com</label>
 				</div>
 				<div class="form-group">
 					<input class="form-control" type="text" id="contact_topic" name="contact_topic" maxlength="50" required />
@@ -954,7 +955,7 @@
 					<label for="Message">Your message</label>
 				</div>
 					<div>
-						<input type="submit" class="btn btn-outline-warning btn-lg btn-block" name="submit" id="submit" value="Send Message" />
+						<input type="submit" class="btn btn-outline-info btn-lg btn-block" name="submit" id="submit" value="Send Message" />
 					</div>
 
 			</form>
