@@ -553,7 +553,7 @@ section#about p{
 
 #projects{
 	background: #f6f6f6;
-	padding: 4em 0;
+	padding: 5.4em 0;
 }
 
 .container-fluid {
@@ -597,9 +597,11 @@ section#about p{
 
 
 #projects .icofont {
-	font-size: 28px;
-	padding: 0;
-	background: linear-gradient(#dc3545, maroon);
+	font-size: 26px;
+	padding: 5px;
+	background: linear-gradient(#dc3545,  #17a2b8);
+	box-shadow: 0 3px 15px rgba(0,0,0,0.3);
+	border-radius: 50%;
     background-clip: border-box;
 	background-clip: text;
 	-webkit-background-clip: text;

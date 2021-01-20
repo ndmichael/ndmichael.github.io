@@ -43,7 +43,7 @@
 	height: 100% !important;
 	margin: 0px;
 	color: #FFFFFF;
-	font-size: 28px;
+	font-size: 26px;
 }
 
 
@@ -51,7 +51,7 @@
 /** Adding the required styling by overriding  bootstrap default **/
 
 .navbar-expand-lg{
-	padding: 15px 10px !important;
+	padding: 10px !important;
 	text-align: left !important;
 	text-transform: capitalize;
 	font-weight: 100;
