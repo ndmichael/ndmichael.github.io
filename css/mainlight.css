@@ -85,11 +85,11 @@ nav .btn-group {
 
 section#intro-header{
 /*	background: linear-gradient(45deg, rgba(08, 69, 79, 1), #0BA2B8);*/
-	background: rgba(08, 69, 79, 1);
+	background: #17a2b8;
 /*	min-height: 100vh;*/
 	height: 100%;
 	width: 100%;
-	
+	background-position: center;
 }
 
 section#intro-header h1 {
@@ -659,17 +659,10 @@ section#about h3 > span{
 
 	}
 	section#intro-header #headline{
-	margin: 4em auto 6em auto !important;
+	margin: 4em auto 4em auto !important;
 	}
 	
-	section#intro-header h1 {
-		font-weight: 500;
-		color: #fff;
-		font-size: 0.8em;
-	}
-	section#intro-header h2 {
-		font-size: 4rem;
-	}
+	
 	
 	section#intro-header .btn {
 		text-transform: uppercase;
@@ -690,6 +683,26 @@ section#about h3 > span{
 
 	section#about h3{
 		margin-top: 0;
+	}
+	
+	#projects img {
+		height: 300px; 
+		padding: 0 !important;
+	}
+
+	.project_detailsL {
+		margin-left: auto; 
+		padding: 10px !important;
+		border-radius: 0 0 10px 10px;
+	
+	}
+
+
+
+.project_detailsR {
+		margin-right: auto; 
+		padding: 10px !important;
+		border-radius: 0 0 10px 10px;
 	}
 }
 
