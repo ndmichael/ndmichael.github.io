@@ -685,6 +685,10 @@ section#about h3 > span{
 		margin-top: 0;
 	}
 	
+	#projects h1{
+		font-size: 1.75em;
+	}
+	
 	#projects img {
 		height: 300px; 
 		padding: 0 !important;
@@ -694,15 +698,17 @@ section#about h3 > span{
 		margin-left: auto; 
 		padding: 10px !important;
 		border-radius: 0 0 10px 10px;
+		text-align: center;
 	
 	}
 
 
 
-.project_detailsR {
+	.project_detailsR {
 		margin-right: auto; 
 		padding: 10px !important;
 		border-radius: 0 0 10px 10px;
+		text-align: center;
 	}
 }
 
