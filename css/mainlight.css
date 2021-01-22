@@ -8,6 +8,18 @@ font-family: 'Roboto Slab', serif;
 font-family: 'Russo One', sans-serif;
 */
 
+.m-6 {
+	margin: 4.25em;
+}
+
+.mt-6 {
+	margin-top: 4.25em;
+}
+
+.my-6 {
+	margin-top: 4.25em;
+}
+
 
 a{
 	text-decoration: none;
@@ -147,7 +159,8 @@ section#about h3 > span{
 
 #contacts {
 	position: relative;
-	padding: 15vh;
+	padding-top: 15vh;
+	padding-bottom: 15vh;
 	background: #f6f6f6;
 	color: #FFFFFF;
 }
@@ -295,7 +308,9 @@ section#about h3 > span{
 	background: url("../images/01.-Royal-Heath.jpg");
 	background-position: center;
 	background-size: cover;
-	position: relativere;
+	position: relative;
+	width: 100%;
+	height: 100%;
 /*	background: linear-gradient(rgba(225, 100, 100, 0.7), rgba(225, 100, 100, 0.3));*/
 }
 .skill{
@@ -316,8 +331,8 @@ section#about h3 > span{
 
 .span:nth-child(1){
 	padding: 20px;
-	top: 230px;
-	left: 110px;
+	top: -40px;
+	left: -40px;
 	position: absolute;
 	border-radius: 50%;
 /*	color: rgba(255, 255, 255, 0.4);*/
@@ -329,9 +344,11 @@ section#about h3 > span{
 
 
 .span:nth-child(2){
+	width: 120px;
+	height: 120px;
 	padding: 30px;
-	top: 600px;
-	right: 80px;
+	bottom: -70px;
+	right: 30px;
 	position: absolute;
 	border-radius: 50%;
 	background: rgba(23, 162, 184, 0.4);
@@ -340,93 +357,69 @@ section#about h3 > span{
 	
 }
 
-.span:nth-child(3){
-	width: 120px;
-	height: 120px;
-	top: 600px;
-	left: 400px;
-/*	transform: translate(400px, 600px);*/
-	position: absolute;
-	border-radius: 50%;
-	background: rgba(23, 162, 184, 0.4);
-	backdrop-filter: blur(5px);
 
-	
-}
-
-.span:nth-child(4){
+.span:nth-child(3) {
 	width: 70px;
 	height: 70px;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	transform: translate(400px, 700px);
+	bottom: -40px;
+	right: -30px;
+	position: absolute;
+	border-radius: 50%;
+	background: rgba(255, 0, 0, 0.6);
+	
+	
+	backdrop-filter: blur(5px);
+	
+}
+
+.span:nth-child(4) {
+	width: 40px;
+	height: 40px;
+	bottom: -100px;
+	right: 20px;
 	position: absolute;
 	border-radius: 50%;
 	background: rgba(255, 255, 255, 0.4);
-	
-	backdrop-filter: blur(5px);
-
-	
-}
-
-.span:nth-child(5){
-	width: 40px;
-	height: 40px;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	transform: translate(500px, 720px);
-	position: absolute;
-	border-radius: 50%;
-	background: rgba(255, 0, 0, 0.4);
-	backdrop-filter: blur(5px);
+	border: 1px solid rgba(0,0,0,0.1);
+	backdrop-filter: blur(20px);
 	
 }
 
-.span:nth-child(6){
+.spanF:nth-child(1){
 	width: 120px;
 	height: 120px;
-	top: 0;
-	right: 0;
-	transform: translate(-400px, 220px);
+	top: -70px;
+	right: -50px;
 	position: absolute;
 	border-radius: 50%;
 	background: rgba(23, 162, 184, 0.4);
-	backdrop-filter: blur(5px);
-
 	
 }
 
-.span:nth-child(7){
+.spanF:nth-child(2){
 	width: 70px;
 	height: 70px;
-	top: 0;
-	bottom: 0;
+	top: 10px;
 	right: 0;
-	transform: translate(-350px, 220px);
 	position: absolute;
 	border-radius: 50%;
-	background: rgba(255, 255, 255, 0.4);
-	
-	backdrop-filter: blur(5px);
-
+	background: rgba(255, 0, 0, 0.6); 
 	
 }
 
-.span:nth-child(8){
+.spanF:nth-child(3){
 	width: 40px;
 	height: 40px;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	transform: translate(-300px, 220px);
+	top: -70px;
+	right: -100px;
 	position: absolute;
 	border-radius: 50%;
-	background: rgba(255, 0, 0, 0.4);
-	backdrop-filter: blur(5px);
+	background: rgba(255, 255, 255, 0.6); 
 	
 }
+
+
+
 
 
 
@@ -444,14 +437,6 @@ section#about h3 > span{
 	
 }
 */
-
-
-
-
-
-
-
-
 
 #skills h1{
 	padding: 0.7em 0;
@@ -584,6 +569,7 @@ section#about h3 > span{
 	border-radius: 20px;
 	position: relative;
 	z-index: 100;
+	text-align: right;
 	box-shadow:  10px -5px 15px rgba(08, 08, 08, 0.2);
 }
 
@@ -709,6 +695,15 @@ section#about h3 > span{
 		padding: 10px !important;
 		border-radius: 0 0 10px 10px;
 		text-align: center;
+	}
+	
+	
+	#contacts {
+		position: relative;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		background: #f6f6f6;
+		color: #FFFFFF;
 	}
 }
 
