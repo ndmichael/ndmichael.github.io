@@ -1,8 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Slab&family=Russo+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Slab&family=Russo+One&display=swap");
 
 /*
 **** 
@@ -10,139 +9,115 @@
 ****
 */
 
-
 .scrolled {
-	background: rgba(255, 255, 255, 1);
-	transition: .3s;
-	
+  background: rgba(255, 255, 255, 1);
+  transition: 0.3s;
 }
 
 .scrolled .navbar-nav .nav-link {
-	color: #5b5b5b !important;
+  color: #5b5b5b !important;
 }
 
 .scrolled .active > a span.icofont {
-    color: #000 !important;
+  color: #000 !important;
 }
 
-.scrolled .active .nav-link{
-	background-color: transparent;
-	color: #17a2b8 !important;
-	
-	
+.scrolled .active .nav-link {
+  background-color: transparent;
+  color: #17a2b8 !important;
 }
 
 .scrolled .navbar-brand {
-	color: #17a2b8 !important;
-	font-family: 'YouTube Sans Dark';
+  color: #17a2b8 !important;
+  font-family: "YouTube Sans Dark";
 }
 
-
-.navbar-brand{
-/*	min-height: 40px;*/
-	height: 100% !important;
-	margin: 0px;
-	color: #FFFFFF;
-	font-size: 26px;
+.navbar-brand {
+  /*	min-height: 40px;*/
+  height: 100% !important;
+  margin: 0px;
+  color: #ffffff;
+  font-size: 26px;
 }
-
-
 
 /** Adding the required styling by overriding  bootstrap default **/
 
-.navbar-expand-lg{
-	padding: 10px !important;
-	text-align: left !important;
-	text-transform: capitalize;
-	font-weight: 100;
-	font-family: 'Russo One', sans-serif;
-/*	font-family: 'YouTube Sans Dark';*/
-	font-size: 22px;
-	box-shadow: 0 3px 10px rgba(08,08,08, 0.2);
-	width: 100%;	
-	display: block !important;
-	color: #dee2e6;
-	
+.navbar-expand-lg {
+  padding: 7px 7em;
+  text-align: left !important;
+  text-transform: capitalize;
+  font-weight: 100;
+  font-family: "Russo One", sans-serif;
+  /*	font-family: 'YouTube Sans Dark';*/
+  font-size: 22px;
+  box-shadow: 0 3px 10px rgba(08, 08, 08, 0.2);
+  width: 100%;
+  display: block !important;
+  color: #dee2e6;
 }
 
-.navbar-expand-lg .navbar-nav .nav-link{	
-	font-size: 0.75em;
-	padding: 0 15px !important;
-	
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 0.75em;
+  padding-right: 15px !important;
 }
 
-.navbar-expand-lg .active > a{
-	background-color: transparent;
-	color: #FFFFFF;
-	
+.navbar-expand-lg .active > a {
+  background-color: transparent;
+  color: #ffffff;
 }
 
-.navbar-expand-lg  .active > a span.icofont {
-	color: #dc4535;
+.navbar-expand-lg .active > a span.icofont {
+  color: #dc4535;
 }
 
+.navbar .nav-link span.icofont {
+    display: inline-block;
+    color: #dee2e6;
+    font-size: 17px;
+  }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-	background-color: transparent;
-	color: #ffffff;
-	transition: border-radius .2s ease-in-out;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	
+  background-color: transparent;
+  color: #ffffff;
+  transition: border-radius 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
 }
-
 
 /** setting up the badge css **/
 .navbar-nav .badge {
-	color: #000;
-	background-color: gold;
-	font-size: 0.8em;
-	padding: 0 !important;
-	position: relative;
-	left: 0.57rem;
-	bottom: 0.56rem;
-	z-index: 99;
-	border-radius: 50%;
-	font-weight: 500;
-
+  color: #000;
+  background-color: gold;
+  font-size: 0.8em;
+  padding: 0 !important;
+  position: relative;
+  left: 0.57rem;
+  bottom: 0.56rem;
+  z-index: 99;
+  border-radius: 50%;
+  font-weight: 500;
 }
-
 
 /*
  * 	Removing borders for extra small devices 
 */
-@media(max-width:34em){
-	.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid, .navbar-expand-lg>.container-lg, .navbar-expand-lg>.container-md, .navbar-expand-lg>.container-sm, .navbar-expand-lg>.container-xl {
-		padding: 10px 5px;
-		
-	}
-	
-	.navbar-expand-lg .navbar-nav > .active > a {
-		border-bottom: none;
-		border-left: 0.5em solid #FFF;
-		padding-left: 0.7em;
-		}
+@media (max-width: 48em) {
+	.navbar-expand-lg {
+		padding: 7px;
+		background: #17a2b8;
+	  }
 
-	.navbar-expand-lg .navbar-nav > .active > a:hover,
-	.navbar-expand-lg .navbar-nav > li > a:hover{
-		background-color: transparent;
-		color:#f3f3f3;
-		border-bottom: none;
-		border-left: 0.5em solid gold;
-	}
-	
-	.navbar-dark .navbar-toggler {
-		border: 0 !important;
-		height: 100%;
-		color: gold;
-	}
-}
+	  .navbar-toggler-icon {
+		padding: 0 !important;
+	  }
 
-.navbar span.icofont{
-	display: inline-block;
-	color: #dee2e6;
-	font-size:17px;
-	
+  .navbar-expand-lg .navbar-nav > .active > a:hover,
+  .navbar-expand-lg .navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: #f3f3f3;
+    border-bottom: none;
+    border-left: 0.5em solid gold;
+  }
 }
