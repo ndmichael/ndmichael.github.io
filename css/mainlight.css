@@ -648,7 +648,9 @@ section#about h3 > span{
 	margin: 4em auto 4em auto !important;
 	}
 	
-	
+	section#intro-header h1 {
+		font-size: 4.2rem;
+	}
 	
 	section#intro-header .btn {
 		text-transform: uppercase;
@@ -674,6 +676,10 @@ section#about h3 > span{
 	#projects h1{
 		font-size: 1.5em;
 	}
+
+	.my-6 {
+		margin-top: 2.5em;
+	}
 	
 	#projects img {
 		height: 300px; 
@@ -687,8 +693,6 @@ section#about h3 > span{
 		text-align: center;
 	
 	}
-
-
 
 	.project_detailsR {
 		margin-right: auto; 
