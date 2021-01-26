@@ -107,6 +107,7 @@
 	.navbar-expand-lg {
 		padding: 7px;
 		background: #17a2b8;
+		color: #dee2e6;
 	  }
 
 	  .navbar-toggler-icon {
@@ -123,6 +124,31 @@
     background-color: transparent;
     color: #f3f3f3;
     border-bottom: none;
-    border-left: 0.5em solid gold;
   }
+
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+	  text-align: center !important;
+	  padding: 15px;
+	  color: #FFFFFF;
+	  width: 100%;
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  border-top: thin solid rgba(255, 255, 255, 0.2);
+  }
+
+  .scrolled .navbar-nav .nav-link {
+	color: #dee2e6 !important;
+  }
+  
+  .scrolled .active > a span.icofont {
+	color: #ffffff !important;
+  }
+  
+  .scrolled .active .nav-link {
+	background-color: transparent;
+	color: #000000 !important;
+  }
+
 }

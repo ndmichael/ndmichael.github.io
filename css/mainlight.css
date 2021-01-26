@@ -64,6 +64,7 @@ h1, h2{
 	font-size: 2.0em;
 	font-family: 'Russo One', sans-serif;
 	position: relative;
+	display: inline-block;
 /*	font-family: 'YouTube Sans Dark';*/
 }
 h3, h4{
@@ -120,10 +121,6 @@ section#intro-header a {
 	
 }
 
-
-
-
-
 /* the about section */
 section#about{
 	background: #ffffff;
@@ -135,10 +132,10 @@ section#about{
 }
 
 section#about img{
-/*
+
 	margin-top: 3em;
 	margin-bottom: 3em;
-*/
+
 	
 }
 

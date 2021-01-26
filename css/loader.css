@@ -13,7 +13,7 @@ body {
 	position: fixed;
 	width: 100%;
 	top:0;
-	background: rgba(0, 0, 0, 0.8) !important;
+	background: rgba(255, 255, 255, 0.8) !important;
 	z-index: 999999;
 	overflow: hidden;
 	text-align: center;
@@ -42,21 +42,21 @@ body {
   left: 0%;
   top: 0%;
   animation: rotate-one 1s linear infinite;
-  border-bottom: 3px solid #ffc800;
+  border-bottom: 3px solid #17a2b8;
 }
 
 .inner.two {
   right: 0%;
   top: 0%;
   animation: rotate-two 1s linear infinite;
-  border-right: 3px solid #FFc800;
+  border-right: 3px solid #17a2b8;
 }
 
 .inner.three {
   right: 0%;
   bottom: 0%;
   animation: rotate-three 1s linear infinite;
-  border-top: 3px solid #FFC800;
+  border-top: 3px solid #17a2b8;
 }
 
 @keyframes rotate-one {
