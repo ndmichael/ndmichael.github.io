@@ -133,8 +133,9 @@ section#about{
 
 section#about img{
 
-	margin-top: 3em;
-	margin-bottom: 3em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	filter: drop-shadow(0px 2px 5px #17a2b8);
 
 	
 }
@@ -549,13 +550,35 @@ section#about h3 > span{
 	padding-right: 10em;
 }
 
-#projects img {
+#projects img, video {
 	height: 500px; 
 	object-fit: cover; 
 	object-position: center;
 	position: relative;
 	z-index: 1;
 }
+
+ #projects .overlay::after {
+	display: block;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+	background-color: rgba(23, 162, 184, 1);
+	z-index: 5;
+	cursor: pointer;
+	transition: opacity .3s;
+}
+
+ #projects .overlay:hover::after {
+	z-index: 0;
+	opacity: 0;
+	cursor: pointer;
+	transition: opacity .3s;
+} 
 
 .project_detailsL {
 /*	transform: translateX(-80px);*/
@@ -567,7 +590,7 @@ section#about h3 > span{
 	position: relative;
 	z-index: 100;
 	text-align: right;
-	box-shadow:  10px -5px 15px rgba(08, 08, 08, 0.2);
+	box-shadow:  0 2px 5px rgba(08, 08, 08, 0.2);
 }
 
 
@@ -576,21 +599,18 @@ section#about h3 > span{
 /*	transform: translateX(80px);*/
 	margin-right: -15%; 
 	background: rgba(255, 255, 255, 1); 
-	box-shadow:  -10px -5px 15px rgba(08, 08, 08, 0.2);
+	box-shadow:  0 2px 5px rgba(08, 08, 08, 0.2);
 	backdrop-filter: blur(50px);     
 /*	border: 1px solid rgba(255, 255, 255, 0.01); */
 	border-radius: 20px;
 	position: relative;
-	z-index: 10;
+	z-index: 100;
 }
 
-
 #projects .icofont {
-	font-size: 26px;
+	font-size: 22px;
 	padding: 5px;
 	background: linear-gradient(#dc3545,  #17a2b8);
-	box-shadow: 0 3px 15px rgba(0,0,0,0.3);
-	border-radius: 50%;
     background-clip: border-box;
 	background-clip: text;
 	-webkit-background-clip: text;
