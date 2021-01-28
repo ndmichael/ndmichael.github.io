@@ -150,15 +150,15 @@
 					<div class="tab-pane show active" id="all" role="tabpanel" aria-labelledby="web-tab">
 						<div class="row mt-6">
 							<!-- project images -->
-							<div class="col-12 col-md-6">
-								<div class="animated fadeInUp">
-									<img class="img-fluid w-100" src="images/kiki_port.jpg" alt="..." />
+							<div class="col-12 col-md-6" data-aos="fade-up">
+								<div class="animated fadeInUp overlay" >
+									<img class="img-fluid w-100" src="images/kukicart.png" alt="..." />
 								</div>
 							</div>
 
 							<!-- project details -->
-							<div class="col-12 col-md-6 d-flex align-self-center">
-								<div class="p-md-5 project_detailsL animated slideInRight ">
+							<div class="col-12 col-md-6 d-flex align-self-center" data-aos="fade-left">
+								<div class="p-md-5 project_detailsL animated slideInRight " >
 									<h1> Django E-Commerce Website</h1>
 									<div class="icofont_container d-flex justify-content-md-end justify-content-center">
 										<span>
@@ -192,11 +192,12 @@
 
 
 						<div class="row my-6">
-							<div class="col-12 col-md-6 d-flex flex-column align-self-center order-last order-md-first">
+							<div class="col-12 col-md-6 d-flex flex-column align-self-center order-last order-md-first" 
+							>
 
 								<!-- project details -->
 								<div class="p-md-5 project_detailsR animated slideInLeft">
-									<h1>Reusable Student Management Form</h1>
+									<h1>Student Management Form</h1>
 									<div class="icofont_container d-flex justify-content-md-start justify-content-center ">
 										<span>
 											<i class="icofont icofont-file-javascript "></i>
@@ -235,22 +236,26 @@
 							</div>
 
 							<!-- project image / video -->
-							<div class="col-12 col-md-6">
-								<div class="animated fadeInUpBig">
-									<img class="img-fluid w-100" src="images/CMForm2.png" alt="..." />
+							<div class="col-12 col-md-6" data-aos="fade-down">
+								<div class="animated fadeInUpBig overlay">
+									<video controls class="w-100">
+										<source src="videos/form-video.m4v" type="video/mp4" class="h-100 w-100" />
+									</video>
 								</div>
 							</div>
 						</div>
 
 						<div class="row my-6">
 							<!-- project image / video -->
-							<div class="col-12 col-md-6">
-								<div class="animated fadeInUp">
-									<img class="img-fluid w-100" src="images/kiki_port.jpg" alt="..." />
+							<div class="col-12 col-md-6" data-aos="fade-up">
+								<div class="animated fadeInUp overlay">
+									<video controls class="w-100">
+										<source src="videos/cookella-vid.m4v" type="video/mp4" class="h-100 w-100" />
+									</video>
 								</div>
 							</div>
 
-							<div class="col-12 col-md-6 d-flex flex-column align-self-center">
+							<div class="col-12 col-md-6 d-flex flex-column align-self-center" data-aos="fade-left">
 								<!-- project details -->
 								<div class="p-md-5 project_detailsL animated slideInRight ">
 									<h1 class="">Social Recipe and Blogging System</h1>
@@ -646,13 +651,11 @@
 						<h1>About Me</h1>
 					</div>
 
-					<div class="col-12 col-sm-12 col-md-6" data-aos="zoom-in">
-						<img src="images/imgaboutme3.jpg" alt="about image placeholder" class="img-fluid" />
-					</div>
+					
 
-					<div class="col-12 col-sm-12 col-md-6" data-aos="zoom-in-down">
+					<div class="col-12 col-sm-12 col-md-6 text-right pt-4" data-aos="fade-up">
 						<h3>My name is <span>Michael</span></h3>
-						<p class="p-3">
+						<p class="pt-3 d-flex align-self-center">
 
 							I am interested in anything that breath, and live on the cyber space.
 							I am a Software Engineer, Full-Stack Developer, and Coding instructor for APTECH institute.
@@ -664,6 +667,10 @@
 							Applications.
 
 						</p>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6" data-aos="flip-left">
+						<img src="images/imgaboutme-removebg.png" alt="about image placeholder" class="img-fluid" />
 					</div>
 
 				</div> <!-- end of row 3 -->
@@ -707,7 +714,7 @@
 								<span class="span"></span>
 								<span class="span"></span>
 								<span class="span"></span>
-								<div class="h-100 skill">
+								<div class="h-100 skill" data-aos="flip-left">
 
 									<h2>BackEnd</h2>
 									<ul>
@@ -753,7 +760,7 @@
 								<span class="spanF"></span>
 								<span class="spanF"></span>
 								<span class="spanF"></span>
-								<div class="skill h-100">
+								<div class="skill h-100" data-aos="flip-down">
 									<h2>FrontEnd</h2>
 									<ul>
 										<li>
@@ -781,7 +788,7 @@
 
 							</div>
 							<div class="col col-12 col-md-6 col-lg-4 my-5 mx-auto">
-								<div class="skill h-100">
+								<div class="skill h-100" data-aos="flip-right">
 									<h2>Others</h2>
 									<ul>
 										<li>
@@ -914,7 +921,7 @@
 						</div>
 					</div>
 
-					<div class="col col-12 col-md-6 border" data-aos="zoom-in-down">
+					<div class="col col-12 col-md-6 border" data-aos="fade-up">
 						<form class="form-horizontal" id="contact_form" method="post"
 							action="mailto:ukejemicheal@gmail.com">
 
