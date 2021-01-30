@@ -7,11 +7,6 @@ footer {
 	padding: 3em 0;
 }
 
-footer h5 span:nth-child(2){
-	color: gold;
-}
-
-
 footer img{
 	width: auto;
 	height: 100px;
