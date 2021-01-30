@@ -140,14 +140,18 @@
 							aria-controls="react" aria-selected="false">ReactJS</a>
 					</li>
 					<li class="nav-item">
+						<a class="nav-link" id="javascript-tab" data-toggle="tab" href="#javascript" role="tab"
+							aria-controls="javascript" aria-selected="false">VanillaJS</a>
+					</li>
+					<!-- <li class="nav-item">
 						<a class="nav-link" id="algorithm-tab" data-toggle="tab" href="#algorithm" role="tab"
 							aria-controls="algorithm" aria-selected="false">Algorithm</a>
-					</li>
+					</li> -->
 				</ul>
 
 
 				<div class="tab-content" id="myTabContent">
-					<div class="tab-pane show active" id="all" role="tabpanel" aria-labelledby="web-tab">
+					<div class="tab-pane show active" id="all" role="tabpanel" aria-labelledby="all-tab">
 						<div class="row mt-6">
 							<!-- project images -->
 							<div class="col-12 col-md-6" data-aos="fade-up">
@@ -414,24 +418,30 @@
 						</div>
 
 
-					</section> <!-- django tab section section -->
+					</section> <!-- end of django tab section -->
 
 
 					<!-- reactjs tab section starts here -->
 
 					<div class="tab-pane" id="react" role="tabpanel" aria-labelledby="reactjs-tab">
 
-						<div class="row">
+						<div class="row" data-aos="fade-up">
 							<!-- project images -->
 							<div class="col-12 col-md-6 my-5">
-								<div>
-									<img class="img-fluid w-100" src="images/kiki_port.jpg" alt="..." />
+								<div class="animated fadeInUp overlay">
+									<!-- <a href="https://baseconverter-af555.web.app/">
+										<img class="img-fluid w-100" src="images/numberBaseApp.png" alt="..." />
+									</a> -->
+									<video controls class="w-100">
+										<source src="videos/converter-vid.m4v" />
+									</video>
+									
 								</div>
 							</div>
 
 							<!-- project details -->
 							<div class="col-6 d-flex flex-column align-self-center">
-								<div class="p-5 project_detailsL">
+								<div class="p-md-4 project_detailsL animated slideInRight">
 									<h6 class="text-info">Personal Project</h6>
 									<h1 class="text-dark">Number Base Converter WebApp</h1>
 									<div class="icofont_container">
@@ -450,11 +460,11 @@
 										selected choice. works for binary, hexadecimal, octal, and decimal.
 									</p>
 									<div class="float-right">
-										<a href="https://github.com/ndmichael/number-converter"
+										<a href="https://baseconverter-af555.web.app/" target="_blank"
 											class="btn btn-lg btn-info">
 											Live Preview
 										</a>
-										<a href="https://github.com/ndmichael/number-converter"
+										<a href="https://github.com/ndmichael/number-converter" target="_blank"
 											class="btn btn-lg btn-outline-info">
 											Source Code
 										</a>
@@ -463,13 +473,14 @@
 							</div>
 						</div>
 
-						<div class="row ">
-							<div class="col-6 d-flex flex-column align-self-center">
-								<!-- project details -->
-								<div class="p-5 project_detailsR">
-									<h1 class="text-dark">Reusable Student Management Form</h1>
-									<div class="icofont_container">
+						<div class="row my-6">
+							<div class="col-12 col-md-6 d-flex flex-column align-self-center order-last order-md-first" 
+							>
 
+								<!-- project details -->
+								<div class="p-md-4 project_detailsR animated slideInLeft">
+									<h1>Class Management Form</h1>
+									<div class="icofont_container d-flex justify-content-md-start justify-content-center ">
 										<span>
 											<i class="icofont icofont-file-javascript "></i>
 											<span class="">ReactJS</span>
@@ -487,41 +498,49 @@
 											<span class="">Yup</span>
 										</span>
 									</div>
-									<p class="text-dark" style=" font-size: 16px">
-										Class Management form built on React using formik reusable component, validated
-										with Yup and styled with ChakaUI.
+									<p>
+										A powerful and reusable multistep Class Management form
+										built on React using formik reusable component, validated with Yup and styled
+										with ChakaUI.
+										Implement into any project with ease.
 									</p>
-									<div class="float-left">
+									<div class="float-md-left">
 										<a href="https://class-form-nd.firebaseapp.com/" target="_blank"
-											class="btn btn-lg btn-info">
-											Watch Video
+											class="btn btn-info">
+											Live Preview
 										</a>
 										<a href="https://github.com/ndmichael/StudentManagementForms" target="_blank"
-											class="btn btn-lg btn-outline-info">
+											class="btn btn-outline-info">
 											Source Code
 										</a>
 									</div>
 								</div>
 							</div>
+
 							<!-- project image / video -->
-							<div class="col-12 col-md-6 my-5">
-								<div>
-									<img class="img-fluid w-100" src="images/CMForm2.png" alt="..." />
+							<div class="col-12 col-md-6" data-aos="fade-down">
+								<div class="animated fadeInUpBig overlay">
+									<video controls class="w-100">
+										<source src="videos/form-video.m4v" type="video/mp4" />
+									</video>
 								</div>
 							</div>
 						</div>
 
+					</div> <!-- react tab section ends here -->
+
+					<div class="tab-pane" id="javascript" role="tabpanel" aria-labelledby="javascript-tab">
 						<div class="row">
 							<!-- project images -->
-							<div class="col-12 col-md-6 my-5">
-								<div>
-									<img class="img-fluid w-100" src="images/kiki_port.jpg" alt="..." />
+							<div class="col-12 col-md-6 my-5" data-aos="fade-up">
+								<div class="animated fadeInUp overlay">
+									<img class="img-fluid w-100" src="images/lotto-game.png" alt="..." />
 								</div>
 							</div>
 
 							<!-- project details -->
 							<div class="col-6 d-flex flex-column align-self-center">
-								<div class="p-5 project_detailsL">
+								<div class="p-md-4 project_detailsL animated slideInRight">
 									<h1 class="text-dark">Lotto Game</h1>
 									<div class="icofont_container">
 
@@ -555,113 +574,10 @@
 								</div>
 							</div>
 						</div>
-
-					</div> <!-- react tab section ends here -->
-
-
-					<!-- algorithm tab section starts here -->
-
-					<div class="tab-pane" id="algorithm" role="tabpanel" aria-labelledby="algorithm-tab">
-						<div class="row">
-							<div class="col col-12 col-md-6 col-lg-4 ">
-								<div class="card">
-									<img class="card-img-top img-fluid" src="images/number_pyramid.png"
-										alt="Card image cap">
-
-									<div class="card-header">
-										<h5>Numeric Pyramid Pattern</h5>
-									</div>
-									<div class="card-body">
-										<p class="card-text">An algorithm that prints numbers in reverse and direct
-											chronological pattern creating a pyramid.</p>
-									</div>
-									<div class="card-footer">
-										<div class="d-flex flex-row justify-content-between">
-											<a href="images/number_pyramid.png" target="_blank">
-												<button class="btn btn-warning ">
-													<i class="icofont icofont-image"></i>
-													ScreenShot
-												</button>
-											</a>
-											<a href="https://github.com/ndmichael/pyramid-number-pattern"
-												target="_blank">
-												<button class="btn btn-light ">
-													<i class="icofont icofont-github"></i>
-													Source Code
-												</button>
-											</a>
-										</div>
-									</div>
-								</div>
-								<!--Number Pyramid Card -->
-							</div>
-
-							<div class="col col-12 col-md-6 col-lg-4 ">
-								<div class="card">
-									<img class="card-img-top img-fluid" src="images/HeartPattern.png"
-										alt="Card image cap">
-
-									<div class="card-header">
-										<h5>Beautiful Heart Pattern</h5>
-									</div>
-									<div class="card-body h-100">
-										<p class="card-text">A simple application that print different colorful heart
-											pattern depending on user selection between 1 - 7.</p>
-									</div>
-									<div class="card-footer">
-										<div class="d-flex flex-row justify-content-between">
-											<a href="images/HeartPattern.png" target="_blank">
-												<button class="btn btn-warning ">
-													<i class="icofont icofont-image"></i>
-													ScreenShot
-												</button>
-											</a>
-											<a href="https://github.com/ndmichael/Beautiful-Heart-Pattern"
-												target="_blank">
-												<button class="btn btn-light ">
-													<i class="icofont icofont-github"></i>
-													Source Code
-												</button>
-											</a>
-										</div>
-									</div>
-								</div> <!-- Beautiful Heart Pattern Card  -->
-							</div>
-
-							<div class="col col-12 col-md-6 col-lg-4 ">
-								<div class="card">
-									<img class="card-img-top img-fluid" src="images/HeartPattern.png"
-										alt="Card image cap">
-
-									<div class="card-header">
-										<h5>File Scheduling</h5>
-									</div>
-									<div class="card-body">
-										<p class="card-text">An algorithm to handles files in C. Write and read files,
-											return the number of lines, characters and words in a file.</p>
-									</div>
-									<div class="card-footer">
-										<div class="d-flex flex-row justify-content-between">
-											<a href="images/HeartPattern.png" target="_blank">
-												<button class="btn btn-warning ">
-													<i class="icofont icofont-image"></i>
-													ScreenShot
-												</button>
-											</a>
-											<a href="https://github.com/ndmichael/C_Files" target="_blank">
-												<button class="btn btn-light ">
-													<i class="icofont icofont-github"></i>
-													Source Code
-												</button>
-											</a>
-										</div>
-									</div>
-								</div> <!-- File Scheduling Card  -->
-							</div>
-						</div> <!-- end of algorithm tab section -->
 					</div>
-				</div>
-			</div>
+
+				</div> <!-- end of tab content-->
+			</div>	<!-- end of tab container-->
 		</section>
 
 
