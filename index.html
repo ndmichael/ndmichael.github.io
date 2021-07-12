@@ -24,6 +24,7 @@
 <body>
 
 
+
 	<div class="loader-wrapper">
 		<div class="loader">
 			<div class="inner one"></div>
@@ -33,11 +34,12 @@
 	</div>
 
 
+
 	<div class="wrapper">
-		<!-- Navbar section -->
-		<nav id="nav" class="navbar navbar-expand-lg fixed-top ">
+<!--		 Navbar section -->
+		<nav id="nav" class="navbar navbar-expand-lg fixed-top">
 			<a id="name" class="navbar-brand float-right" href="https://ndmichael.github.io/">
-				<!-- <img src="images/zendlogo.jpg" class="img-responsive" alt="header" /> -->
+<!--				 <img src="images/zendlogo.jpg" class="img-responsive" alt="header" /> -->
 				<span> UMN</span>
 			</a>
 
@@ -86,7 +88,6 @@
 				</ul>
 			</div> <!-- end of id="menu" -->
 		</nav> <!-- end of navbar -->
-
 
 		<!-- header -->
 		<section id="intro-header">
@@ -966,6 +967,7 @@
 
 	</script>
 
+
 	<script>
 		const loader = document.querySelector('.loader-wrapper');
 		const wrapper = document.querySelector('.wrapper');
@@ -976,17 +978,17 @@
 					loader.style.opacity = 0;
 					loader.style.display = 'none';
 					wrapper.style.opacity = 1;
-					body.style.overflowY = 'scroll';
-					body.style.overflowX = 'hidden';
+					// body.style.overflowY = 'scroll';
+					// body.style.overflowX = 'hidden';
 
-
-				}, 300);
+				}, 200);
 			}
 
 			init();
 		});
 
 	</script>
+
 
 	<script>
 		var typed = new Typed('.typing-text', {
