@@ -31,12 +31,12 @@ a:hover{
 	color: inherit;
 }
 
-body{
+html, body{
 	font-weight: 400;
     max-width: 100% !important;
     max-height: 100%;
 	color: #ffffff;
-	overflow: hidden;
+	overflow-x: hidden;
 	scroll-behavior: smooth;
 	
 		
@@ -45,7 +45,7 @@ body{
 .wrapper {
 	opacity: 0.1;
 	transition: opacity 1s ease-out;
-/*	display: none;*/
+	/* display: none; */
 }
 
 section{
@@ -165,7 +165,7 @@ section#about h3 > span{
 
 #contacts a {
 	text-decoration: none;
-	display: inline-block;
+	/* display: inline-block; */
 	overflow: hidden;
 	float: left;
 
@@ -743,7 +743,6 @@ section#about h3 > span{
 		color: #FFFFFF;
 	}
 }
-
 
 
 
