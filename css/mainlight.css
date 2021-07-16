@@ -191,13 +191,12 @@ section#about h3>span {
     background: white;
     border-radius: 50%;
     float: left;
-    display: inline-block;
     font-size: 36px;
-    transition: transform .4s ease-in-out;
+    transition: transform .4s;
 }
 
 #contacts .icofont:hover {
-    transform: rotate(360deg) scale(1.05, 1.05);
+    transform: rotate(360deg);
     cursor: pointer;
     color: #dc4535;
 }
@@ -567,17 +566,9 @@ video {
     filter: drop-shadow(0 6px -6px black);
 }
 
-
-/* #projects .overlay:hover::after {
-    z-index: 0;
-    opacity: 0;
-    cursor: pointer;
-    transition: opacity .3s;
-} */
-
 .project_detailsL {
-    /*	transform: translateX(800px);*/
-    margin-left: -15%;
+    margin-left: -25%;
+    /* transform: translateX(-25%); */
     display: block;
     background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
     border: 1px solid rgba(255, 255, 255, 0.01);
@@ -648,8 +639,8 @@ video {
 @media(max-width: 48em) {
     .container-fluid {
         padding: 0;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     nav .btn-group {
         position: absolute;
@@ -682,12 +673,13 @@ video {
     .my-6 {
         margin-top: 2.5em;
     }
-    #projects img {
+    #projects img,
+    video {
         height: 300px;
         padding: 0 !important;
     }
     .project_detailsL {
-        margin-left: auto;
+        margin-left: auto !important;
         padding: 10px !important;
         border-radius: 0 0 10px 10px;
         text-align: center;
