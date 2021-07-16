@@ -57,25 +57,14 @@ section {
 }
 
 h1,
-h2 {
-    text-transform: capitalize;
-    color: #080808;
-    /*	font-weight: 500;*/
-    font-size: 2.0em;
-    font-family: 'Russo One', sans-serif;
-    position: relative;
-    display: inline-block;
-    /*	font-family: 'YouTube Sans Dark';*/
-}
-
+h2,
 h3,
 h4 {
-    font-weight: 500;
-    font-size: 1.7em;
     text-transform: capitalize;
-    word-spacing: .2em;
-    /*	font-family: 'Russo One', sans-serif;*/
-    font-family: 'Be Vietnam';
+    color: #080808;
+    font-family: 'Bourgeois Rounded';
+    display: inline-block;
+    /*	font-family: 'YouTube Sans Dark';*/
 }
 
 p {
@@ -550,7 +539,9 @@ video {
     height: 99.9%;
     opacity: 0.4;
     border-radius: 50;
-    background-color: rgba(23, 162, 184, 1);
+    /* background-color: rgba(23, 162, 184, 1); */
+    background: #17a2b8;
+    ;
     /* background-color: rgb(2, 25, 29); */
     z-index: -1;
     cursor: pointer;
@@ -592,7 +583,7 @@ video {
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 10px;
     position: relative;
-    padding: 20px;
+    padding: 25px;
     z-index: 100;
     text-align: right;
     box-shadow: 0 2px 5px rgba(08, 08, 08, 0.2);
@@ -605,13 +596,13 @@ video {
     box-shadow: 0 2px 5px rgba(08, 08, 08, 0.2);
     /*	border: 1px solid rgba(255, 255, 255, 0.01); */
     border-radius: 10px;
-    padding: 20px;
+    padding: 25px;
     position: relative;
     z-index: 100;
 }
 
 #projects .tools {
-    background: rgba(23, 162, 184, 0.59);
+    background: rgba(23, 162, 184, 0.9);
     color: white;
     padding: 7px;
     margin-right: 4px;
