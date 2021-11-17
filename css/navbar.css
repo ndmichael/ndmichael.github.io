@@ -11,7 +11,8 @@
 */
 
 .scrolled {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(7px);
     transition: 0.3s;
 }
 
@@ -20,12 +21,12 @@
 }
 
 .scrolled .active>a span.icofont {
-    color: #000 !important;
+    color: rgb(23, 162, 184) !important;
 }
 
 .scrolled .active .nav-link {
     background-color: transparent;
-    color: #17a2b8 !important;
+    /* color: #17a2b8 !important; */
 }
 
 .scrolled .navbar-brand {
@@ -57,6 +58,7 @@
     font-size: 1.3em;
     padding-right: 15px !important;
     width: 100% !important;
+    text-transform: uppercase;
 }
 
 .navbar-expand-lg .active>a {
@@ -70,7 +72,7 @@
 
 .navbar .nav-link span.icofont {
     display: inline-block;
-    color: #dee2e6;
+    color: #6c757d;
     font-size: 17px;
 }
 
