@@ -1,0 +1,843 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image" content="images/portfoliothumbnail.png" />
+
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/icofont/icofont.min.css" />
+    <link rel="stylesheet" href="css/animate.css-master/animate.css-master/animate.min.css" />
+    <link rel="stylesheet" href="fonts/BeVietnam-Light/style.css" />
+    <link rel="stylesheet" href="fonts/BourgeoisRounded-UltraBoldCondensed/style.css" />
+    <link rel="stylesheet" href="fonts/YouTubeSansDark-Black/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/mainlight.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/loader.css" />
+
+</head>
+
+<body>
+
+
+
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="inner one"></div>
+            <div class="inner two"></div>
+            <div class="inner three"></div>
+        </div>
+    </div>
+
+    <div class="wrapper">
+        <!--		 Navbar section -->
+        <nav id="nav" class="navbar navbar-expand-lg fixed-top">
+            <div class="container-fluid">
+                <a id="name" class="navbar-brand order-md-last" href="https://ndmichael.github.io/">
+                    <!--				 <img src="images/zendlogo.jpg" class="img-responsive" alt="header" /> -->
+                    <span> UMN</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="text-danger icofont icofont-2x icofont-navigation-menu p-0 m-0"></span>
+                </button>
+
+                <div id="nav-menu" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active" data-aos="fade-right" data-aos-delay="600">
+                            <a class="nav-link" href="#intro-header">
+                                <span class="icofont icofont-home" aria-hidden="true"></span> Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item" data-aos="fade-right" data-aos-delay="500">
+                            <a class="nav-link" href="#projects">
+                                <span class="icofont icofont-bell" aria-hidden="true"></span> Project
+                            </a>
+                        </li>
+
+                        <li class="nav-item" data-aos="fade-right" data-aos-delay="400">
+                            <a class="nav-link" href="#about">
+                                <span class="icofont icofont-man-in-glasses" aria-hidden="true"></span> About
+                            </a>
+                        </li>
+
+                        <li class="nav-item" data-aos="fade-right" data-aos-delay="200">
+                            <a class="nav-link" href="#skills">
+                                <span class="icofont icofont-architecture-alt" aria-hidden="true"></span> Skills
+                            </a>
+                        </li>
+
+                        <li class="nav-item" data-aos="fade-right" data-aos-delay="100">
+                            <a class="nav-link" href="#contacts">
+                                <span class="icofont icofont-mail" aria-hidden="true"></span> Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end of id="menu" -->
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- header -->
+        <section id="intro-header">
+            <div class="container-fluid d-flex flex-column align-items-center justify-content-center" style="min-height: 100vh !important;">
+                <div class="row">
+                    <div id="headline" class="col-12 col-md-7 mx-auto" data-aos="zoom-out">
+                        <p data-aos="fade-up" data-aos-delay="500" class="text-white">Michael Ukeje</p>
+                        <h1 style="color:white;" data-aos="fade-up" data-aos-delay="600">A Software <span class="typing-text" style="color: #fff700;"></span>
+                        </h1>
+
+                        <p class="h6 text-white-50 mr-5 w-85 pt-2" data-aos="fade-up" data-aos-delay="700">
+                            Highly-disciplined software engineer, who always see a job to the finish.
+                            <br /> I have experience in building software applications from the design to the implementation stage and can contribute to both backend and frontend stacks.
+                        </p>
+
+                        <div class="mt-5">
+                            <a href="#projects" type="button" class="btn btn-danger btn-lg mr-3">
+                                View Project
+                            </a>
+
+                            <a href="#contacts" class="btn btn-outline-light btn-lg border-0">
+                                Get In Touch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <!-- end of the container -->
+        </section>
+
+        <section id="projects">
+            <div class="container-fluid">
+                <h1 class="py-2 test"><span>Featured</span> Project</h1>
+                <ul class="nav nav-pills" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all" aria-selected="true">Web</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="django-tab" data-toggle="tab" href="#django" role="tab" aria-controls="django" aria-selected="false">Django</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="reactjs-tab" data-toggle="tab" href="#react" role="tab" aria-controls="react" aria-selected="false">ReactJS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="javascript-tab" data-toggle="tab" href="#javascript" role="tab" aria-controls="javascript" aria-selected="false">VanillaJS</a>
+                    </li>
+                    <!-- <li class="nav-item">
+						<a class="nav-link" id="algorithm-tab" data-toggle="tab" href="#algorithm" role="tab"
+							aria-controls="algorithm" aria-selected="false">Algorithm</a>
+					</li> -->
+                </ul>
+
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+                        <div class="row mt-5">
+                            <!-- project images -->
+                            <div class="col-12 col-md-7" data-aos="fade-up">
+                                <div class="animated fadeInUp">
+                                    <img class="img-fluid rounded shadow  project-img" src="images/textil1.png" alt="..." />
+                                </div>
+                            </div>
+                            <!-- project details -->
+                            <div class="col-12 col-md-5 p-4 align-self-center" data-aos="fade-left">
+                                <div class=" animated slideInRight ">
+                                    <h1> Django E-Commerce Website</h1>
+                                    <div class="icofont_container">
+                                        <span class=" rounded-pill tools">Django</span>
+                                        <span class=" rounded-pill tools">Ajax</span>
+                                        <span class=" rounded-pill tools">Bootstrap</span>
+                                        <span class=" rounded-pill tools">PostgreSql</span>
+                                    </div>
+                                    <p>
+                                        An E-commerce website built on Django framework and Twitter Bootstrap for a textile business. Also this website demostrate's that Django E-commerce can be cost effective, robust, and highly scalable.
+                                    </p>
+                                    <div class="pt-3 pt-md-5">
+                                        <a href="/images/kukicart.png" class="btn btn-danger">
+                                            Live Preview
+                                        </a>
+                                        <a href="https://github.com/ndmichael/Kuki-shop" class="btn btn-outline-danger  btn-sm">
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row my-6">
+                            <div class="col-12 col-md-5 p-4 align-self-center order-last order-md-first">
+
+                                <!-- project details -->
+                                <div class="animated slideInLeft">
+                                    <h1>Class Management Form</h1>
+                                    <div class="icofont_container">
+                                        <span class="rounded-pill tools">ReactJS</span>
+                                        <span class="rounded-pill tools">ChakraUI</span>
+                                        <span class="rounded-pill tools">Formik</span>
+                                        <span class="rounded-pill tools">Yup</span>
+                                    </div>
+                                    <p>
+                                        A powerful and reusable multistep Class Management form built on React using formik reusable component, validated with Yup and styled with ChakaUI. Implement into any project with ease.
+                                    </p>
+                                    <div class="pt-3 pt-md-5">
+                                        <a href="https://class-form-nd.firebaseapp.com/" target="_blank" class="btn btn-danger">
+                                            Live Preview
+                                        </a>
+                                        <a href="https://github.com/ndmichael/StudentManagementForms" target="_blank" class="btn btn-outline-danger btn-sm">
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- project image / video -->
+                            <div class="col-12 col-md-7" data-aos="fade-down">
+                                <div class="animated fadeInUpBig shadow">
+                                    <video controls class="w-100 p-0 m-0 rounded  project-vid">
+                                        <source src="videos/form-video.m4v" type="video/mp4" />
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row my-6">
+                            <!-- project image / video -->
+                            <div class="col-12 col-md-7" data-aos="fade-up">
+                                <div class="animated fadeInUp">
+                                    <img src="images/cookella-thumbnail.png" class="img-fluid shadow rounded" />
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-5 p-4 align-self-center" data-aos="fade-left">
+                                <!-- project details -->
+                                <div class="animated slideInRight ">
+                                    <h1 class="">Social Recipe and Blogging System</h1>
+                                    <div class="icofont_container d-flex justify-content-md-start justify-content-center">
+                                        <span class="rounded-pill tools">Django</span>
+                                        <span class="rounded-pill tools">Ajax</span>
+                                        <span class="rounded-pill tools">Bootstrap</span>
+                                        <span class="rounded-pill tools">PostgreSql</span>
+                                    </div>
+                                    <p class="">
+                                        Started as a project where i test and implement new django logics now building it to a startup standard. Users can upload recipes on the platform and blog about food related topics.
+                                    </p>
+                                    <div class="pt-3 pt-md-5">
+                                        <a href="https://cookella.herokuapp.com/" class="btn btn-danger">
+                                            Live Preview
+                                        </a>
+                                        <a href="https://github.com/ndmichael/Social-Recipe-WebApp" class="btn btn-outline-danger btn-sm">
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of all tab -->
+
+
+                    <!-- Django tab section starts here -->
+
+                    <section class="tab-pane " id="django" role="tabpanel" aria-labelledby="django-tab">
+                        <div class="row mt-5">
+                            <!-- project image / video -->
+                            <div class="col-12 col-md-7" data-aos="fade-up">
+                                <div class="animated fadeInUp">
+                                    <img src="images/cookella-thumbnail.png" alt="" class="img-fluid shadow rounded">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-5 p-4 d-flex align-self-center" data-aos="fade-left">
+                                <!-- project details -->
+                                <div class="animated slideInRight ">
+                                    <h1 class="">Social Recipe and Blogging System</h1>
+                                    <div class="icofont_container">
+
+                                        <span class="rounded-pill tools">Django</span>
+                                        <span class="rounded-pill tools">Ajax</span>
+                                        <span class="rounded-pill tools">Bootstrap</span>
+                                        <span class="rounded-pill tools">PostgreSql</span>
+
+                                    </div>
+                                    <p class="">
+                                        Started as a project where i test and implement new django logics. Building it to a startup standard. Users can upload recipes on the platform and blog about food related topics
+                                    </p>
+                                    <div class="pt-3 pt-md-5">
+                                        <a href="https://cookella.herokuapp.com/" class="btn btn-danger">
+                                            Live Preview
+                                        </a>
+                                        <a href="https://github.com/ndmichael/Social-Recipe-WebApp" class="btn btn-outline-danger btn-sm">
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row my-6">
+                            <!-- project details -->
+                            <div class="col-12 col-md-5 p-4 d-flex align-self-center order-last order-md-first" data-aos="fade-left">
+                                <div class="project_detailsR animated slideInLeft">
+                                    <h1> Django E-Commerce Website</h1>
+                                    <div class="icofont_container ">
+                                        <span class="pr-2 rounded-pill tools">Django</span>
+                                        <span class="pr-2 rounded-pill tools">Ajax</span>
+                                        <span class="pr-2 rounded-pill tools">Bootstrap</span>
+                                        <span class="pr-2 rounded-pill tools">PostgreSql</span>
+
+                                    </div>
+                                    <p>
+                                        Fully responsive E-commerce website built on Django framework and Twitter Bootstrap for a textile business. Also this website demostrate's that Django E-commerce can be cost effective, robust, and highly scalable.
+                                    </p>
+                                    <div class="pt-3 pt-md-5">
+                                        <a href="/images/kukicart.png" class="btn btn-danger">
+                                            Live Preview
+                                        </a>
+                                        <a href="https://github.com/ndmichael/Kuki-shop" class="btn btn-outline-danger  btn-sm">
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- project images -->
+                            <div class="col-12 col-md-7" data-aos="fade-up">
+                                <div class="animated fadeInUp overlayRight">
+                                    <img class="img-fluid w-100" src="images/kukicart.png" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- end of django tab section -->
+
+
+                    <!-- reactjs tab section starts here -->
+                    <div class="tab-pane" id="react" role="tabpanel" aria-labelledby="reactjs-tab">
+
+                        <div class="row" data-aos="fade-up">
+                            <!-- project images -->
+                            <div class="col-12 col-md-7 mt-5">
+                                <div class="animated fadeInUp">
+                                    <video controls class="w-100 shadow rounded">
+                                        <source src="videos/converter-vid.m4v" />
+                                    </video>
+                                </div>
+                            </div>
+
+                            <!-- project details -->
+                            <div class="col-12 col-md-5  p-4 align-self-center">
+                                <div class="animated slideInRight">
+                                    <h6 class="text-info">Personal Project</h6>
+                                    <h1 class="text-dark">Number Base Converter WebApp</h1>
+                                    <div class="icofont_container">
+                                        <span class="pr-2 rounded-pill tools">React</span>
+                                        <span class="pr-2 rounded-pill tools">MaterialUI</span>
+                                    </div>
+                                    <p class="text-dark " style=" font-size: 16px">
+                                        A number converter app built on react that converts number depending on the selected choice. works for binary, hexadecimal, octal, and decimal.
+                                    </p>
+                                    <div class="pt-3 pt-md-5">
+                                        <a href="https://baseconverter-af555.web.app/" target="_blank" class="btn btn-danger">
+                                            Live Preview
+                                        </a>
+                                        <a href="https://github.com/ndmichael/number-converter" target="_blank" class="btn btn-outline-danger btn-sm">
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row my-6">
+                            <div class="col-12 col-md-5 p-4 align-self-center order-last order-md-first">
+                                <!-- project details -->
+                                <h1>Class Management Form</h1>
+                                <div class="animated slideInLeft">
+                                    <div class="icofont_container ">
+                                        <span class="pr-2 rounded-pill tools">ReactJS</span>
+                                        <span class="pr-2 rounded-pill tools">ChakraUI</span>
+                                        <span class="pr-2 rounded-pill tools">Formik</span>
+                                        <span class="pr-2 rounded-pill tools">Yup</span>
+                                    </div>
+                                    <p>
+                                        A powerful and reusable multistep Class Management form built on React using formik reusable component, validated with Yup and styled with ChakaUI. Implement into any project with ease.
+                                    </p>
+                                    <div class="pt-3 pt-md-5">
+                                        <a href="https://class-form-nd.firebaseapp.com/" target="_blank" class="btn btn-danger">
+                                            Live Preview
+                                        </a>
+                                        <a href="https://github.com/ndmichael/StudentManagementForms" target="_blank" class="btn btn-outline-danger btn-sm">
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- project image / video -->
+                            <div class="col-12 col-md-7" data-aos="fade-down">
+                                <div class="animated fadeInUpBig">
+                                    <video controls class="w-100">
+                                        <source src="videos/form-video.m4v" type="video/mp4" />
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- react tab section ends here -->
+
+                    <div class="tab-pane" id="javascript" role="tabpanel" aria-labelledby="javascript-tab">
+                        <div class="row">
+                            <!-- project images -->
+                            <div class="col-12 col-md-6 my-5" data-aos="fade-up">
+                                <div class="animated fadeInUp overlay">
+                                    <img class="img-fluid w-100" src="images/lotto-game.png" alt="..." />
+                                </div>
+                            </div>
+
+                            <!-- project details -->
+                            <div class="col-12 col-md-5 d-flex p-4 align-self-center">
+                                <div class="animated slideInRight">
+                                    <h1 class="text-dark">Lotto Game</h1>
+                                    <div class="icofont_container">
+                                        <span class="rounded-pill tools">JavaScript</span>
+                                        <span class="rounded-pill tools">HTML 5</span>
+                                        <span class="rounded-pill tools">CSS 3</span>
+                                    </div>
+                                    <p class="text-dark" style=" font-size: 16px">
+                                        Number Lotto game built with vanilla Javascript. It increment/ decrement user money depending on how many correct guess.
+                                    </p>
+                                    <div class="pt-3 pt-md-5">
+                                        <a href="https://ndmichael.github.io/lottoapp/" target="_blank" class="btn btn-danger">
+                                            Live Preview
+                                        </a>
+                                        <a href="https://github.com/ndmichael/lottoapp" target="_blank" class="btn btn-sm btn-outline-danger">
+                                            Source Code
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- end of tab content-->
+            </div>
+            <!-- end of tab container-->
+        </section>
+
+
+        <!-- section 3 row 3 and row 4 -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <h1>About Me</h1>
+                    </div>
+
+
+
+                    <div class="col-12 col-sm-12 col-md-6 text-right pt-4" data-aos="fade-in">
+                        <h3>My name is <span>Michael</span></h3>
+                        <p class="pt-3 d-flex align-self-center">
+
+                            I am interested in anything that breath, and live on the cyber space. I am a Software Engineer, Full-Stack Developer, and Coding instructor for APTECH institute. A computer science graduate with first class honors. <br /> <br
+                            /> I also hold a Diploma in Information Technology with a Distinction from Informatics Academics Singapore. My previous experience includes writing dynamic, responsive Websites and Desktop Applications.
+
+                        </p>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-6" data-aos="flip-left">
+                        <img src="images/imgaboutme-removebg.png" alt="about image placeholder" class="img-fluid" />
+                    </div>
+
+                </div>
+                <!-- end of row 3 -->
+            </div>
+        </section>
+
+        <!-- skills section -->
+        <section id="skills">
+            <!--
+		<i class="icofont icofont-database icofont-4x span"></i>
+		<span class="icofont icofont-4x span icofont-calculator-alt-2"></span>
+		<span class="icofont icofont-code icofont-8x span"></span>
+-->
+
+            <!--
+		<span class="icofont icofont-code icofont-6x span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+		<span class="span"></span>
+-->
+            <div class="container-fluid ">
+                <h1>Skills</h1>
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-professional-tab" data-toggle="tab" href="#coding-skills" role="tab" aria-controls="coding-skills" aria-selected="true">Professional</a>
+                        <a class="nav-item nav-link" id="nav-personnal-tab" data-toggle="tab" href="#soft-skills" role="tab" aria-controls="soft-skills" aria-selected="false">Personnal</a>
+                    </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="coding-skills" role="tabpanel" aria-labelledby="nav-professional-tab">
+                        <div class="row">
+                            <div class="col col-12 col-md-6 col-lg-4 my-5 backend">
+                                <span class="icofont icofont-database icofont-4x span"></span>
+                                <span class="span"></span>
+                                <span class="span"></span>
+                                <span class="span"></span>
+                                <div class="h-100 p-3  skill" data-aos="flip-left">
+
+                                    <h2 class="text-muted">Programming</h2>
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <span>Python</span>
+                                            <span>JavaScript (ES6)</span>
+                                            <span>PHP</span>
+                                        </div>
+                                        <div class="py-4 d-flex justify-content-around">
+                                            <span>C Programming</span>
+                                            <span>TypeScript</span>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <h3 class="text-dark">Databases</h3>
+                                    <div>
+                                        <div class="d-flex justify-content-between">
+                                            <span>PostgreSql</span>
+                                            <span>MYSQL</span>
+                                            <span>MongoDB</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 my-5">
+                                <span class="spanF"></span>
+                                <span class="spanF"></span>
+                                <span class="spanF"></span>
+                                <div class="skill h-100" data-aos="flip-down">
+                                    <h2>FrontEnd</h2>
+                                    <ul>
+                                        <li>
+                                            <i class="icofont icofont-tick-mark pr-2"></i>
+                                            <p>Javascript / ReactJS / jQuery</p>
+                                        </li>
+                                        <li>
+                                            <i class="icofont icofont-tick-mark pr-2"></i>
+                                            <p>HTML5, CSS3</p>
+                                        </li>
+                                        <li>
+                                            <i class="icofont icofont-tick-mark pr-2"></i>
+                                            <p>Bootstrap</p>
+                                        </li>
+                                        <li>
+                                            <i class="icofont icofont-tick-mark pr-2"></i>
+                                            <p>Materialize CSS</p>
+                                        </li>
+                                        <li>
+                                            <i class="icofont icofont-tick-mark pr-2"></i>
+                                            <p>Wordpress</p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="col col-12 col-md-6 col-lg-4 my-5 mx-auto">
+                                <div class="skill h-100" data-aos="flip-right">
+                                    <h2>Others</h2>
+                                    <ul>
+                                        <li>
+                                            <i class="icofont icofont-tick-mark pr-2"></i>
+                                            <p>Git and Github</p>
+                                        </li>
+                                        <li>
+                                            <i class="icofont icofont-tick-mark pr-2"></i>
+                                            <p>Rest API</p>
+                                        </li>
+                                        <li>
+                                            <i class="icofont icofont-tick-mark pr-2"></i>
+                                            <p>Unified Markup Language</p>
+                                        </li>
+                                        <li>
+                                            <i class="icofont icofont-tick-mark pr-2"></i>
+                                            <p>Microsoft Office</p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="soft-skills" role="tabpanel" aria-labelledby="nav-personnal-tab">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="soft-skill">
+                                        <h5>self discipline</h5>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="soft-skill">
+                                        <h5>Team Work</h5>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="soft-skill">
+                                        <h5>Time Management</h5>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="soft-skill">
+                                        <h5>Respect</h5>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="soft-skill">
+                                        <h5>Loyalty</h5>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="soft-skill">
+                                        <h5>Critical Thinking</h5>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+	  --
+      -- contact section begins here.
+	  --
+	-->
+
+        <section id="contacts">
+            <div class="container">
+                <h1>Contact</h1>
+
+                <div class="row">
+                    <div class="col col-12 col-md-6 social_contact" data-aos="fade-in-down">
+                        <div>
+                            <ul class="p-md-5 p-4">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/ukeje-micheal-519051b0/" target="_blank">
+                                        <i class="icofont icofont-linkedin mr-md-5 mr-2"></i>
+                                    </a>
+                                    <h5>
+                                        <a href="https://www.linkedin.com/in/ukeje-micheal-519051b0/" target="_blank">
+                                            LinkedIn
+                                        </a>
+                                    </h5> <br />
+
+                                    <p>linkedin.com/in/ukeje-micheal-519051b0/</p>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/ndmichael" target="_blank">
+                                        <i class="icofont icofont-github mr-md-5 mr-2"></i>
+                                    </a>
+
+                                    <h5>
+                                        <a href="https://github.com/ndmichael" target="_blank">
+                                            Github
+                                        </a>
+                                    </h5> <br />
+
+
+                                    <p>https://github.com/ndmichael</p>
+                                </li>
+                                <li>
+                                    <i class="icofont icofont-mail mr-md-5 mr-2"></i>
+                                    <h5>GMail</h5>
+                                    <p>ukejemicheal@gmail.com</p>
+                                </li>
+                                <li>
+                                    <i class="icofont icofont-web mr-md-5 mr-2"></i>
+                                    <h5>Website</h5>
+                                    <p>www.codeja-vu.dx.am</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col col-12 col-md-6 border" data-aos="fade-up">
+                        <form class="form-horizontal" id="contact_form" method="post" action="mailto:ukejemicheal@gmail.com">
+
+                            <div class="form-group">
+                                <input class="form-control" type="email" id="contact_email" name="contact_email" maxlength="30" readonly />
+                                <label for="Email">To:ukejemicheal@gmail.com</label>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" id="contact_topic" name="contact_topic" maxlength="50" required />
+                                <label for="Topic">Subject</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="3" id="msg" name="msg" maxlength="150" required></textarea>
+                                <label for="Message">Your message</label>
+                            </div>
+                            <div>
+                                <input type="submit" class="btn btn-outline-info btn-lg btn-block" name="submit" id="submit" value="Send Message" />
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- footer section  -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-3">
+                        <img class="img-responsive" src="images/zendlogo.jpg" alt="img logo" />
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h5><span>UNM</span></h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#about">About me</a></li>
+                            <li><a href="#contacts">Contact</a></li>
+                            <li><small class="text-faded text-info">Worldwide</small></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h5>Social</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="https://github.com/ndmichael" target="_blank"><span
+                                        class="icofont icofont-github"></span>github </a></li>
+                            <li><a href="https://www.linkedin.com/in/ukeje-micheal-519051b0/" target="_blank"><span
+                                        class="icofont icofont-linkedin"></span> linkedIn </a></li>
+                            <!--					<li><a href="https://www.sololearn.com/Profile/13806678" target="_blank"><span class="fa fa-safari"></span>Sololearn</a></li>-->
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <h5>Support</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Thanks</a></li>
+                            <li><a href="#">Tools</a></li>
+                            <li><a href="#">Dependencies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- end of container div -->
+        </footer>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="bootstrap-4.4.1-dist/js/jquery-3.4.1.min.js">
+    </script>
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js">
+    </script>
+    <script src="scripts/typed.min.js">
+    </script>
+
+
+
+    <script src="scripts/jquery.nav.js"></script>
+    <script src="scripts/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js">
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            const scroll = new SmoothScroll('a[href*="#"]:not([data-toggle="tab"])', {
+                speed: 800,
+                speedAsDuration: true
+            });
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        /**** javascript cvode for aos file ****/
+        AOS.init({
+            delay: 0,
+            duration: 800,
+            easing: 'ease-in-sine',
+        });
+    </script>
+
+
+    <script>
+        const loader = document.querySelector('.loader-wrapper');
+        const wrapper = document.querySelector('.wrapper');
+        const body = document.querySelector("body");
+        window.addEventListener('load', function() {
+            function init() {
+                setTimeout(() => {
+                    loader.style.opacity = 0;
+                    loader.style.display = 'none';
+                    wrapper.style.opacity = 1;
+                    // body.style.overflowY = 'scroll';
+                    // body.style.overflowX = 'hidden';
+
+                }, 200);
+            }
+
+            init();
+        });
+    </script>
+
+
+    <script>
+        var typed = new Typed('.typing-text', {
+            strings: [
+                "Engineer! ^1000",
+                "Developer!! ^1000",
+            ],
+            typeSpeed: 100,
+            backSpeed: 70,
+            loop: true
+        });
+    </script>
+
+    <script>
+        $(window).scroll(function() {
+            $('#nav').toggleClass('scrolled', $(this).scrollTop() > 500);
+        });
+    </script>
+
+</body>
+
+</html>

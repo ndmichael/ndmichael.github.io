@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto+Slab&family=Russo+One&display=swap");
+
+/*
+**** 
+****  Michael portfolio navbar css
+****
+*/
+
+.scrolled {
+    background: rgba(255, 255, 255, 1);
+    transition: 0.3s;
+}
+
+.scrolled .navbar-nav .nav-link {
+    color: #5b5b5b !important;
+}
+
+.scrolled .active>a span.icofont {
+    color: #000 !important;
+}
+
+.scrolled .active .nav-link {
+    background-color: transparent;
+    color: #17a2b8 !important;
+}
+
+.scrolled .navbar-brand {
+    color: #17a2b8 !important;
+    /* font-family: 'Bourgeois Rounded'; */
+}
+
+.navbar-brand {
+    height: 100% !important;
+    font-family: 'Bourgeois Rounded';
+    color: #ffffff;
+    font-size: 40px;
+}
+
+
+/** Adding the required styling by overriding  bootstrap default **/
+
+.navbar-expand-lg {
+    font-family: 'Bourgeois Rounded';
+    letter-spacing: 1px;
+    box-shadow: 0 2px 10px rgba(08, 08, 08, 0.3);
+    color: #dee2e6;
+    text-align: center;
+    transition: .5s;
+    padding: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 1.3em;
+    padding-right: 15px !important;
+    width: 100% !important;
+}
+
+.navbar-expand-lg .active>a {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.navbar-expand-lg .active>a span.icofont {
+    color: #dc4535;
+}
+
+.navbar .nav-link span.icofont {
+    display: inline-block;
+    color: #dee2e6;
+    font-size: 17px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    background-color: transparent;
+    color: #ffffff;
+    transition: border-radius 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+
+/** setting up the badge css **/
+
+.navbar-nav .badge {
+    color: #000;
+    background-color: gold;
+    font-size: 0.8em;
+    padding: 0 !important;
+    position: relative;
+    left: 0.57rem;
+    bottom: 0.56rem;
+    z-index: 99;
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+
+/*
+ * 	Removing borders for extra small devices 
+*/
+
+@media (max-width: 48em) {
+    .navbar-expand-lg {
+        padding: 7px;
+        background: #17a2b8;
+        color: #dee2e6;
+    }
+    .navbar-toggler-icon {
+        padding: 0 !important;
+    }
+    .scrolled .navbar-brand {
+        color: #FFFFFF !important;
+    }
+    .navbar-expand-lg .navbar-nav>.active>a:hover,
+    .navbar-expand-lg .navbar-nav>li>a:hover {
+        background-color: transparent;
+        color: #f3f3f3;
+        border-bottom: none;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center !important;
+        padding: 15px;
+        color: #FFFFFF;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: thin solid rgba(255, 255, 255, 0.2);
+    }
+    .scrolled .navbar-nav .nav-link {
+        color: #dee2e6 !important;
+    }
+    .scrolled .active>a span.icofont {
+        color: #ffffff !important;
+    }
+    .scrolled .active .nav-link {
+        background-color: transparent;
+        color: #000000 !important;
+    }
+}
