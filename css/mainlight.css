@@ -413,12 +413,15 @@ section#about h3>span {
 }
 
 .skill span {
-    padding: 15px;
-    border: thin solid rgba(255, 255, 255, .1);
+    padding: 10px;
+    display: inline-block;
+    margin: 7px;
+    /* border: thin solid rgba(255, 255, 255, .1); */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
+    border-radius: 50px;
     color: black;
+    font-weight: 700;
+    font-family: 'Be Vietnam';
 }
 
 #skills ul {
