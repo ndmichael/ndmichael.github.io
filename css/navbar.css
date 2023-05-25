@@ -67,7 +67,7 @@
 }
 
 .navbar-expand-lg .active>a span.icofont {
-    color: #dc4535;
+    color: #ffc107;
 }
 
 .navbar .nav-link span.icofont {
@@ -122,7 +122,7 @@
         color: #dee2e6 !important;
     }
     .scrolled .active>a span.icofont {
-        color: #c61e1e !important;
+        color: #ffc107 !important;
     }
     .scrolled .active .nav-link {
         background-color: transparent;
