@@ -122,7 +122,7 @@ section#about {
 section#about img {
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-    filter: drop-shadow(0px 2px 5px #17a2b8);
+    filter: drop-shadow(0px 2px 5px #363795);
 }
 
 section#about h1 {
@@ -134,7 +134,7 @@ section#about h3 {
 }
 
 section#about h3>span {
-    color: #17a2b8;
+    color: #363795;
 }
 
 
@@ -188,12 +188,12 @@ section#about h3>span {
 }
 
 #contacts .icofont {
-    color: #17a2b8;
+    color: #363795;
     padding: 10px;
     background: white;
     border-radius: 50%;
     float: left;
-    font-size: 36px;
+    font-size: 30px;
     transition: transform .4s;
 }
 
@@ -274,7 +274,7 @@ section#about h3>span {
 .form-control:-webkit-autofill:focus,
 .form-control:-webkit-autofill:active {
     transition: background-color 5000s ease-in-out;
-    -webkit-text-fill-color: #17a2b8 !important;
+    -webkit-text-fill-color: #363795 !important;
 }
 
 
@@ -537,10 +537,10 @@ video {
 } */
 
 #projects .tools {
-    background: rgba(23, 162, 184, 0.9);
+    background: rgba(54, 55, 149, .9);
     color: white;
     padding: 7px;
-    margin-right: 4px;
+    margin: 4px;
     font-size: 13px;
 }
 
