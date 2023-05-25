@@ -21,7 +21,7 @@
 }
 
 .scrolled .active>a span.icofont {
-    color: rgb(23, 162, 184) !important;
+    color: #363795!important;
 }
 
 .scrolled .active .nav-link {
@@ -30,7 +30,7 @@
 }
 
 .scrolled .navbar-brand {
-    color: #17a2b8 !important;
+    color: rgba(54, 55, 149, 1) !important;
     /* font-family: 'Bourgeois Rounded'; */
 }
 
@@ -87,22 +87,6 @@
 }
 
 
-/** setting up the badge css **/
-
-.navbar-nav .badge {
-    color: #000;
-    background-color: gold;
-    font-size: 0.8em;
-    padding: 0 !important;
-    position: relative;
-    left: 0.57rem;
-    bottom: 0.56rem;
-    z-index: 99;
-    border-radius: 50%;
-    font-weight: 500;
-}
-
-
 /*
  * 	Removing borders for extra small devices 
 */
@@ -110,8 +94,7 @@
 @media (max-width: 48em) {
     .navbar-expand-lg {
         padding: 7px;
-        background: #17a2b8;
-        color: #dee2e6;
+        background: rgba(54, 55, 149, 0.9);
     }
     .navbar-toggler-icon {
         padding: 0 !important;
@@ -139,10 +122,10 @@
         color: #dee2e6 !important;
     }
     .scrolled .active>a span.icofont {
-        color: #ffffff !important;
+        color: #c61e1e !important;
     }
     .scrolled .active .nav-link {
         background-color: transparent;
-        color: #000000 !important;
+        color: #ffffff !important;
     }
 }
