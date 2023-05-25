@@ -10,6 +10,12 @@ font-family: 'Roboto Slab', serif;
 font-family: 'Russo One', sans-serif;
 */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .m-6 {
     margin: 4.25em;
 }
@@ -515,10 +521,10 @@ section#about h3>span {
     padding-bottom: 3em;
 }
 
-.container-fluid {
+/* .container-fluid {
     padding-left: 10em;
     padding-right: 10em;
-}
+} */
 
 #projects img,
 video {
@@ -540,8 +546,12 @@ video {
     background: rgba(54, 55, 149, .9);
     color: white;
     padding: 7px;
-    margin: 4px;
+    margin: 7px;
     font-size: 13px;
+}
+
+.proj-details{
+    padding: 30px;
 }
 
 #projects a:hover .icofont {
@@ -549,15 +559,16 @@ video {
 }
 
 .icofont_container {
-    padding: 0;
-    padding-top: 20px;
+    padding-top: 20px; 
     padding-bottom: 20px;
+    display: flex;
 }
+
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     background: transparent;
-    color: #17a2b8;
+    color: #363795;
 }
 
 .nav-pills .nav-link {
@@ -622,6 +633,11 @@ video {
         border-radius: 0 0 10px 10px;
         text-align: center;
     }
+
+    .proj-details{
+        padding: 15px;
+    }
+
     #contacts {
         position: relative;
         padding-top: 10px;
