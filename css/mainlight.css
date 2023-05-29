@@ -548,11 +548,17 @@ video {
 } */
 
 #projects .tools {
-    background: rgba(54, 55, 149, .9);
-    color: white;
-    padding: 7px;
-    margin: 7px;
-    font-size: 13px;
+    background: rgba(129, 130, 255, 0.4);
+color: rgba(54, 55, 149, 1);
+padding:7px;
+margin: 7px;
+font-size: 12px;
+display: flex;
+align-items: center;
+align-content: center;
+font-weight: bold;
+justify-content: center;
+width: 120px;
 }
 
 .proj-details{
