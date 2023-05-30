@@ -5,28 +5,9 @@ footer {
 	background-color: #1B1B1B; 
 	color: #ADADAD;
 	padding: 3em 0;
+	height:auto !important;
 }
 
-footer img{
-	width: auto;
-	height: 100px;
-} 
 
-footer h5{
-	font-weight: bold;
-	font-size: 1.1em;
-	color: aliceblue;
-} 
-
-footer a {
-	font-weight: 300;
-	color: #5A5A5A;
-} 
-
-footer a:hover .icofont,
-footer a:hover{
-	text-decoration: none;
-	color: #FFF;
-} 
 
 

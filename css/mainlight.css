@@ -54,13 +54,13 @@ body {
     /* display: none; */
 }
 
-section {
+/* section {
     min-height: 100vh;
     position: relative;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
+} */
 
 h1,
 h2,
