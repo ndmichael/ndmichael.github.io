@@ -67,7 +67,7 @@ h2,
 h3,
 h4 {
     text-transform: capitalize;
-    color: #080808;
+    color: #000;
     font-family: 'Bourgeois Rounded';
     display: inline-block;
     /*	font-family: 'YouTube Sans Dark';*/
@@ -416,7 +416,7 @@ section#about h3>span {
 #skills h2 {
     text-align: center;
     margin-top: 0.4em;
-    color: #343a40;
+    color: #000;
 }
 
 #skills p {
