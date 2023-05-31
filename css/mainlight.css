@@ -74,8 +74,7 @@ h4 {
 }
 
 p {
-    font-weight: 300;
-    font-size: 0.9em;
+    font-size: 1em;
     line-height: 1.5;
     letter-spacing: 1px;
     color: #080808;
@@ -135,8 +134,8 @@ section#about h1 {
     color: inherit;
 }
 
-section#about h3 {
-    margin-top: 2.5em;
+section#about p {
+    color: #1b1b1b;
 }
 
 section#about h3>span {
