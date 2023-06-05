@@ -312,11 +312,14 @@ section#about h3>span {
 }
 
 #skills .list-group-item {
-    background-color: transparent;
-    border-top: 1px solid #ddd;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
     border-radius: 10px;
-    color: #1b1b1b;
-    text-shadow: 2px 2px 7px #363795;
+    margin: 5px;
+    color: #363795;
+    text-shadow: 0 0 7px rgba(129, 130, 255, 0.4);;
 }
 
 .span:nth-child(1) {
@@ -536,10 +539,11 @@ section#about h3>span {
 
 #projects img,
 video {
-    height: 500px;
+    height: 450px;
+    background: #363795;
     padding: 0 !important;
     width: 100% !important;
-    object-fit: cover;
+    object-fit: fill;
     object-position: center;
     position: relative;
     z-index: 1;
