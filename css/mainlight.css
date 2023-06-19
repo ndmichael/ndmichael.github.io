@@ -312,17 +312,17 @@ section#about h3>span {
 }
 
 #skills .list-group-item {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(54, 55, 194, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(10px);
     border-radius: 10px;
     margin: 5px;
     /* color: #363795; */
-    color: #080808;
+    color: #FFFFFF;
     letter-spacing: 1.2px;
     /* text-shadow: 2px 2px 0px rgba(129, 130, 255, 0.9); */
-    text-shadow: 2px 2px 2px rgba(08, 08, 08, 0.4);
+    text-shadow: 2px 2px 2px rgba(08, 08, 08, 0.5);
     font-size: 18px;
 }
 
