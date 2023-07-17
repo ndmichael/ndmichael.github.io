@@ -76,9 +76,8 @@ h4 {
 p {
     font-size: 1em;
     line-height: 1.5;
-    letter-spacing: 1px;
+    /* letter-spacing: .7px; */
     color: #080808;
-    /*	font-family: 'Roboto Slab', serif;*/
     font-family: 'Be Vietnam';
 }
 
