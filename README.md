@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Ndubuisi Micheal Ukeje</h1>
 <h3 align="center">A versatile software engineer</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ndmichael" alt="ndmichael" /></a> </p>
-
 - 📫 How to reach me **ukejemicheal@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
