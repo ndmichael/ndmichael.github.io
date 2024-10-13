@@ -1,15 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ndubuisi Micheal Ukeje</h1>
-<h3 align="center">A versatile software engineer from Nigeria</h3>
+<h3 align="center">A versatile software engineer</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ndmichael" alt="ndmichael" /></a> </p>
-
-- 🔭 I’m currently working on [Investment Platform](https://github.com/ndmichael/Social-Recipe-WebApp)
-
-- 🌱 I’m currently learning **AI for businesses**
-
-- 👨‍💻 All of my projects are available at [https://ndmichael.github.io/](https://ndmichael.github.io/)
-
-- 💬 Ask me about **Django, React, Laravel**
 
 - 📫 How to reach me **ukejemicheal@gmail.com**
 
